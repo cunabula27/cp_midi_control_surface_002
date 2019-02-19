@@ -9,9 +9,12 @@
     (nets 319)
   )
 
-  (page A4)
+  (page A2)
   (title_block
-    (date "mar. 31 mars 2015")
+    (title cp_midi_control_surface_002)
+    (date 2019-02-19)
+    (rev 2)
+    (company "Cunabula Press")
   )
 
   (layers
@@ -2191,7 +2194,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA4D4)
-    (at 467.625001 130.425001)
+    (at 440.625001 103.425001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396B8B)
@@ -2226,7 +2229,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA4E7)
-    (at 462.725001 130.425001)
+    (at 435.725001 103.425001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396B76)
@@ -2261,7 +2264,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA4FA)
-    (at 462.725001 139.525001)
+    (at 435.725001 112.525001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396B6F)
@@ -2296,7 +2299,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA50D)
-    (at 467.625001 134.975001)
+    (at 440.625001 107.975001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396B68)
@@ -2331,7 +2334,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA520)
-    (at 472.525001 130.425001)
+    (at 445.525001 103.425001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396B53)
@@ -2366,7 +2369,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA533)
-    (at 467.625001 139.525001)
+    (at 440.625001 112.525001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396B5A)
@@ -2401,7 +2404,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA546)
-    (at 472.525001 134.975001)
+    (at 445.525001 107.975001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396B61)
@@ -2436,7 +2439,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA559)
-    (at 477.425001 130.425001)
+    (at 450.425001 103.425001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396B7D)
@@ -2471,7 +2474,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA56C)
-    (at 477.425001 134.975001)
+    (at 450.425001 107.975001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396B84)
@@ -2506,7 +2509,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA57F)
-    (at 482.325001 130.425001)
+    (at 455.325001 103.425001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396BBC)
@@ -2541,7 +2544,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA592)
-    (at 477.425001 139.525001)
+    (at 450.425001 112.525001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396BB5)
@@ -2576,7 +2579,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA5A5)
-    (at 482.325001 134.975001)
+    (at 455.325001 107.975001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396BAE)
@@ -2611,7 +2614,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA5B8)
-    (at 487.225001 130.425001)
+    (at 460.225001 103.425001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396BA7)
@@ -2646,7 +2649,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA5CB)
-    (at 482.325001 139.525001)
+    (at 455.325001 112.525001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396B92)
@@ -2681,7 +2684,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA5DE)
-    (at 462.725001 134.975001)
+    (at 435.725001 107.975001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396B99)
@@ -2716,7 +2719,7 @@
   )
 
   (module cunabulapress-footprints:LED_D3.0mm_EDIT (layer F.Cu) (tedit 5C4A42F6) (tstamp 5C6CA5F1)
-    (at 472.525001 139.525001)
+    (at 445.525001 112.525001)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5C3969F0/5C396BA0)
@@ -3481,7 +3484,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA74E)
-    (at 461.927001 68.127001)
+    (at 189 162)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26C20B)
@@ -3527,7 +3530,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA769)
-    (at 441.677001 101.487001)
+    (at 216 162)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26C26F)
@@ -3573,7 +3576,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA784)
-    (at 502.427001 101.487001)
+    (at 243 162)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26C8F7)
@@ -3619,7 +3622,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA79F)
-    (at 461.927001 84.807001)
+    (at 270 162)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26CB54)
@@ -3665,7 +3668,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA7BA)
-    (at 482.177001 68.127001)
+    (at 189 189)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26CB7C)
@@ -3711,7 +3714,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA7D5)
-    (at 441.677001 118.167001)
+    (at 216 189)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26CBA6)
@@ -3757,7 +3760,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA7F0)
-    (at 461.927001 101.487001)
+    (at 243 189)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26CBD2)
@@ -3803,7 +3806,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA80B)
-    (at 482.177001 84.807001)
+    (at 270 189)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26CDC5)
@@ -3849,7 +3852,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA826)
-    (at 502.427001 68.127001)
+    (at 189 216)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26D143)
@@ -3895,7 +3898,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA841)
-    (at 461.927001 118.167001)
+    (at 216 216)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26D193)
@@ -3941,7 +3944,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA85C)
-    (at 482.177001 101.487001)
+    (at 243 216)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26D1C9)
@@ -3987,7 +3990,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA877)
-    (at 502.427001 84.807001)
+    (at 270 216)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26D201)
@@ -4033,7 +4036,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA892)
-    (at 522.677001 68.127001)
+    (at 189 243)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26D23B)
@@ -4079,7 +4082,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA8AD)
-    (at 482.177001 118.167001)
+    (at 216 243)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26D27D)
@@ -4125,7 +4128,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA8C8)
-    (at 441.677001 68.127001)
+    (at 243 243)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26D38D)
@@ -4171,7 +4174,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA8E3)
-    (at 441.677001 84.807001)
+    (at 270 243)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C3B66BD/5C26D3C9)
@@ -4217,7 +4220,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA8FE)
-    (at 367.887001 156.947001)
+    (at 189 297)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B48A)
@@ -4263,7 +4266,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA919)
-    (at 306.377001 206.457001)
+    (at 216 297)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B491)
@@ -4309,7 +4312,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA934)
-    (at 346.877001 173.627001)
+    (at 243 297)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B498)
@@ -4355,7 +4358,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA94F)
-    (at 326.627001 190.307001)
+    (at 270 297)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B49F)
@@ -4401,7 +4404,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA96A)
-    (at 367.127001 173.627001)
+    (at 189 324)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B4A6)
@@ -4447,7 +4450,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA985)
-    (at 346.877001 190.307001)
+    (at 216 324)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B4AD)
@@ -4493,7 +4496,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA9A0)
-    (at 326.627001 206.987001)
+    (at 243 324)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B4B4)
@@ -4539,7 +4542,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA9BB)
-    (at 286.127001 206.457001)
+    (at 270 324)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B4BB)
@@ -4585,7 +4588,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA9D6)
-    (at 388.137001 156.947001)
+    (at 189 351)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B4C2)
@@ -4631,7 +4634,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CA9F1)
-    (at 306.377001 189.777001)
+    (at 216 351)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B4C9)
@@ -4677,7 +4680,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CAA0C)
-    (at 326.627001 173.627001)
+    (at 243 351)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B4D0)
@@ -4723,7 +4726,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CAA27)
-    (at 286.127001 189.777001)
+    (at 270 351)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C49B4D7)
@@ -4769,7 +4772,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CAA42)
-    (at 286.127001 173.097001)
+    (at 297 270)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C62451C)
@@ -4815,7 +4818,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CAA5D)
-    (at 306.377001 173.097001)
+    (at 324 270)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C624522)
@@ -4861,7 +4864,7 @@
   )
 
   (module cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit (layer F.Cu) (tedit 5C4A2EA2) (tstamp 5C6CAA78)
-    (at 347.637001 156.947001)
+    (at 351 270)
     (descr "Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html")
     (tags "Potentiometer vertical Alps RK09K Single")
     (path /5C504054/5C624528)
@@ -5727,7 +5730,7 @@
   )
 
   (module cunabulapress-footprints:RotaryEncoder_Alps_EC12E_Vertical_H20mm_6_Preset_Silk_EDIT (layer F.Cu) (tedit 5C486360) (tstamp 5C6CAD09)
-    (at 411.31 157.872249)
+    (at 378 270)
     (descr "Alps rotary encoder, EC12E..., vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html")
     (tags "rotary encoder")
     (path /5C5362CA)
