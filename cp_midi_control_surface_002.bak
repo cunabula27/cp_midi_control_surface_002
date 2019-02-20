@@ -956,12 +956,12 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H16
 U 1 1 5C7F19FA
-P 5250 1800
-F 0 "H16" H 5350 1846 50  0000 L CNN
-F 1 "MountingHole" H 5350 1755 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 5250 1800 50  0001 C CNN
-F 3 "~" H 5250 1800 50  0001 C CNN
-	1    5250 1800
+P 5100 1550
+F 0 "H16" H 5200 1596 50  0000 L CNN
+F 1 "MountingHole" H 5200 1505 50  0000 L CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 5100 1550 50  0001 C CNN
+F 3 "~" H 5100 1550 50  0001 C CNN
+	1    5100 1550
 	1    0    0    -1  
 $EndComp
 $Comp
