@@ -518,6 +518,27 @@ X ~ 9 -300 -300 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# cp_midi_control_surface_002-rescue_SW_SPST_4_PIN-sw_spst_0
+#
+DEF cp_midi_control_surface_002-rescue_SW_SPST_4_PIN-sw_spst_0 SW 0 0 Y N 1 F N
+F0 "SW" 0 175 50 H V C CNN
+F1 "cp_midi_control_surface_002-rescue_SW_SPST_4_PIN-sw_spst_0" 0 -200 50 H V C CNN
+F2 "" 0 150 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 1 0 -100 -100 -100 0 N
+P 2 0 1 0 -100 50 100 50 N
+P 2 0 1 0 0 50 0 100 N
+P 2 0 1 0 100 -100 100 0 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 -200 -100 100 R 50 50 1 1 P
+X ~ 3 200 0 100 L 50 50 1 1 P
+X ~ 4 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_+5V
 #
 DEF power_+5V #PWR 0 0 Y Y 1 F P
@@ -543,27 +564,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# sw_spst_0_SW_SPST_4_PIN
-#
-DEF sw_spst_0_SW_SPST_4_PIN SW 0 0 Y N 1 F N
-F0 "SW" 0 175 50 H V C CNN
-F1 "sw_spst_0_SW_SPST_4_PIN" 0 -200 50 H V C CNN
-F2 "" 0 150 50 H I C CNN
-F3 "" 0 150 50 H I C CNN
-DRAW
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-P 2 0 1 0 -100 -100 -100 0 N
-P 2 0 1 0 -100 50 100 50 N
-P 2 0 1 0 0 50 0 100 N
-P 2 0 1 0 100 -100 100 0 N
-X A 1 -200 0 100 R 50 50 1 1 P
-X ~ 2 -200 -100 100 R 50 50 1 1 P
-X ~ 3 200 0 100 L 50 50 1 1 P
-X ~ 4 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

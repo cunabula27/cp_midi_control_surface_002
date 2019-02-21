@@ -15,11 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L sw_spst_0:SW_SPST_4_PIN SW?
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
 U 1 1 5C4BA780
 P 2750 1900
 AR Path="/5C4B73B3/5C4BA780" Ref="SW?"  Part="1" 
 AR Path="/5C4BA289/5C4BA780" Ref="SW33"  Part="1" 
+AR Path="/5C4BA780" Ref="SW33"  Part="1" 
 F 0 "SW33" H 2750 1700 50  0000 C CNN
 F 1 "SW_SPST_4_PIN" H 2750 2074 50  0001 C CNN
 F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2750 2050 50  0001 C CNN
@@ -28,11 +29,12 @@ F 3 "" H 2750 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sw_spst_0:SW_SPST_4_PIN SW?
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
 U 1 1 5C4BA787
 P 2750 2400
 AR Path="/5C4B73B3/5C4BA787" Ref="SW?"  Part="1" 
 AR Path="/5C4BA289/5C4BA787" Ref="SW34"  Part="1" 
+AR Path="/5C4BA787" Ref="SW34"  Part="1" 
 F 0 "SW34" H 2750 2200 50  0000 C CNN
 F 1 "SW_SPST_4_PIN" H 2750 2574 50  0001 C CNN
 F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2750 2550 50  0001 C CNN
@@ -41,11 +43,12 @@ F 3 "" H 2750 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sw_spst_0:SW_SPST_4_PIN SW?
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
 U 1 1 5C4BA78E
 P 2750 2900
 AR Path="/5C4B73B3/5C4BA78E" Ref="SW?"  Part="1" 
 AR Path="/5C4BA289/5C4BA78E" Ref="SW35"  Part="1" 
+AR Path="/5C4BA78E" Ref="SW35"  Part="1" 
 F 0 "SW35" H 2750 2700 50  0000 C CNN
 F 1 "SW_SPST_4_PIN" H 2750 3074 50  0001 C CNN
 F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2750 3050 50  0001 C CNN
@@ -54,11 +57,12 @@ F 3 "" H 2750 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sw_spst_0:SW_SPST_4_PIN SW?
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
 U 1 1 5C4BA795
 P 2750 3400
 AR Path="/5C4B73B3/5C4BA795" Ref="SW?"  Part="1" 
 AR Path="/5C4BA289/5C4BA795" Ref="SW36"  Part="1" 
+AR Path="/5C4BA795" Ref="SW36"  Part="1" 
 F 0 "SW36" H 2750 3200 50  0000 C CNN
 F 1 "SW_SPST_4_PIN" H 2750 3574 50  0001 C CNN
 F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2750 3550 50  0001 C CNN
@@ -67,11 +71,12 @@ F 3 "" H 2750 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sw_spst_0:SW_SPST_4_PIN SW?
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
 U 1 1 5C4BA79C
 P 2750 3900
 AR Path="/5C4B73B3/5C4BA79C" Ref="SW?"  Part="1" 
 AR Path="/5C4BA289/5C4BA79C" Ref="SW37"  Part="1" 
+AR Path="/5C4BA79C" Ref="SW37"  Part="1" 
 F 0 "SW37" H 2750 3700 50  0000 C CNN
 F 1 "SW_SPST_4_PIN" H 2750 4074 50  0001 C CNN
 F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2750 4050 50  0001 C CNN
@@ -80,11 +85,12 @@ F 3 "" H 2750 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sw_spst_0:SW_SPST_4_PIN SW?
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
 U 1 1 5C4BA7A3
 P 2750 4400
 AR Path="/5C4B73B3/5C4BA7A3" Ref="SW?"  Part="1" 
 AR Path="/5C4BA289/5C4BA7A3" Ref="SW38"  Part="1" 
+AR Path="/5C4BA7A3" Ref="SW38"  Part="1" 
 F 0 "SW38" H 2750 4200 50  0000 C CNN
 F 1 "SW_SPST_4_PIN" H 2750 4574 50  0001 C CNN
 F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2750 4550 50  0001 C CNN
@@ -93,11 +99,12 @@ F 3 "" H 2750 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sw_spst_0:SW_SPST_4_PIN SW?
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
 U 1 1 5C4BA7AA
 P 2750 4900
 AR Path="/5C4B73B3/5C4BA7AA" Ref="SW?"  Part="1" 
 AR Path="/5C4BA289/5C4BA7AA" Ref="SW39"  Part="1" 
+AR Path="/5C4BA7AA" Ref="SW39"  Part="1" 
 F 0 "SW39" H 2750 4700 50  0000 C CNN
 F 1 "SW_SPST_4_PIN" H 2750 5074 50  0001 C CNN
 F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2750 5050 50  0001 C CNN
@@ -106,11 +113,12 @@ F 3 "" H 2750 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sw_spst_0:SW_SPST_4_PIN SW?
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
 U 1 1 5C4BA7B1
 P 2750 5400
 AR Path="/5C4B73B3/5C4BA7B1" Ref="SW?"  Part="1" 
 AR Path="/5C4BA289/5C4BA7B1" Ref="SW40"  Part="1" 
+AR Path="/5C4BA7B1" Ref="SW40"  Part="1" 
 F 0 "SW40" H 2750 5200 50  0000 C CNN
 F 1 "SW_SPST_4_PIN" H 2750 5574 50  0001 C CNN
 F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2750 5550 50  0001 C CNN

@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name sw_push)(type Legacy)(uri C:/Users/adria/Documents/KiCad_Library/CunabulaPress/cunabulapress-symbols/sw_push.lib)(options "")(descr ""))
   (lib (name sw_spst_0)(type Legacy)(uri C:/Users/adria/Documents/KiCad_Library/CunabulaPress/cunabulapress-symbols/sw_spst_0.lib)(options "")(descr ""))
+  (lib (name cp_midi_control_surface_002-rescue)(type Legacy)(uri ${KIPRJMOD}/cp_midi_control_surface_002-rescue.lib)(options "")(descr ""))
 )
