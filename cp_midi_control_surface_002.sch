@@ -35,10 +35,6 @@ Text Label 8900 3600 2    50   ~ 0
 A10
 Text Label 8900 3700 2    50   ~ 0
 A11
-Text Label 10300 4650 1    60   ~ 0
-26
-Text Label 10200 4650 1    60   ~ 0
-28
 Text Label 10000 4650 1    60   ~ 0
 32
 Text Label 9900 4650 1    60   ~ 0
@@ -349,9 +345,9 @@ F 3 "~" H 1350 2560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1050 2200 2    50   ~ 0
-28
+36
 Text Label 1050 2400 2    50   ~ 0
-26
+34
 $Comp
 L power:GND #PWR07
 U 1 1 5C536669
@@ -391,11 +387,11 @@ A0
 Text Label 8900 2550 2    50   ~ 0
 A1
 Text GLabel 10400 4100 2    50   Input ~ 0
-Mult_1
+S0
 Text GLabel 10400 4000 2    50   Input ~ 0
-Mult_2
+S1
 Text GLabel 10400 3900 2    50   Input ~ 0
-Mult_3
+S2
 $Sheet
 S 3100 2400 1100 1750
 U 5C3969F0
@@ -589,23 +585,23 @@ Wire Wire Line
 Wire Wire Line
 	6000 5800 5800 5800
 Text Label 6000 4750 0    50   ~ 0
-46
+52
 Text Label 6000 4900 0    50   ~ 0
-44
+50
 Text Label 6000 5200 0    50   ~ 0
-40
+46
 Text Label 6000 5050 0    50   ~ 0
-42
+48
 Text Label 6000 5350 0    50   ~ 0
-38
+44
 Text Label 6000 5500 0    50   ~ 0
-36
+42
 Text Label 6000 5650 0    50   ~ 0
-34
+40
 Text Label 6000 5800 0    50   ~ 0
-32
+38
 Text GLabel 10400 3800 2    50   Input ~ 0
-Mult_4
+S3
 NoConn ~ 10150 3050
 NoConn ~ 10150 3150
 NoConn ~ 9350 1550
@@ -618,8 +614,6 @@ NoConn ~ 9350 2050
 NoConn ~ 10150 1350
 NoConn ~ 10150 1250
 NoConn ~ 10150 1150
-NoConn ~ 10400 4850
-NoConn ~ 10500 4850
 Wire Wire Line
 	8650 4850 8650 5750
 Text Label 7000 1800 2    50   ~ 0
@@ -635,14 +629,14 @@ F 3 "~" H 7300 1700 50  0001 C CNN
 	1    7300 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 6850 1400 0    50   Input ~ 0
-Mult_1
-Text GLabel 6850 1500 0    50   Input ~ 0
-Mult_2
-Text GLabel 6850 1600 0    50   Input ~ 0
-Mult_3
-Text GLabel 6850 1700 0    50   Input ~ 0
-Mult_4
+Text GLabel 6850 2400 0    50   Input ~ 0
+S0
+Text GLabel 6850 2500 0    50   Input ~ 0
+S1
+Text GLabel 6850 2700 0    50   Input ~ 0
+S2
+Text GLabel 6850 2600 0    50   Input ~ 0
+S3
 Wire Wire Line
 	6850 1700 7100 1700
 Wire Wire Line
@@ -689,14 +683,6 @@ F 3 "~" H 7300 3700 50  0001 C CNN
 	1    7300 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 6850 3400 0    50   Input ~ 0
-Mult_1
-Text GLabel 6850 3500 0    50   Input ~ 0
-Mult_2
-Text GLabel 6850 3600 0    50   Input ~ 0
-Mult_3
-Text GLabel 6850 3700 0    50   Input ~ 0
-Mult_4
 Wire Wire Line
 	6850 3700 7100 3700
 Wire Wire Line
@@ -721,14 +707,6 @@ F 3 "~" H 7300 2700 50  0001 C CNN
 	1    7300 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 6850 2400 0    50   Input ~ 0
-Mult_1
-Text GLabel 6850 2500 0    50   Input ~ 0
-Mult_2
-Text GLabel 6850 2600 0    50   Input ~ 0
-Mult_3
-Text GLabel 6850 2700 0    50   Input ~ 0
-Mult_4
 Wire Wire Line
 	6850 2700 7100 2700
 Wire Wire Line
@@ -753,14 +731,6 @@ F 3 "~" H 7300 4700 50  0001 C CNN
 	1    7300 4700
 	1    0    0    -1  
 $EndComp
-Text GLabel 6850 4400 0    50   Input ~ 0
-Mult_1
-Text GLabel 6850 4500 0    50   Input ~ 0
-Mult_2
-Text GLabel 6850 4600 0    50   Input ~ 0
-Mult_3
-Text GLabel 6850 4700 0    50   Input ~ 0
-Mult_4
 Wire Wire Line
 	6850 4700 7100 4700
 Wire Wire Line
@@ -1162,4 +1132,32 @@ F 3 "~" H 1550 6600 50  0001 C CNN
 	1    1550 6600
 	1    0    0    -1  
 $EndComp
+Text GLabel 6850 1400 0    50   Input ~ 0
+S0
+Text GLabel 6850 1500 0    50   Input ~ 0
+S1
+Text GLabel 6850 1700 0    50   Input ~ 0
+S2
+Text GLabel 6850 1600 0    50   Input ~ 0
+S3
+Text GLabel 6850 3400 0    50   Input ~ 0
+S0
+Text GLabel 6850 3500 0    50   Input ~ 0
+S1
+Text GLabel 6850 3700 0    50   Input ~ 0
+S2
+Text GLabel 6850 3600 0    50   Input ~ 0
+S3
+Text GLabel 6850 4400 0    50   Input ~ 0
+S0
+Text GLabel 6850 4500 0    50   Input ~ 0
+S1
+Text GLabel 6850 4700 0    50   Input ~ 0
+S2
+Text GLabel 6850 4600 0    50   Input ~ 0
+S3
+Wire Wire Line
+	10400 4650 10400 4850
+Wire Wire Line
+	10500 4650 10500 4850
 $EndSCHEMATC
