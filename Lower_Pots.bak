@@ -520,19 +520,11 @@ Wire Wire Line
 	2700 3500 2700 3600
 Connection ~ 2700 7100
 Text HLabel 1650 1900 0    50   Input ~ 0
-POTS_2
+LOWER_POTS
 Wire Wire Line
 	1650 1900 2200 1900
-Text GLabel 2000 2600 0    50   Input ~ 0
-Mult_4
 Wire Wire Line
 	2000 2600 2200 2600
-Text GLabel 2000 2300 0    50   Input ~ 0
-Mult_1
-Text GLabel 2000 2400 0    50   Input ~ 0
-Mult_2
-Text GLabel 2000 2500 0    50   Input ~ 0
-Mult_3
 Wire Wire Line
 	2000 2300 2200 2300
 Wire Wire Line
@@ -548,4 +540,12 @@ Wire Wire Line
 	2700 3600 2700 7100
 Wire Wire Line
 	4800 1150 4800 1400
+Text GLabel 2000 2300 0    50   Input ~ 0
+S0
+Text GLabel 2000 2400 0    50   Input ~ 0
+S1
+Text GLabel 2000 2500 0    50   Input ~ 0
+S2
+Text GLabel 2000 2600 0    50   Input ~ 0
+S3
 $EndSCHEMATC

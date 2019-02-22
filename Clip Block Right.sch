@@ -437,13 +437,9 @@ Wire Wire Line
 	700  2750 1450 2750
 NoConn ~ 700  2850
 Wire Wire Line
-	700  2450 1650 2450
-Wire Wire Line
 	700  2150 1650 2150
 Wire Wire Line
 	700  2250 1650 2250
-Wire Wire Line
-	700  2350 1650 2350
 Wire Wire Line
 	1350 2550 1350 1750
 Wire Wire Line
@@ -573,4 +569,20 @@ Wire Wire Line
 	3300 2850 3300 4850
 NoConn ~ 3850 4450
 NoConn ~ 3850 4950
+Wire Wire Line
+	1050 2450 1050 2350
+Wire Wire Line
+	1050 2350 700  2350
+Wire Wire Line
+	1050 2450 1650 2450
+Wire Wire Line
+	700  2450 850  2450
+Wire Wire Line
+	850  2450 850  2400
+Wire Wire Line
+	850  2400 1200 2400
+Wire Wire Line
+	1200 2400 1200 2350
+Wire Wire Line
+	1200 2350 1650 2350
 $EndSCHEMATC

@@ -508,11 +508,7 @@ $EndComp
 Wire Wire Line
 	1300 2400 2050 2400
 Wire Wire Line
-	1300 2600 2050 2600
-Wire Wire Line
 	1300 2500 2050 2500
-Wire Wire Line
-	1300 2700 2050 2700
 Wire Wire Line
 	1950 2800 1300 2800
 Wire Wire Line
@@ -530,4 +526,18 @@ Wire Wire Line
 	1850 1500 2550 1500
 Connection ~ 2550 1500
 NoConn ~ 1300 3100
+Wire Wire Line
+	1300 2600 1650 2600
+Wire Wire Line
+	1650 2600 1650 2700
+Wire Wire Line
+	1650 2700 2050 2700
+Wire Wire Line
+	2050 2600 1750 2600
+Wire Wire Line
+	1750 2600 1750 2650
+Wire Wire Line
+	1750 2650 1300 2650
+Wire Wire Line
+	1300 2650 1300 2700
 $EndSCHEMATC

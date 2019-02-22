@@ -174,38 +174,6 @@ Wire Wire Line
 Connection ~ 3100 2400
 Wire Wire Line
 	3100 2400 3100 2900
-Text HLabel 2350 2000 0    50   Input ~ 0
-B_CHAN_1
-Text HLabel 2350 2500 0    50   Input ~ 0
-B_CHAN_2
-Text HLabel 2350 3000 0    50   Input ~ 0
-B_CHAN_3
-Text HLabel 2350 3500 0    50   Input ~ 0
-B_CHAN_4
-Text HLabel 2350 3900 0    50   Input ~ 0
-B_CHAN_5
-Text HLabel 2350 4400 0    50   Input ~ 0
-B_CHAN_6
-Text HLabel 2350 4900 0    50   Input ~ 0
-B_CHAN_7
-Text HLabel 2350 5400 0    50   Input ~ 0
-B_CHAN_8
-Wire Wire Line
-	2350 2000 2450 2000
-Wire Wire Line
-	2350 2500 2450 2500
-Wire Wire Line
-	2350 3000 2450 3000
-Wire Wire Line
-	2350 3500 2450 3500
-Wire Wire Line
-	2350 3900 2450 3900
-Wire Wire Line
-	2350 4400 2450 4400
-Wire Wire Line
-	2350 4900 2450 4900
-Wire Wire Line
-	2350 5400 2450 5400
 NoConn ~ 2950 2000
 NoConn ~ 2950 2500
 NoConn ~ 2950 3000
@@ -218,105 +186,6 @@ NoConn ~ 2550 5000
 NoConn ~ 2950 5000
 NoConn ~ 2550 5500
 NoConn ~ 2950 5500
-NoConn ~ 2550 1900
-NoConn ~ 2550 2400
-NoConn ~ 2550 2900
-NoConn ~ 2550 3400
-$Comp
-L Connector:Conn_01x08_Male J3
-U 1 1 5CBFD5BE
-P 650 2400
-F 0 "J3" H 756 2878 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 756 2787 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 650 2400 50  0001 C CNN
-F 3 "~" H 650 2400 50  0001 C CNN
-	1    650  2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 2000 2450 2100
-Wire Wire Line
-	2450 2100 850  2100
-Connection ~ 2450 2000
-Wire Wire Line
-	2450 2000 2550 2000
-Wire Wire Line
-	2450 2500 2450 2600
-Wire Wire Line
-	2450 2600 1850 2600
-Wire Wire Line
-	1850 2600 1850 2200
-Wire Wire Line
-	1850 2200 850  2200
-Connection ~ 2450 2500
-Wire Wire Line
-	2450 2500 2550 2500
-Wire Wire Line
-	850  2300 1750 2300
-Wire Wire Line
-	1750 2300 1750 3100
-Wire Wire Line
-	1750 3100 2450 3100
-Wire Wire Line
-	2450 3100 2450 3000
-Connection ~ 2450 3000
-Wire Wire Line
-	2450 3000 2550 3000
-Wire Wire Line
-	850  2400 1650 2400
-Wire Wire Line
-	1650 2400 1650 3600
-Wire Wire Line
-	1650 3600 2450 3600
-Wire Wire Line
-	2450 3600 2450 3500
-Connection ~ 2450 3500
-Wire Wire Line
-	2450 3500 2550 3500
-Wire Wire Line
-	850  2500 1550 2500
-Wire Wire Line
-	1550 2500 1550 4000
-Wire Wire Line
-	1550 4000 2450 4000
-Wire Wire Line
-	2450 4000 2450 3900
-Connection ~ 2450 3900
-Wire Wire Line
-	2450 3900 2550 3900
-Wire Wire Line
-	850  2600 1450 2600
-Wire Wire Line
-	1450 2600 1450 4500
-Wire Wire Line
-	1450 4500 2450 4500
-Wire Wire Line
-	2450 4500 2450 4400
-Connection ~ 2450 4400
-Wire Wire Line
-	2450 4400 2550 4400
-Wire Wire Line
-	850  2700 1350 2700
-Wire Wire Line
-	1350 2700 1350 5000
-Wire Wire Line
-	1350 5000 2450 5000
-Wire Wire Line
-	2450 5000 2450 4900
-Connection ~ 2450 4900
-Wire Wire Line
-	2450 4900 2550 4900
-Wire Wire Line
-	850  2800 1250 2800
-Wire Wire Line
-	1250 2800 1250 5500
-Wire Wire Line
-	1250 5500 2450 5500
-Wire Wire Line
-	2450 5500 2450 5400
-Connection ~ 2450 5400
-Wire Wire Line
-	2450 5400 2550 5400
 $Comp
 L Connector:Conn_01x01_Male J7
 U 1 1 5CC033AD
@@ -375,4 +244,70 @@ Connection ~ 3100 6400
 Wire Wire Line
 	3100 6650 3100 6900
 Connection ~ 3100 6650
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5C755D1C
+P 1950 2000
+F 0 "J3" H 2056 2278 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 2056 2187 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1950 2000 50  0001 C CNN
+F 3 "~" H 1950 2000 50  0001 C CNN
+	1    1950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J24
+U 1 1 5C756AEE
+P 1950 4000
+F 0 "J24" H 2056 4278 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 2056 4187 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1950 4000 50  0001 C CNN
+F 3 "~" H 1950 4000 50  0001 C CNN
+	1    1950 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4400 2450 4400
+Wire Wire Line
+	2450 4400 2450 4000
+Wire Wire Line
+	2550 4900 2350 4900
+Wire Wire Line
+	2350 4900 2350 4100
+Wire Wire Line
+	2550 5400 2250 5400
+Wire Wire Line
+	2250 5400 2250 4200
+Wire Wire Line
+	2250 4200 2150 4200
+Wire Wire Line
+	2350 4100 2150 4100
+Wire Wire Line
+	2450 4000 2150 4000
+Wire Wire Line
+	2550 3900 2150 3900
+Wire Wire Line
+	2550 1900 2150 1900
+Wire Wire Line
+	2550 2400 2450 2400
+Wire Wire Line
+	2450 2400 2450 2000
+Wire Wire Line
+	2450 2000 2150 2000
+Wire Wire Line
+	2550 2900 2350 2900
+Wire Wire Line
+	2350 2900 2350 2100
+Wire Wire Line
+	2350 2100 2150 2100
+Wire Wire Line
+	2550 3400 2250 3400
+Wire Wire Line
+	2250 3400 2250 2200
+Wire Wire Line
+	2250 2200 2150 2200
+NoConn ~ 2550 2000
+NoConn ~ 2550 2500
+NoConn ~ 2550 3000
+NoConn ~ 2550 3500
 $EndSCHEMATC

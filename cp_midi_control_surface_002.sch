@@ -23,40 +23,28 @@ Text Label 8900 2850 2    50   ~ 0
 A4
 Text Label 8900 2950 2    50   ~ 0
 A5
-Text Label 8900 3050 2    50   ~ 0
-A6
-Text Label 8900 3150 2    50   ~ 0
-A7
-Text Label 8900 3400 2    50   ~ 0
-A8
-Text Label 8900 3500 2    50   ~ 0
-A9
-Text Label 8900 3600 2    50   ~ 0
-A10
-Text Label 8900 3700 2    50   ~ 0
-A11
 Text Label 10000 4650 1    60   ~ 0
-32
+33
 Text Label 9900 4650 1    60   ~ 0
-34
+35
 Text Label 9800 4650 1    60   ~ 0
-36
+37
 Text Label 9700 4650 1    60   ~ 0
-38
+39
 Text Label 9600 4650 1    60   ~ 0
-40
+41
 Text Label 9500 4650 1    60   ~ 0
-42
+43
 Text Label 9400 4650 1    60   ~ 0
-44
+45
 Text Label 9300 4650 1    60   ~ 0
-46
+47
 Text Label 9200 4650 1    60   ~ 0
-48
+49
 Text Label 9100 4650 1    60   ~ 0
-50
+51
 Text Label 9000 4650 1    60   ~ 0
-52
+53
 Text Label 10400 3700 0    50   ~ 0
 17
 Text Label 10400 3600 0    50   ~ 0
@@ -97,7 +85,7 @@ U 1 1 56D71773
 P 9550 1650
 F 0 "P2" H 9550 2050 50  0000 C CNN
 F 1 "Power" V 9650 1650 50  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 1650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9550 1650 50  0001 C CNN
 F 3 "" H 9550 1650 50  0000 C CNN
 	1    9550 1650
 	1    0    0    -1  
@@ -132,7 +120,7 @@ U 1 1 56D72368
 P 9950 1550
 F 0 "P5" H 9950 2050 50  0000 C CNN
 F 1 "PWM" V 10050 1550 50  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x10" H 9950 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 9950 1550 50  0001 C CNN
 F 3 "" H 9950 1550 50  0000 C CNN
 	1    9950 1550
 	-1   0    0    -1  
@@ -154,7 +142,7 @@ U 1 1 56D72F1C
 P 9550 2750
 F 0 "P3" H 9550 3150 50  0000 C CNN
 F 1 "Analogue" V 9650 2750 50  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9550 2750 50  0001 C CNN
 F 3 "" H 9550 2750 50  0000 C CNN
 	1    9550 2750
 	1    0    0    -1  
@@ -165,31 +153,20 @@ U 1 1 56D734D0
 P 9950 2750
 F 0 "P6" H 9950 3150 50  0000 C CNN
 F 1 "PWM" V 10050 2750 50  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9950 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9950 2750 50  0001 C CNN
 F 3 "" H 9950 2750 50  0000 C CNN
 	1    9950 2750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 P4
-U 1 1 56D73A0E
-P 9550 3700
-F 0 "P4" H 9550 4100 50  0000 C CNN
-F 1 "Analogue" V 9650 3700 50  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9550 3700 50  0001 C CNN
-F 3 "" H 9550 3700 50  0000 C CNN
-	1    9550 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 P7
+L Connector_Generic:Conn_01x04 P7
 U 1 1 56D73F2C
-P 9950 3700
-F 0 "P7" H 9950 4100 50  0000 C CNN
-F 1 "Communication" V 10050 3700 50  0000 C CNN
-F 2 "Socket_Arduino_Mega:Socket_Strip_Arduino_1x08" H 9950 3700 50  0001 C CNN
-F 3 "" H 9950 3700 50  0000 C CNN
-	1    9950 3700
+P 9950 3500
+F 0 "P7" H 9950 3700 50  0000 C CNN
+F 1 "Communication" V 10050 3500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9950 3500 50  0001 C CNN
+F 3 "" H 9950 3500 50  0000 C CNN
+	1    9950 3500
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -238,10 +215,6 @@ Wire Wire Line
 Wire Wire Line
 	8900 2950 9350 2950
 Wire Wire Line
-	9350 3050 8900 3050
-Wire Wire Line
-	8900 3150 9350 3150
-Wire Wire Line
 	10400 2450 10150 2450
 Wire Wire Line
 	10150 2550 10400 2550
@@ -254,14 +227,6 @@ Wire Wire Line
 Wire Wire Line
 	10150 2950 10400 2950
 Wire Wire Line
-	9350 3400 8900 3400
-Wire Wire Line
-	8900 3500 9350 3500
-Wire Wire Line
-	9350 3600 8900 3600
-Wire Wire Line
-	8900 3700 9350 3700
-Wire Wire Line
 	10400 3400 10150 3400
 Wire Wire Line
 	10150 3500 10400 3500
@@ -269,14 +234,6 @@ Wire Wire Line
 	10400 3600 10150 3600
 Wire Wire Line
 	10150 3700 10400 3700
-Wire Wire Line
-	10400 3800 10150 3800
-Wire Wire Line
-	10150 3900 10400 3900
-Wire Wire Line
-	10400 4000 10150 4000
-Wire Wire Line
-	10150 4100 10400 4100
 Wire Wire Line
 	10300 4850 10300 4650
 Wire Wire Line
@@ -345,9 +302,9 @@ F 3 "~" H 1350 2560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1050 2200 2    50   ~ 0
-36
+37
 Text Label 1050 2400 2    50   ~ 0
-34
+35
 $Comp
 L power:GND #PWR07
 U 1 1 5C536669
@@ -368,15 +325,7 @@ S 3100 4350 1100 1550
 U 5C542024
 F0 "faders" 50
 F1 "faders.sch" 0
-F2 "F_MASTER" I R 4200 5800 50 
-F3 "F_CHAN_8" I R 4200 5500 50 
-F4 "F_CHAN_7" I R 4200 5350 50 
-F5 "F_CHAN_6" I R 4200 5200 50 
-F6 "F_CHAN_5" I R 4200 5050 50 
-F7 "F_CHAN_4" I R 4200 4900 50 
-F8 "F_CHAN_3" I R 4200 4750 50 
-F9 "F_CHAN_2" I R 4200 4600 50 
-F10 "F_CHAN_1" I R 4200 4450 50 
+F2 "FADERS" I R 4200 4550 50 
 $EndSheet
 Wire Wire Line
 	8900 2550 9350 2550
@@ -386,12 +335,6 @@ Text Label 8900 2450 2    50   ~ 0
 A0
 Text Label 8900 2550 2    50   ~ 0
 A1
-Text GLabel 10400 4100 2    50   Input ~ 0
-S0
-Text GLabel 10400 4000 2    50   Input ~ 0
-S1
-Text GLabel 10400 3900 2    50   Input ~ 0
-S2
 $Sheet
 S 3100 2400 1100 1750
 U 5C3969F0
@@ -523,51 +466,10 @@ U 5C4BAA18
 F0 "VCV Button Block" 50
 F1 "VCV Button Block.sch" 0
 $EndSheet
-Text Label 4400 5800 0    50   ~ 0
-A0
-Wire Wire Line
-	4400 5500 4200 5500
-Wire Wire Line
-	4400 5350 4200 5350
-Wire Wire Line
-	4400 5200 4200 5200
-Wire Wire Line
-	4400 5050 4200 5050
-Wire Wire Line
-	4400 4900 4200 4900
-Wire Wire Line
-	4400 4750 4200 4750
-Wire Wire Line
-	4400 4600 4200 4600
-Wire Wire Line
-	4400 4450 4200 4450
-Text Label 4400 4450 0    50   ~ 0
-A1
-Text Label 4400 4600 0    50   ~ 0
-A2
-Text Label 4400 4750 0    50   ~ 0
-A3
-Text Label 4400 4900 0    50   ~ 0
-A4
-Text Label 4400 5050 0    50   ~ 0
-A5
-Text Label 4400 5200 0    50   ~ 0
-A6
-Text Label 4400 5350 0    50   ~ 0
-A7
-Text Label 4400 5500 0    50   ~ 0
-A8
 Text Label 4400 6950 0    50   ~ 0
-A10
+A4
 Wire Wire Line
 	4200 6950 4400 6950
-NoConn ~ 9350 3800
-NoConn ~ 9350 3900
-NoConn ~ 9350 4000
-NoConn ~ 9350 4100
-Wire Wire Line
-	4200 5800 4400 5800
-NoConn ~ 10100 4850
 Wire Wire Line
 	6000 4750 5800 4750
 Wire Wire Line
@@ -585,23 +487,21 @@ Wire Wire Line
 Wire Wire Line
 	6000 5800 5800 5800
 Text Label 6000 4750 0    50   ~ 0
-52
+53
 Text Label 6000 4900 0    50   ~ 0
-50
+51
 Text Label 6000 5200 0    50   ~ 0
-46
+47
 Text Label 6000 5050 0    50   ~ 0
-48
+49
 Text Label 6000 5350 0    50   ~ 0
-44
+45
 Text Label 6000 5500 0    50   ~ 0
-42
+43
 Text Label 6000 5650 0    50   ~ 0
-40
+41
 Text Label 6000 5800 0    50   ~ 0
-38
-Text GLabel 10400 3800 2    50   Input ~ 0
-S3
+39
 NoConn ~ 10150 3050
 NoConn ~ 10150 3150
 NoConn ~ 9350 1550
@@ -617,7 +517,7 @@ NoConn ~ 10150 1150
 Wire Wire Line
 	8650 4850 8650 5750
 Text Label 7000 1800 2    50   ~ 0
-A9
+A0
 $Comp
 L Connector:Conn_01x08_Female J10
 U 1 1 5CD43A07
@@ -671,7 +571,7 @@ Wire Wire Line
 	6400 2000 7100 2000
 NoConn ~ 7100 2100
 Text Label 7000 3800 2    50   ~ 0
-50
+A2
 $Comp
 L Connector:Conn_01x08_Female J12
 U 1 1 5CD77852
@@ -695,7 +595,7 @@ Wire Wire Line
 	6400 4000 7100 4000
 NoConn ~ 7100 4100
 Text Label 7000 2800 2    50   ~ 0
-52
+A1
 $Comp
 L Connector:Conn_01x08_Female J11
 U 1 1 5CD8ED92
@@ -719,7 +619,7 @@ Wire Wire Line
 	6400 3000 7100 3000
 NoConn ~ 7100 3100
 Text Label 7000 4800 2    50   ~ 0
-48
+A3
 $Comp
 L Connector:Conn_01x08_Female J13
 U 1 1 5CDA24B3
@@ -852,7 +752,7 @@ U 1 1 5C7D74D6
 P 2100 5150
 F 0 "H13" H 2200 5196 50  0000 L CNN
 F 1 "MountingHole" H 2200 5105 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 2100 5150 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 2100 5150 50  0001 C CNN
 F 3 "~" H 2100 5150 50  0001 C CNN
 	1    2100 5150
 	1    0    0    -1  
@@ -863,7 +763,7 @@ U 1 1 5C7D74DD
 P 2050 4950
 F 0 "H11" H 2150 4996 50  0000 L CNN
 F 1 "MountingHole" H 2150 4905 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 2050 4950 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 2050 4950 50  0001 C CNN
 F 3 "~" H 2050 4950 50  0001 C CNN
 	1    2050 4950
 	1    0    0    -1  
@@ -874,7 +774,7 @@ U 1 1 5C7D74E4
 P 2250 5700
 F 0 "H14" H 2350 5746 50  0000 L CNN
 F 1 "MountingHole" H 2350 5655 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 2250 5700 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 2250 5700 50  0001 C CNN
 F 3 "~" H 2250 5700 50  0001 C CNN
 	1    2250 5700
 	1    0    0    -1  
@@ -885,7 +785,7 @@ U 1 1 5C7D74EB
 P 2050 5400
 F 0 "H12" H 2150 5446 50  0000 L CNN
 F 1 "MountingHole" H 2150 5355 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 2050 5400 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 2050 5400 50  0001 C CNN
 F 3 "~" H 2050 5400 50  0001 C CNN
 	1    2050 5400
 	1    0    0    -1  
@@ -896,7 +796,7 @@ U 1 1 5C7F19E5
 P 4950 1700
 F 0 "H21" H 5050 1746 50  0000 L CNN
 F 1 "MountingHole" H 5050 1655 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 4950 1700 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 4950 1700 50  0001 C CNN
 F 3 "~" H 4950 1700 50  0001 C CNN
 	1    4950 1700
 	1    0    0    -1  
@@ -907,7 +807,7 @@ U 1 1 5C7F19EC
 P 4800 1950
 F 0 "H15" H 4900 1996 50  0000 L CNN
 F 1 "MountingHole" H 4900 1905 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 4800 1950 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 4800 1950 50  0001 C CNN
 F 3 "~" H 4800 1950 50  0001 C CNN
 	1    4800 1950
 	1    0    0    -1  
@@ -918,7 +818,7 @@ U 1 1 5C7F19F3
 P 4750 1750
 F 0 "H22" H 4850 1796 50  0000 L CNN
 F 1 "MountingHole" H 4850 1705 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 4750 1750 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 4750 1750 50  0001 C CNN
 F 3 "~" H 4750 1750 50  0001 C CNN
 	1    4750 1750
 	1    0    0    -1  
@@ -929,7 +829,7 @@ U 1 1 5C7F19FA
 P 5100 1550
 F 0 "H16" H 5200 1596 50  0000 L CNN
 F 1 "MountingHole" H 5200 1505 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 5100 1550 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 5100 1550 50  0001 C CNN
 F 3 "~" H 5100 1550 50  0001 C CNN
 	1    5100 1550
 	1    0    0    -1  
@@ -940,7 +840,7 @@ U 1 1 5C7F7D93
 P 4250 1600
 F 0 "H23" H 4350 1646 50  0000 L CNN
 F 1 "MountingHole" H 4350 1555 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 4250 1600 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 4250 1600 50  0001 C CNN
 F 3 "~" H 4250 1600 50  0001 C CNN
 	1    4250 1600
 	1    0    0    -1  
@@ -951,7 +851,7 @@ U 1 1 5C7F7D9A
 P 3800 1700
 F 0 "H17" H 3900 1746 50  0000 L CNN
 F 1 "MountingHole" H 3900 1655 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 3800 1700 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 3800 1700 50  0001 C CNN
 F 3 "~" H 3800 1700 50  0001 C CNN
 	1    3800 1700
 	1    0    0    -1  
@@ -962,7 +862,7 @@ U 1 1 5C7F7DA1
 P 4350 2150
 F 0 "H24" H 4450 2196 50  0000 L CNN
 F 1 "MountingHole" H 4450 2105 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 4350 2150 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 4350 2150 50  0001 C CNN
 F 3 "~" H 4350 2150 50  0001 C CNN
 	1    4350 2150
 	1    0    0    -1  
@@ -973,7 +873,7 @@ U 1 1 5C7F7DA8
 P 3900 1950
 F 0 "H18" H 4000 1996 50  0000 L CNN
 F 1 "MountingHole" H 4000 1905 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 3900 1950 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 3900 1950 50  0001 C CNN
 F 3 "~" H 3900 1950 50  0001 C CNN
 	1    3900 1950
 	1    0    0    -1  
@@ -984,7 +884,7 @@ U 1 1 5C7FE023
 P 3150 2000
 F 0 "H25" H 3250 2046 50  0000 L CNN
 F 1 "MountingHole" H 3250 1955 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 3150 2000 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 3150 2000 50  0001 C CNN
 F 3 "~" H 3150 2000 50  0001 C CNN
 	1    3150 2000
 	1    0    0    -1  
@@ -995,7 +895,7 @@ U 1 1 5C7FE02A
 P 3100 1700
 F 0 "H19" H 3200 1746 50  0000 L CNN
 F 1 "MountingHole" H 3200 1655 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 3100 1700 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 3100 1700 50  0001 C CNN
 F 3 "~" H 3100 1700 50  0001 C CNN
 	1    3100 1700
 	1    0    0    -1  
@@ -1006,7 +906,7 @@ U 1 1 5C7FE031
 P 2700 1650
 F 0 "H26" H 2800 1696 50  0000 L CNN
 F 1 "MountingHole" H 2800 1605 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 2700 1650 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 2700 1650 50  0001 C CNN
 F 3 "~" H 2700 1650 50  0001 C CNN
 	1    2700 1650
 	1    0    0    -1  
@@ -1017,7 +917,7 @@ U 1 1 5C7FE038
 P 2650 2050
 F 0 "H20" H 2750 2096 50  0000 L CNN
 F 1 "MountingHole" H 2750 2005 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 2650 2050 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 2650 2050 50  0001 C CNN
 F 3 "~" H 2650 2050 50  0001 C CNN
 	1    2650 2050
 	1    0    0    -1  
@@ -1028,7 +928,7 @@ U 1 1 5C804597
 P 1850 6800
 F 0 "H7" H 1950 6846 50  0000 L CNN
 F 1 "MountingHole" H 1950 6755 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 1850 6800 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 1850 6800 50  0001 C CNN
 F 3 "~" H 1850 6800 50  0001 C CNN
 	1    1850 6800
 	1    0    0    -1  
@@ -1039,7 +939,7 @@ U 1 1 5C80459E
 P 1550 6800
 F 0 "H2" H 1650 6846 50  0000 L CNN
 F 1 "MountingHole" H 1650 6755 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 1550 6800 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 1550 6800 50  0001 C CNN
 F 3 "~" H 1550 6800 50  0001 C CNN
 	1    1550 6800
 	1    0    0    -1  
@@ -1050,7 +950,7 @@ U 1 1 5C8045A5
 P 1850 7000
 F 0 "H8" H 1950 7046 50  0000 L CNN
 F 1 "MountingHole" H 1950 6955 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 1850 7000 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 1850 7000 50  0001 C CNN
 F 3 "~" H 1850 7000 50  0001 C CNN
 	1    1850 7000
 	1    0    0    -1  
@@ -1061,7 +961,7 @@ U 1 1 5C8045AC
 P 1550 7000
 F 0 "H3" H 1650 7046 50  0000 L CNN
 F 1 "MountingHole" H 1650 6955 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 1550 7000 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 1550 7000 50  0001 C CNN
 F 3 "~" H 1550 7000 50  0001 C CNN
 	1    1550 7000
 	1    0    0    -1  
@@ -1072,7 +972,7 @@ U 1 1 5C80A84B
 P 1850 7200
 F 0 "H9" H 1950 7246 50  0000 L CNN
 F 1 "MountingHole" H 1950 7155 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 1850 7200 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 1850 7200 50  0001 C CNN
 F 3 "~" H 1850 7200 50  0001 C CNN
 	1    1850 7200
 	1    0    0    -1  
@@ -1083,7 +983,7 @@ U 1 1 5C80A852
 P 1550 7200
 F 0 "H4" H 1650 7246 50  0000 L CNN
 F 1 "MountingHole" H 1650 7155 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 1550 7200 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 1550 7200 50  0001 C CNN
 F 3 "~" H 1550 7200 50  0001 C CNN
 	1    1550 7200
 	1    0    0    -1  
@@ -1094,7 +994,7 @@ U 1 1 5C80A859
 P 1850 7400
 F 0 "H10" H 1950 7446 50  0000 L CNN
 F 1 "MountingHole" H 1950 7355 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 1850 7400 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 1850 7400 50  0001 C CNN
 F 3 "~" H 1850 7400 50  0001 C CNN
 	1    1850 7400
 	1    0    0    -1  
@@ -1105,7 +1005,7 @@ U 1 1 5C80A860
 P 1550 7400
 F 0 "H5" H 1650 7446 50  0000 L CNN
 F 1 "MountingHole" H 1650 7355 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 1550 7400 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 1550 7400 50  0001 C CNN
 F 3 "~" H 1550 7400 50  0001 C CNN
 	1    1550 7400
 	1    0    0    -1  
@@ -1116,7 +1016,7 @@ U 1 1 5C810AD1
 P 1850 6600
 F 0 "H6" H 1950 6646 50  0000 L CNN
 F 1 "MountingHole" H 1950 6555 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 1850 6600 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 1850 6600 50  0001 C CNN
 F 3 "~" H 1850 6600 50  0001 C CNN
 	1    1850 6600
 	1    0    0    -1  
@@ -1127,7 +1027,7 @@ U 1 1 5C810AD8
 P 1550 6600
 F 0 "H1" H 1650 6646 50  0000 L CNN
 F 1 "MountingHole" H 1650 6555 50  0000 L CNN
-F 2 "cunabulapress-footprints:Mounting_Hole_3.2mm_M3" H 1550 6600 50  0001 C CNN
+F 2 "cunabulapress-footprints:Mounting_Hole_M3_with_Target" H 1550 6600 50  0001 C CNN
 F 3 "~" H 1550 6600 50  0001 C CNN
 	1    1550 6600
 	1    0    0    -1  
@@ -1160,4 +1060,19 @@ Wire Wire Line
 	10400 4650 10400 4850
 Wire Wire Line
 	10500 4650 10500 4850
+Text Label 4400 4550 0    50   ~ 0
+A5
+Wire Wire Line
+	4200 4550 4400 4550
+Text GLabel 10500 4650 1    50   Input ~ 0
+S0
+Text GLabel 10400 4650 1    50   Input ~ 0
+S1
+Text GLabel 10200 4650 1    50   Input ~ 0
+S2
+Text GLabel 10300 4650 1    50   Input ~ 0
+S3
+NoConn ~ 10100 4850
+NoConn ~ 9350 3050
+NoConn ~ 9350 3150
 $EndSCHEMATC

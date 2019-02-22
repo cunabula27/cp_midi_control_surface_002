@@ -17,418 +17,458 @@ $EndDescr
 $Comp
 L Device:R_POT RV?
 U 1 1 5C568668
-P 3850 2450
+P 4950 2800
 AR Path="/5C568668" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C568668" Ref="RV3"  Part="1" 
-F 0 "RV3" H 3780 2496 50  0000 R CNN
-F 1 "10k" H 3780 2405 50  0000 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 3850 2450 50  0001 C CNN
-F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 3850 2450 50  0001 C CNN
-	1    3850 2450
+F 0 "RV3" H 4880 2846 50  0000 R CNN
+F 1 "10k" H 4880 2755 50  0000 R CNN
+F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 4950 2800 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 4950 2800 50  0001 C CNN
+	1    4950 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT RV?
 U 1 1 5C56866F
-P 4350 2450
+P 5450 2800
 AR Path="/5C56866F" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C56866F" Ref="RV4"  Part="1" 
-F 0 "RV4" H 4280 2496 50  0000 R CNN
-F 1 "10k" H 4280 2405 50  0000 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 4350 2450 50  0001 C CNN
-F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 4350 2450 50  0001 C CNN
-	1    4350 2450
+F 0 "RV4" H 5380 2846 50  0000 R CNN
+F 1 "10k" H 5380 2755 50  0000 R CNN
+F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 5450 2800 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 5450 2800 50  0001 C CNN
+	1    5450 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT RV?
 U 1 1 5C568676
-P 4850 2450
+P 5950 2800
 AR Path="/5C568676" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C568676" Ref="RV5"  Part="1" 
-F 0 "RV5" H 4780 2496 50  0000 R CNN
-F 1 "10k" H 4780 2405 50  0000 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 4850 2450 50  0001 C CNN
-F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 4850 2450 50  0001 C CNN
-	1    4850 2450
+F 0 "RV5" H 5880 2846 50  0000 R CNN
+F 1 "10k" H 5880 2755 50  0000 R CNN
+F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 5950 2800 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 5950 2800 50  0001 C CNN
+	1    5950 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT RV?
 U 1 1 5C56867D
-P 5350 2450
+P 6450 2800
 AR Path="/5C56867D" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C56867D" Ref="RV6"  Part="1" 
-F 0 "RV6" H 5280 2496 50  0000 R CNN
-F 1 "10k" H 5280 2405 50  0000 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 5350 2450 50  0001 C CNN
-F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 5350 2450 50  0001 C CNN
-	1    5350 2450
+F 0 "RV6" H 6380 2846 50  0000 R CNN
+F 1 "10k" H 6380 2755 50  0000 R CNN
+F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 6450 2800 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 6450 2800 50  0001 C CNN
+	1    6450 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT RV?
 U 1 1 5C568684
-P 5850 2450
+P 6950 2800
 AR Path="/5C568684" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C568684" Ref="RV7"  Part="1" 
-F 0 "RV7" H 5780 2496 50  0000 R CNN
-F 1 "10k" H 5780 2405 50  0000 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 5850 2450 50  0001 C CNN
-F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 5850 2450 50  0001 C CNN
-	1    5850 2450
+F 0 "RV7" H 6880 2846 50  0000 R CNN
+F 1 "10k" H 6880 2755 50  0000 R CNN
+F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 6950 2800 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 6950 2800 50  0001 C CNN
+	1    6950 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT RV?
 U 1 1 5C56868B
-P 3350 2450
+P 4450 2800
 AR Path="/5C56868B" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C56868B" Ref="RV2"  Part="1" 
-F 0 "RV2" H 3280 2496 50  0000 R CNN
-F 1 "10k" H 3280 2405 50  0000 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 3350 2450 50  0001 C CNN
-F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 3350 2450 50  0001 C CNN
-	1    3350 2450
+F 0 "RV2" H 4380 2846 50  0000 R CNN
+F 1 "10k" H 4380 2755 50  0000 R CNN
+F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 4450 2800 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 4450 2800 50  0001 C CNN
+	1    4450 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT RV?
 U 1 1 5C568692
-P 2850 2450
+P 3950 2800
 AR Path="/5C568692" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C568692" Ref="RV1"  Part="1" 
-F 0 "RV1" H 2780 2496 50  0000 R CNN
-F 1 "10k" H 2780 2405 50  0000 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 2850 2450 50  0001 C CNN
-F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 2850 2450 50  0001 C CNN
-	1    2850 2450
+F 0 "RV1" H 3880 2846 50  0000 R CNN
+F 1 "10k" H 3880 2755 50  0000 R CNN
+F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 3950 2800 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 3950 2800 50  0001 C CNN
+	1    3950 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT RV?
 U 1 1 5C568699
-P 6350 2450
+P 7450 2800
 AR Path="/5C568699" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C568699" Ref="RV8"  Part="1" 
-F 0 "RV8" H 6280 2496 50  0000 R CNN
-F 1 "10k" H 6280 2405 50  0000 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 6350 2450 50  0001 C CNN
-F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 6350 2450 50  0001 C CNN
-	1    6350 2450
+F 0 "RV8" H 7380 2846 50  0000 R CNN
+F 1 "10k" H 7380 2755 50  0000 R CNN
+F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 7450 2800 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 7450 2800 50  0001 C CNN
+	1    7450 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT RVM?
 U 1 1 5C5686A0
-P 7800 2450
+P 8900 2800
 AR Path="/5C5686A0" Ref="RVM?"  Part="1" 
 AR Path="/5C542024/5C5686A0" Ref="RVM1"  Part="1" 
-F 0 "RVM1" H 7730 2496 50  0000 R CNN
-F 1 "10k" H 7730 2405 50  0000 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 7800 2450 50  0001 C CNN
-F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 7800 2450 50  0001 C CNN
-	1    7800 2450
+F 0 "RVM1" H 8830 2846 50  0000 R CNN
+F 1 "10k" H 8830 2755 50  0000 R CNN
+F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 8900 2800 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 8900 2800 50  0001 C CNN
+	1    8900 2800
 	1    0    0    -1  
 $EndComp
-Text Notes 1650 3150 0    50   ~ 0
+Text Notes 2750 3500 0    50   ~ 0
 Channel Faders
-Text Notes 7250 2800 0    50   ~ 0
+Text Notes 8350 3150 0    50   ~ 0
 Master Fader
 $Comp
 L power:+5V #PWR?
 U 1 1 5C5686A9
-P 2400 800
+P 3500 1150
 AR Path="/5C5686A9" Ref="#PWR?"  Part="1" 
 AR Path="/5C542024/5C5686A9" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 2400 650 50  0001 C CNN
-F 1 "+5V" H 2400 940 50  0000 C CNN
-F 2 "" H 2400 800 50  0000 C CNN
-F 3 "" H 2400 800 50  0000 C CNN
-	1    2400 800 
+F 0 "#PWR09" H 3500 1000 50  0001 C CNN
+F 1 "+5V" H 3500 1290 50  0000 C CNN
+F 2 "" H 3500 1150 50  0000 C CNN
+F 3 "" H 3500 1150 50  0000 C CNN
+	1    3500 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C5686AF
-P 2400 5200
+P 3500 5550
 AR Path="/5C5686AF" Ref="#PWR?"  Part="1" 
 AR Path="/5C542024/5C5686AF" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 2400 4950 50  0001 C CNN
-F 1 "GND" H 2400 5050 50  0000 C CNN
-F 2 "" H 2400 5200 50  0000 C CNN
-F 3 "" H 2400 5200 50  0000 C CNN
-	1    2400 5200
+F 0 "#PWR08" H 3500 5300 50  0001 C CNN
+F 1 "GND" H 3500 5400 50  0000 C CNN
+F 2 "" H 3500 5550 50  0000 C CNN
+F 3 "" H 3500 5550 50  0000 C CNN
+	1    3500 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_DIP_x10 SW_F1
 U 1 1 5C3FF258
-P 3550 3950
-F 0 "SW_F1" V 3550 3300 50  0000 C CNN
-F 1 "SW_DIP_x10" H 3550 4526 50  0001 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm" H 3550 3950 50  0001 C CNN
-F 3 "" H 3550 3950 50  0001 C CNN
-	1    3550 3950
+P 4650 4300
+F 0 "SW_F1" V 4650 3650 50  0000 C CNN
+F 1 "SW_DIP_x10" H 4650 4876 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 4650 4300 50  0001 C CNN
+F 3 "" H 4650 4300 50  0001 C CNN
+	1    4650 4300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Network09 RN1
 U 1 1 5C3FF2C3
-P 3450 4700
-F 0 "RN1" H 2700 4700 50  0000 C CNN
-F 1 "R_Network09" V 3976 4700 50  0001 C CNN
-F 2 "Resistor_THT:R_Array_SIP10" V 4025 4700 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3450 4700 50  0001 C CNN
-	1    3450 4700
+P 4550 5050
+F 0 "RN1" H 3800 5050 50  0000 C CNN
+F 1 "R_Network09" V 5076 5050 50  0001 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 5125 5050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4550 5050 50  0001 C CNN
+	1    4550 5050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7950 2450 8000 2450
+	9050 2800 9100 2800
 Wire Wire Line
-	7800 2600 7800 2650
+	8900 2950 8900 3000
 Wire Wire Line
-	6550 2450 6500 2450
+	7650 2800 7600 2800
 Wire Wire Line
-	6050 2450 6000 2450
+	7150 2800 7100 2800
 Wire Wire Line
-	5550 2450 5500 2450
+	6650 2800 6600 2800
 Wire Wire Line
-	5000 2450 5050 2450
+	6100 2800 6150 2800
 Wire Wire Line
-	4550 2450 4500 2450
+	5650 2800 5600 2800
 Wire Wire Line
-	4050 2450 4000 2450
+	5150 2800 5100 2800
 Wire Wire Line
-	3500 2450 3550 2450
+	4600 2800 4650 2800
 Wire Wire Line
-	3000 2450 3050 2450
+	4100 2800 4150 2800
 Wire Wire Line
-	2850 2300 2850 2250
+	3950 2650 3950 2600
 Wire Wire Line
-	2850 2600 2850 2650
+	3950 2950 3950 3000
 Wire Wire Line
-	3350 2600 3350 2650
-Connection ~ 3350 2650
+	4450 2950 4450 3000
+Connection ~ 4450 3000
 Wire Wire Line
-	3350 2300 3350 2250
+	4450 2650 4450 2600
 Wire Wire Line
-	3850 2600 3850 2650
-Connection ~ 3850 2650
+	4950 2950 4950 3000
+Connection ~ 4950 3000
 Wire Wire Line
-	4350 2600 4350 2650
-Connection ~ 4350 2650
+	5450 2950 5450 3000
+Connection ~ 5450 3000
 Wire Wire Line
-	4850 2600 4850 2650
-Connection ~ 4850 2650
+	5950 2950 5950 3000
+Connection ~ 5950 3000
 Wire Wire Line
-	6350 2600 6350 2650
-Connection ~ 6350 2650
+	7450 2950 7450 3000
+Connection ~ 7450 3000
 Wire Wire Line
-	6350 2650 7800 2650
+	7450 3000 8900 3000
 Wire Wire Line
-	4850 2650 5350 2650
+	5950 3000 6450 3000
 Wire Wire Line
-	4350 2650 4850 2650
+	5450 3000 5950 3000
 Wire Wire Line
-	3850 2650 4350 2650
+	4950 3000 5450 3000
 Wire Wire Line
-	3350 2650 3850 2650
+	4450 3000 4950 3000
 Wire Wire Line
-	2850 2650 3350 2650
+	3950 3000 4450 3000
 Wire Wire Line
-	5350 2600 5350 2650
-Connection ~ 5350 2650
+	6450 2950 6450 3000
+Connection ~ 6450 3000
 Wire Wire Line
-	5350 2650 5850 2650
+	6450 3000 6950 3000
 Wire Wire Line
-	5850 2600 5850 2650
-Connection ~ 5850 2650
+	6950 2950 6950 3000
+Connection ~ 6950 3000
 Wire Wire Line
-	5850 2650 6350 2650
+	6950 3000 7450 3000
 Wire Wire Line
-	3050 4250 3050 4500
+	4150 4600 4150 4850
 Wire Wire Line
-	3150 4250 3150 4500
+	4250 4600 4250 4850
 Wire Wire Line
-	3250 4250 3250 4500
+	4350 4600 4350 4850
 Wire Wire Line
-	3350 4250 3350 4500
+	4450 4600 4450 4850
 Wire Wire Line
-	3450 4250 3450 4500
+	4550 4600 4550 4850
 Wire Wire Line
-	3550 4250 3550 4500
+	4650 4600 4650 4850
 Wire Wire Line
-	3650 4250 3650 4500
+	4750 4600 4750 4850
 Wire Wire Line
-	3750 4250 3750 4500
+	4850 4600 4850 4850
 Wire Wire Line
-	3550 2450 3550 2750
+	4650 2800 4650 3100
 Wire Wire Line
-	3550 2750 3150 2750
+	4650 3100 4250 3100
 Wire Wire Line
-	4050 2450 4050 2850
+	5150 2800 5150 3200
 Wire Wire Line
-	4050 2850 3250 2850
+	5150 3200 4350 3200
 Wire Wire Line
-	4550 2950 3350 2950
+	5650 3300 4450 3300
 Wire Wire Line
-	5050 2450 5050 3050
+	6150 2800 6150 3400
 Wire Wire Line
-	5050 3050 3450 3050
+	6150 3400 4550 3400
 Wire Wire Line
-	5550 2450 5550 3150
+	6650 2800 6650 3500
 Wire Wire Line
-	5550 3150 3550 3150
+	6650 3500 4650 3500
 Wire Wire Line
-	6050 2450 6050 3250
+	7150 2800 7150 3600
 Wire Wire Line
-	6050 3250 3650 3250
+	7150 3600 4750 3600
 Wire Wire Line
-	6550 2450 6550 3350
+	7650 2800 7650 3700
 Wire Wire Line
-	6550 3350 3750 3350
+	7650 3700 4850 3700
 Wire Wire Line
-	3050 2450 3050 3650
-Connection ~ 3050 2450
+	4150 2800 4150 4000
+Connection ~ 4150 2800
 Wire Wire Line
-	3150 2750 3150 3650
+	4250 3100 4250 4000
 Wire Wire Line
-	3250 2850 3250 3650
+	4350 3200 4350 4000
 Wire Wire Line
-	3350 2950 3350 3650
+	4450 3300 4450 4000
 Wire Wire Line
-	3450 3050 3450 3650
+	4550 3400 4550 4000
 Wire Wire Line
-	3550 3150 3550 3650
+	4650 3500 4650 4000
 Wire Wire Line
-	3650 3250 3650 3650
+	4750 3600 4750 4000
 Wire Wire Line
-	3750 3350 3750 3650
+	4850 3700 4850 4000
 Wire Wire Line
-	8000 2450 8000 3450
+	9100 2800 9100 3800
 Wire Wire Line
-	8000 3450 3850 3450
+	9100 3800 4950 3800
 Wire Wire Line
-	3850 3450 3850 3650
-Connection ~ 8000 2450
+	4950 3800 4950 4000
+Connection ~ 9100 2800
+Connection ~ 7650 2800
+Connection ~ 7150 2800
+Connection ~ 6650 2800
+Connection ~ 6150 2800
 Wire Wire Line
-	8000 2450 9000 2450
-Connection ~ 6550 2450
+	5650 2800 5650 3300
+Connection ~ 5650 2800
+Connection ~ 5150 2800
+Connection ~ 4650 2800
 Wire Wire Line
-	6550 1900 9000 1900
-Connection ~ 6050 2450
+	7450 2650 7450 2600
 Wire Wire Line
-	6050 1800 9000 1800
-Connection ~ 5550 2450
+	7450 2600 8900 2600
 Wire Wire Line
-	5550 1700 9000 1700
-Connection ~ 5050 2450
+	8900 2600 8900 2650
 Wire Wire Line
-	5050 1600 9000 1600
+	6950 2600 6950 2650
 Wire Wire Line
-	4550 2450 4550 2950
+	6950 2600 7450 2600
+Connection ~ 7450 2600
 Wire Wire Line
-	4550 1500 9000 1500
-Connection ~ 4550 2450
-Connection ~ 4050 2450
+	6950 2600 6450 2600
 Wire Wire Line
-	4050 1400 9000 1400
+	6450 2600 6450 2650
+Connection ~ 6950 2600
 Wire Wire Line
-	3550 1300 9000 1300
-Connection ~ 3550 2450
+	5950 2600 5950 2650
 Wire Wire Line
-	3050 1200 9000 1200
-Text HLabel 9000 2450 2    50   Input ~ 0
-F_MASTER
-Text HLabel 9000 1900 2    50   Input ~ 0
-F_CHAN_8
-Text HLabel 9000 1800 2    50   Input ~ 0
-F_CHAN_7
-Text HLabel 9000 1700 2    50   Input ~ 0
-F_CHAN_6
-Text HLabel 9000 1600 2    50   Input ~ 0
-F_CHAN_5
-Text HLabel 9000 1500 2    50   Input ~ 0
-F_CHAN_4
-Text HLabel 9000 1400 2    50   Input ~ 0
-F_CHAN_3
-Text HLabel 9000 1300 2    50   Input ~ 0
-F_CHAN_2
-Text HLabel 9000 1200 2    50   Input ~ 0
-F_CHAN_1
+	5950 2600 6450 2600
+Connection ~ 6450 2600
 Wire Wire Line
-	6350 2300 6350 2250
+	5950 2600 5450 2600
 Wire Wire Line
-	6350 2250 7800 2250
+	5450 2600 5450 2650
+Connection ~ 5950 2600
 Wire Wire Line
-	7800 2250 7800 2300
+	5450 2600 4950 2600
 Wire Wire Line
-	5850 2250 5850 2300
+	4950 2600 4950 2650
+Connection ~ 5450 2600
 Wire Wire Line
-	5850 2250 6350 2250
-Connection ~ 6350 2250
+	4950 2600 4450 2600
+Connection ~ 4950 2600
 Wire Wire Line
-	5850 2250 5350 2250
+	4450 2600 3950 2600
+Connection ~ 4450 2600
 Wire Wire Line
-	5350 2250 5350 2300
-Connection ~ 5850 2250
+	3950 3000 3500 3000
 Wire Wire Line
-	4850 2250 4850 2300
+	3500 3000 3500 5300
+Connection ~ 3950 3000
 Wire Wire Line
-	4850 2250 5350 2250
-Connection ~ 5350 2250
+	4950 5250 4950 5300
 Wire Wire Line
-	4850 2250 4350 2250
+	4950 5300 3500 5300
+Connection ~ 3500 5300
 Wire Wire Line
-	4350 2250 4350 2300
-Connection ~ 4850 2250
+	3500 5300 3500 5550
 Wire Wire Line
-	4350 2250 3850 2250
+	3950 2600 3500 2600
 Wire Wire Line
-	3850 2250 3850 2300
-Connection ~ 4350 2250
+	3500 2600 3500 1250
+Connection ~ 3950 2600
 Wire Wire Line
-	3850 2250 3350 2250
-Connection ~ 3850 2250
+	4150 1550 4150 2800
 Wire Wire Line
-	3350 2250 2850 2250
-Connection ~ 3350 2250
+	4650 1650 4650 2800
 Wire Wire Line
-	2850 2650 2400 2650
+	5150 1750 5150 2800
 Wire Wire Line
-	2400 2650 2400 4950
-Connection ~ 2850 2650
+	5650 1850 5650 2800
 Wire Wire Line
-	3850 4900 3850 4950
+	6150 1950 6150 2800
 Wire Wire Line
-	3850 4950 2400 4950
-Connection ~ 2400 4950
+	6650 2050 6650 2800
 Wire Wire Line
-	2400 4950 2400 5200
+	7150 2150 7150 2800
 Wire Wire Line
-	2850 2250 2400 2250
+	7650 2250 7650 2800
 Wire Wire Line
-	2400 2250 2400 800 
-Connection ~ 2850 2250
+	4950 4600 4950 4850
+NoConn ~ 5050 4600
+NoConn ~ 5050 4000
+$Comp
+L 74xx:CD74HC4067M U?
+U 1 1 5C72B738
+P 2500 2250
+AR Path="/5C3B66BD/5C72B738" Ref="U?"  Part="1" 
+AR Path="/5C542024/5C72B738" Ref="U6"  Part="1" 
+F 0 "U6" H 2500 3428 50  0000 C CNN
+F 1 "CD74HC4067M" H 2500 3337 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 3400 1250 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 2150 3100 50  0001 C CNN
+	1    2500 2250
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3050 1200 3050 2450
+	2500 3350 2500 3450
 Wire Wire Line
-	3550 1300 3550 2450
+	2000 2850 2000 3450
 Wire Wire Line
-	4050 1400 4050 2450
+	2000 3450 2500 3450
+Connection ~ 2500 3450
 Wire Wire Line
-	4550 1500 4550 2450
+	2500 3450 2500 5300
 Wire Wire Line
-	5050 1600 5050 2450
+	3000 1550 4150 1550
 Wire Wire Line
-	5550 1700 5550 2450
+	3000 1650 4650 1650
 Wire Wire Line
-	6050 1800 6050 2450
+	3000 1750 5150 1750
 Wire Wire Line
-	6550 1900 6550 2450
+	3000 1850 5650 1850
 Wire Wire Line
-	3850 4250 3850 4500
-NoConn ~ 3950 4250
-NoConn ~ 3950 3650
+	3000 2050 6650 2050
+Wire Wire Line
+	3000 1950 6150 1950
+Wire Wire Line
+	3000 2150 7150 2150
+Wire Wire Line
+	3000 2250 7650 2250
+Wire Wire Line
+	9100 2800 9100 2350
+Wire Wire Line
+	3000 2350 9100 2350
+Wire Wire Line
+	2500 1250 3500 1250
+Connection ~ 3500 1250
+Wire Wire Line
+	3500 1250 3500 1150
+Wire Wire Line
+	3500 5300 2500 5300
+NoConn ~ 3000 2450
+NoConn ~ 3000 2550
+NoConn ~ 3000 2650
+NoConn ~ 3000 2750
+NoConn ~ 3000 2850
+NoConn ~ 3000 2950
+NoConn ~ 3000 3050
+Text HLabel 1450 1750 0    50   Input ~ 0
+FADERS
+Wire Wire Line
+	1800 2450 2000 2450
+Wire Wire Line
+	1800 2150 2000 2150
+Wire Wire Line
+	1800 2250 2000 2250
+Wire Wire Line
+	1800 2350 2000 2350
+Text GLabel 1800 2150 0    50   Input ~ 0
+S0
+Text GLabel 1800 2250 0    50   Input ~ 0
+S1
+Text GLabel 1800 2350 0    50   Input ~ 0
+S2
+Text GLabel 1800 2450 0    50   Input ~ 0
+S3
+Wire Wire Line
+	1450 1750 2000 1750
 $EndSCHEMATC
