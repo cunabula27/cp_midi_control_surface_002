@@ -21,7 +21,7 @@ P 4950 2800
 AR Path="/5C568668" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C568668" Ref="RV3"  Part="1" 
 F 0 "RV3" H 4880 2846 50  0000 R CNN
-F 1 "10k" H 4880 2755 50  0000 R CNN
+F 1 "PTA4543" H 4880 2755 50  0000 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 4950 2800 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 4950 2800 50  0001 C CNN
 	1    4950 2800
@@ -34,7 +34,7 @@ P 5450 2800
 AR Path="/5C56866F" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C56866F" Ref="RV4"  Part="1" 
 F 0 "RV4" H 5380 2846 50  0000 R CNN
-F 1 "10k" H 5380 2755 50  0000 R CNN
+F 1 "PTA4543" H 5380 2755 50  0000 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 5450 2800 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 5450 2800 50  0001 C CNN
 	1    5450 2800
@@ -47,7 +47,7 @@ P 5950 2800
 AR Path="/5C568676" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C568676" Ref="RV5"  Part="1" 
 F 0 "RV5" H 5880 2846 50  0000 R CNN
-F 1 "10k" H 5880 2755 50  0000 R CNN
+F 1 "PTA4543" H 5880 2755 50  0000 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 5950 2800 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 5950 2800 50  0001 C CNN
 	1    5950 2800
@@ -60,7 +60,7 @@ P 6450 2800
 AR Path="/5C56867D" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C56867D" Ref="RV6"  Part="1" 
 F 0 "RV6" H 6380 2846 50  0000 R CNN
-F 1 "10k" H 6380 2755 50  0000 R CNN
+F 1 "PTA4543" H 6380 2755 50  0000 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 6450 2800 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 6450 2800 50  0001 C CNN
 	1    6450 2800
@@ -73,7 +73,7 @@ P 6950 2800
 AR Path="/5C568684" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C568684" Ref="RV7"  Part="1" 
 F 0 "RV7" H 6880 2846 50  0000 R CNN
-F 1 "10k" H 6880 2755 50  0000 R CNN
+F 1 "PTA4543" H 6880 2755 50  0000 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 6950 2800 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 6950 2800 50  0001 C CNN
 	1    6950 2800
@@ -86,7 +86,7 @@ P 4450 2800
 AR Path="/5C56868B" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C56868B" Ref="RV2"  Part="1" 
 F 0 "RV2" H 4380 2846 50  0000 R CNN
-F 1 "10k" H 4380 2755 50  0000 R CNN
+F 1 "PTA4543" H 4380 2755 50  0000 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 4450 2800 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 4450 2800 50  0001 C CNN
 	1    4450 2800
@@ -99,7 +99,7 @@ P 3950 2800
 AR Path="/5C568692" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C568692" Ref="RV1"  Part="1" 
 F 0 "RV1" H 3880 2846 50  0000 R CNN
-F 1 "10k" H 3880 2755 50  0000 R CNN
+F 1 "PTA4543" H 3880 2755 50  0000 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 3950 2800 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 3950 2800 50  0001 C CNN
 	1    3950 2800
@@ -112,7 +112,7 @@ P 7450 2800
 AR Path="/5C568699" Ref="RV?"  Part="1" 
 AR Path="/5C542024/5C568699" Ref="RV8"  Part="1" 
 F 0 "RV8" H 7380 2846 50  0000 R CNN
-F 1 "10k" H 7380 2755 50  0000 R CNN
+F 1 "PTA4543" H 7380 2755 50  0000 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 7450 2800 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 7450 2800 50  0001 C CNN
 	1    7450 2800
@@ -125,15 +125,15 @@ P 8900 2800
 AR Path="/5C5686A0" Ref="RVM?"  Part="1" 
 AR Path="/5C542024/5C5686A0" Ref="RVM1"  Part="1" 
 F 0 "RVM1" H 8830 2846 50  0000 R CNN
-F 1 "10k" H 8830 2755 50  0000 R CNN
+F 1 "PTA4543" H 8830 2755 50  0000 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Bourns_PTA4543_Single_Slide_CP_EDIT" H 8900 2800 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0fa5/0900766b80fa58ef.pdf" H 8900 2800 50  0001 C CNN
 	1    8900 2800
 	1    0    0    -1  
 $EndComp
-Text Notes 2750 3500 0    50   ~ 0
+Text Notes 5400 1500 0    50   ~ 0
 Channel Faders
-Text Notes 8350 3150 0    50   ~ 0
+Text Notes 8750 1500 0    50   ~ 0
 Master Fader
 $Comp
 L power:+5V #PWR?
@@ -153,8 +153,8 @@ L power:GND #PWR?
 U 1 1 5C5686AF
 P 3500 5550
 AR Path="/5C5686AF" Ref="#PWR?"  Part="1" 
-AR Path="/5C542024/5C5686AF" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 3500 5300 50  0001 C CNN
+AR Path="/5C542024/5C5686AF" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 3500 5300 50  0001 C CNN
 F 1 "GND" H 3500 5400 50  0000 C CNN
 F 2 "" H 3500 5550 50  0000 C CNN
 F 3 "" H 3500 5550 50  0000 C CNN
@@ -170,14 +170,14 @@ F 1 "SW_DIP_x10" H 4650 4876 50  0001 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 4650 4300 50  0001 C CNN
 F 3 "" H 4650 4300 50  0001 C CNN
 	1    4650 4300
-	0    -1   -1   0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_Network09 RN1
 U 1 1 5C3FF2C3
 P 4550 5050
 F 0 "RN1" H 3800 5050 50  0000 C CNN
-F 1 "R_Network09" V 5076 5050 50  0001 C CNN
+F 1 "2.2K (Bussed)" V 5076 5050 50  0001 C CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 5125 5050 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4550 5050 50  0001 C CNN
 	1    4550 5050
@@ -309,8 +309,6 @@ Wire Wire Line
 	9100 2800 9100 3800
 Wire Wire Line
 	9100 3800 4950 3800
-Wire Wire Line
-	4950 3800 4950 4000
 Connection ~ 9100 2800
 Connection ~ 7650 2800
 Connection ~ 7150 2800
@@ -393,15 +391,13 @@ Wire Wire Line
 	7650 2250 7650 2800
 Wire Wire Line
 	4950 4600 4950 4850
-NoConn ~ 5050 4600
-NoConn ~ 5050 4000
 $Comp
 L 74xx:CD74HC4067M U?
 U 1 1 5C72B738
 P 2500 2250
 AR Path="/5C3B66BD/5C72B738" Ref="U?"  Part="1" 
-AR Path="/5C542024/5C72B738" Ref="U6"  Part="1" 
-F 0 "U6" H 2500 3428 50  0000 C CNN
+AR Path="/5C542024/5C72B738" Ref="U5"  Part="1" 
+F 0 "U5" H 2500 3428 50  0000 C CNN
 F 1 "CD74HC4067M" H 2500 3337 50  0000 C CNN
 F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 3400 1250 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 2150 3100 50  0001 C CNN
@@ -471,4 +467,8 @@ Text GLabel 1800 2450 0    50   Input ~ 0
 S3
 Wire Wire Line
 	1450 1750 2000 1750
+Wire Wire Line
+	4950 3800 4950 4000
+NoConn ~ 5050 4000
+NoConn ~ 5050 4600
 $EndSCHEMATC
