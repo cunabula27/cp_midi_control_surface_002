@@ -312,7 +312,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1850 5050 1850
 Wire Wire Line
-	4100 3650 4100 2250
+	4100 3650 4100 2350
 Connection ~ 4800 3200
 Connection ~ 5300 3200
 Connection ~ 4800 3800
@@ -330,27 +330,9 @@ Wire Wire Line
 Wire Wire Line
 	3200 1950 4400 1950
 Wire Wire Line
-	3200 2650 3700 2650
-Wire Wire Line
-	3200 2550 3800 2550
-Wire Wire Line
-	3200 2450 3900 2450
-Wire Wire Line
-	3200 2350 4000 2350
-Wire Wire Line
-	4000 2350 4000 3950
-Wire Wire Line
-	3200 2250 4100 2250
-Wire Wire Line
 	3200 2150 4200 2150
 Wire Wire Line
 	3200 2050 4300 2050
-Wire Wire Line
-	3700 2650 3700 4850
-Wire Wire Line
-	3800 2550 3800 4550
-Wire Wire Line
-	3900 2450 3900 4250
 Wire Wire Line
 	5050 1550 3200 1550
 Wire Wire Line
@@ -493,29 +475,11 @@ Wire Wire Line
 	4800 6800 4800 6200
 Connection ~ 4800 6200
 Wire Wire Line
-	3200 2750 3600 2750
-Wire Wire Line
-	3600 2750 3600 5450
-Wire Wire Line
 	3600 5450 5050 5450
-Wire Wire Line
-	3200 2850 3500 2850
-Wire Wire Line
-	3500 2850 3500 5750
 Wire Wire Line
 	3500 5750 5050 5750
 Wire Wire Line
-	3400 2950 3400 6050
-Wire Wire Line
 	3400 6050 5050 6050
-Wire Wire Line
-	3200 3050 3300 3050
-Wire Wire Line
-	3300 3050 3300 6650
-Wire Wire Line
-	3300 6650 5050 6650
-Wire Wire Line
-	3200 2950 3400 2950
 Wire Wire Line
 	2700 3350 2700 3450
 Connection ~ 2700 6950
@@ -548,4 +512,44 @@ Text GLabel 2000 2450 0    50   Input ~ 0
 S3
 Wire Wire Line
 	2000 1750 2200 1750
+Wire Wire Line
+	3400 3050 3200 3050
+Wire Wire Line
+	3400 3050 3400 6050
+Wire Wire Line
+	3500 2950 3200 2950
+Wire Wire Line
+	3500 2950 3500 5750
+Wire Wire Line
+	3600 2850 3200 2850
+Wire Wire Line
+	3600 2850 3600 5450
+Wire Wire Line
+	3700 2750 3200 2750
+Wire Wire Line
+	3700 2750 3700 4850
+Wire Wire Line
+	3800 2650 3200 2650
+Wire Wire Line
+	3800 2650 3800 4550
+Wire Wire Line
+	3900 2550 3200 2550
+Wire Wire Line
+	3900 2550 3900 4250
+Wire Wire Line
+	4000 2450 3200 2450
+Wire Wire Line
+	4000 2450 4000 3950
+Wire Wire Line
+	4100 2350 3200 2350
+Wire Wire Line
+	3200 2250 3400 2250
+Wire Wire Line
+	3400 2250 3400 1400
+Wire Wire Line
+	3400 1400 5750 1400
+Wire Wire Line
+	5750 1400 5750 6650
+Wire Wire Line
+	5750 6650 5050 6650
 $EndSCHEMATC
