@@ -18,7 +18,7 @@ $Comp
 L Device:R_POT PT_1
 U 1 1 5C26C20B
 P 5050 1700
-F 0 "PT_1" V 5050 2250 50  0000 R CNN
+F 0 "PT_1" V 5050 1400 50  0000 R CNN
 F 1 "10k" H 4980 1655 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 1700 50  0001 C CNN
 F 3 "~" H 5050 1700 50  0001 C CNN
@@ -29,7 +29,7 @@ $Comp
 L Device:R_POT PT_2
 U 1 1 5C26C26F
 P 5050 2000
-F 0 "PT_2" V 5050 2550 50  0000 R CNN
+F 0 "PT_2" V 5050 1700 50  0000 R CNN
 F 1 "10k" H 4980 1955 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 2000 50  0001 C CNN
 F 3 "~" H 5050 2000 50  0001 C CNN
@@ -40,7 +40,7 @@ $Comp
 L Device:R_POT PT_3
 U 1 1 5C26C8F7
 P 5050 2300
-F 0 "PT_3" V 5050 2850 50  0000 R CNN
+F 0 "PT_3" V 5050 2000 50  0000 R CNN
 F 1 "10k" H 4980 2255 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 2300 50  0001 C CNN
 F 3 "~" H 5050 2300 50  0001 C CNN
@@ -51,7 +51,7 @@ $Comp
 L Device:R_POT PT_4
 U 1 1 5C26CB54
 P 5050 2600
-F 0 "PT_4" V 5050 3150 50  0000 R CNN
+F 0 "PT_4" V 5050 2300 50  0000 R CNN
 F 1 "10k" H 4980 2555 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 2600 50  0001 C CNN
 F 3 "~" H 5050 2600 50  0001 C CNN
@@ -62,8 +62,8 @@ $Comp
 L Device:R_POT PT_5
 U 1 1 5C26CB7C
 P 5050 2900
-F 0 "PT_5" V 5050 3450 50  0000 R CNN
-F 1 "10k" V 5050 2900 50  0000 C CNN
+F 0 "PT_5" V 5050 2600 50  0000 R CNN
+F 1 "10k" V 5050 2900 50  0001 C CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 2900 50  0001 C CNN
 F 3 "~" H 5050 2900 50  0001 C CNN
 	1    5050 2900
@@ -73,7 +73,7 @@ $Comp
 L Device:R_POT PT_6
 U 1 1 5C26CBA6
 P 5050 3200
-F 0 "PT_6" V 5050 3750 50  0000 R CNN
+F 0 "PT_6" V 5050 2900 50  0000 R CNN
 F 1 "10k" H 4980 3155 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 3200 50  0001 C CNN
 F 3 "~" H 5050 3200 50  0001 C CNN
@@ -84,7 +84,7 @@ $Comp
 L Device:R_POT PT_7
 U 1 1 5C26CBD2
 P 5050 3500
-F 0 "PT_7" V 5050 4050 50  0000 R CNN
+F 0 "PT_7" V 5050 3200 50  0000 R CNN
 F 1 "10k" H 4980 3455 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 3500 50  0001 C CNN
 F 3 "~" H 5050 3500 50  0001 C CNN
@@ -95,7 +95,7 @@ $Comp
 L Device:R_POT PT_8
 U 1 1 5C26CDC5
 P 5050 3800
-F 0 "PT_8" V 5050 4350 50  0000 R CNN
+F 0 "PT_8" V 5050 3500 50  0000 R CNN
 F 1 "10k" H 4980 3755 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 3800 50  0001 C CNN
 F 3 "~" H 5050 3800 50  0001 C CNN
@@ -106,7 +106,7 @@ $Comp
 L Device:R_POT PT_9
 U 1 1 5C26D143
 P 5050 4100
-F 0 "PT_9" V 5050 4650 50  0000 R CNN
+F 0 "PT_9" V 5050 3800 50  0000 R CNN
 F 1 "10k" H 4980 4055 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 4100 50  0001 C CNN
 F 3 "~" H 5050 4100 50  0001 C CNN
@@ -117,7 +117,7 @@ $Comp
 L Device:R_POT PT_10
 U 1 1 5C26D193
 P 5050 4400
-F 0 "PT_10" V 5050 4950 50  0000 R CNN
+F 0 "PT_10" V 5050 4100 50  0000 R CNN
 F 1 "10k" H 4980 4355 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 4400 50  0001 C CNN
 F 3 "~" H 5050 4400 50  0001 C CNN
@@ -128,7 +128,7 @@ $Comp
 L Device:R_POT PT_11
 U 1 1 5C26D1C9
 P 5050 4700
-F 0 "PT_11" V 5050 5250 50  0000 R CNN
+F 0 "PT_11" V 5050 4400 50  0000 R CNN
 F 1 "10k" H 4980 4655 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 4700 50  0001 C CNN
 F 3 "~" H 5050 4700 50  0001 C CNN
@@ -139,7 +139,7 @@ $Comp
 L Device:R_POT PT_12
 U 1 1 5C26D201
 P 5050 5000
-F 0 "PT_12" V 5050 5550 50  0000 R CNN
+F 0 "PT_12" V 5050 4700 50  0000 R CNN
 F 1 "10k" H 4980 4955 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 5000 50  0001 C CNN
 F 3 "~" H 5050 5000 50  0001 C CNN
@@ -150,7 +150,7 @@ $Comp
 L Device:R_POT PT_13
 U 1 1 5C26D23B
 P 5050 5300
-F 0 "PT_13" V 5050 5850 50  0000 R CNN
+F 0 "PT_13" V 5050 5000 50  0000 R CNN
 F 1 "10k" H 4980 5255 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 5300 50  0001 C CNN
 F 3 "~" H 5050 5300 50  0001 C CNN
@@ -161,7 +161,7 @@ $Comp
 L Device:R_POT PT_14
 U 1 1 5C26D27D
 P 5050 5600
-F 0 "PT_14" V 5050 6150 50  0000 R CNN
+F 0 "PT_14" V 5050 5300 50  0000 R CNN
 F 1 "10k" H 4980 5555 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 5600 50  0001 C CNN
 F 3 "~" H 5050 5600 50  0001 C CNN
@@ -172,7 +172,7 @@ $Comp
 L Device:R_POT PT_15
 U 1 1 5C26D38D
 P 5050 5900
-F 0 "PT_15" V 5050 6450 50  0000 R CNN
+F 0 "PT_15" V 5050 5600 50  0000 R CNN
 F 1 "10k" H 4980 5855 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 5900 50  0001 C CNN
 F 3 "~" H 5050 5900 50  0001 C CNN
@@ -183,7 +183,7 @@ $Comp
 L Device:R_POT PT_16
 U 1 1 5C26D3C9
 P 5050 6200
-F 0 "PT_16" V 5050 6750 50  0000 R CNN
+F 0 "PT_16" V 5050 5900 50  0000 R CNN
 F 1 "10k" H 4980 6155 50  0001 R CNN
 F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 6200 50  0001 C CNN
 F 3 "~" H 5050 6200 50  0001 C CNN
@@ -193,12 +193,12 @@ $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 5CB2CF9B
-P 2700 6750
-F 0 "#PWR012" H 2700 6500 50  0001 C CNN
-F 1 "GND" H 2705 6577 50  0000 C CNN
-F 2 "" H 2700 6750 50  0001 C CNN
-F 3 "" H 2700 6750 50  0001 C CNN
-	1    2700 6750
+P 2700 6550
+F 0 "#PWR012" H 2700 6300 50  0001 C CNN
+F 1 "GND" H 2705 6377 50  0000 C CNN
+F 2 "" H 2700 6550 50  0001 C CNN
+F 3 "" H 2700 6550 50  0001 C CNN
+	1    2700 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -384,14 +384,12 @@ Connection ~ 5300 3800
 Connection ~ 5300 4100
 Wire Wire Line
 	5300 4100 5300 4400
-Wire Wire Line
-	4800 950  4800 1250
 $Comp
 L 74xx:CD74HC4067M U3
 U 1 1 5C4B03F9
 P 2700 2250
-F 0 "U3" H 2700 3428 50  0000 C CNN
-F 1 "CD74HC4067M" H 2700 3337 50  0000 C CNN
+F 0 "U3" H 2400 3200 50  0000 C CNN
+F 1 "CD74HC4067M" H 2700 3337 50  0001 C CNN
 F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 3600 1250 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 2350 3100 50  0001 C CNN
 	1    2700 2250
@@ -474,21 +472,11 @@ Wire Wire Line
 Wire Wire Line
 	3300 6050 5050 6050
 Wire Wire Line
-	2700 1250 4800 1250
-Connection ~ 4800 1250
-Wire Wire Line
-	4800 1250 4800 1700
-Wire Wire Line
 	2700 3350 2700 3450
 Wire Wire Line
 	2700 6350 5300 6350
-Connection ~ 2700 6350
-Wire Wire Line
-	2700 6350 2700 6750
 Wire Wire Line
 	2200 1750 2100 1750
-Wire Wire Line
-	2200 2850 2200 3450
 Wire Wire Line
 	2200 3450 2700 3450
 Connection ~ 2700 3450
@@ -497,45 +485,59 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x08_Male J5
 U 1 1 5CCF4899
-P 1250 2450
-F 0 "J5" H 1144 2935 50  0000 C CNN
-F 1 "~" H 1144 2844 50  0000 C CNN
-F 2 "cunabulapress-footprints:Connector_TE_Connectivity_Micro-MaTch_8_Position_Female" H 1250 2450 50  0001 C CNN
-F 3 "~" H 1250 2450 50  0001 C CNN
-	1    1250 2450
+P 1550 2450
+F 0 "J5" H 1600 2900 50  0000 C CNN
+F 1 "~" H 1444 2844 50  0000 C CNN
+F 2 "cunabulapress-footprints:Connector_TE_Connectivity_Micro-MaTch_8_Position_Female" H 1550 2450 50  0001 C CNN
+F 3 "~" H 1550 2450 50  0001 C CNN
+	1    1550 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 2150 2200 2150
-Wire Wire Line
-	1450 2250 2200 2250
-Wire Wire Line
-	2100 2550 1450 2550
-Wire Wire Line
 	2100 1750 2100 2550
+NoConn ~ 1750 2850
 Wire Wire Line
-	2000 1250 2000 2650
+	1800 2350 1900 2450
 Wire Wire Line
-	2000 2650 1450 2650
+	1900 2350 1800 2450
 Wire Wire Line
-	2200 2750 2200 2850
+	1800 2350 1750 2350
+Wire Wire Line
+	1750 2450 1800 2450
+Wire Wire Line
+	1750 2150 2200 2150
+Wire Wire Line
+	1750 2250 2200 2250
+Wire Wire Line
+	1900 2350 2200 2350
+Wire Wire Line
+	1900 2450 2200 2450
+Wire Wire Line
+	2100 2550 1750 2550
+Wire Wire Line
+	1750 2650 2000 2650
+Wire Wire Line
+	1750 2750 2200 2750
 Connection ~ 2200 2850
 Wire Wire Line
-	1450 2750 2200 2750
+	2200 2750 2200 2850
 Wire Wire Line
-	2000 1250 2700 1250
-Connection ~ 2700 1250
-NoConn ~ 1450 2850
+	2200 2850 2200 3450
 Wire Wire Line
-	1500 2350 1600 2450
+	4800 950  4800 1150
 Wire Wire Line
-	1600 2450 2200 2450
+	2000 1150 2700 1150
 Wire Wire Line
-	1600 2350 1500 2450
+	2700 1150 2700 1250
 Wire Wire Line
-	1600 2350 2200 2350
+	2000 1150 2000 2650
 Wire Wire Line
-	1500 2350 1450 2350
+	2700 1150 4800 1150
+Connection ~ 2700 1150
+Connection ~ 4800 1150
 Wire Wire Line
-	1450 2450 1500 2450
+	4800 1150 4800 1700
+Wire Wire Line
+	2700 6350 2700 6550
+Connection ~ 2700 6350
 $EndSCHEMATC

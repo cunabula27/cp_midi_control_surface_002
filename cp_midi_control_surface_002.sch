@@ -323,7 +323,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 1400 3950 1400
 $Sheet
-S 4850 4250 1100 550 
+S 4850 3250 1100 550 
 U 5C3B66BD
 F0 "VCV Pot Block" 50
 F1 "VCV_Pot Block.sch" 0
@@ -362,7 +362,7 @@ F8 "B_CHAN_7" I R 2050 2250 50
 F9 "B_CHAN_8" I R 2050 2400 50 
 $EndSheet
 $Sheet
-S 4850 3250 1100 550 
+S 4850 4250 1100 550 
 U 5C4BAA18
 F0 "VCV Button Block" 50
 F1 "VCV Button Block.sch" 0
