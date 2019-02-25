@@ -387,21 +387,21 @@ Wire Wire Line
 	2250 2250 2050 2250
 Wire Wire Line
 	2250 2400 2050 2400
-Text Label 2250 1350 0    50   ~ 0
-53
-Text Label 2250 1500 0    50   ~ 0
-51
-Text Label 2250 1800 0    50   ~ 0
-47
-Text Label 2250 1650 0    50   ~ 0
-49
-Text Label 2250 1950 0    50   ~ 0
-45
-Text Label 2250 2100 0    50   ~ 0
-43
-Text Label 2250 2250 0    50   ~ 0
-41
 Text Label 2250 2400 0    50   ~ 0
+53
+Text Label 2250 2250 0    50   ~ 0
+51
+Text Label 2250 1950 0    50   ~ 0
+47
+Text Label 2250 2100 0    50   ~ 0
+49
+Text Label 2250 1800 0    50   ~ 0
+45
+Text Label 2250 1650 0    50   ~ 0
+43
+Text Label 2250 1500 0    50   ~ 0
+41
+Text Label 2250 1350 0    50   ~ 0
 39
 NoConn ~ 10450 3750
 NoConn ~ 10450 3850
@@ -415,7 +415,7 @@ NoConn ~ 10450 1950
 NoConn ~ 10450 1850
 Wire Wire Line
 	8650 5050 8650 5750
-Text Label 6950 1650 0    50   ~ 0
+Text Label 6950 4650 0    50   ~ 0
 A0
 $Comp
 L Connector:Conn_01x08_Male J2
@@ -517,7 +517,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 2850 6850 2850
 NoConn ~ 6850 2950
-Text Label 6950 4650 0    50   ~ 0
+Text Label 6950 1650 0    50   ~ 0
 A3
 $Comp
 L Connector:Conn_01x08_Male J8
