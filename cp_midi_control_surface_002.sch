@@ -333,7 +333,7 @@ S 2650 3500 1100 550
 U 5C504054
 F0 "Lower Pots" 50
 F1 "Lower_Pots.sch" 0
-F2 "POTS_2" I R 3750 3600 50 
+F2 "LOWER_POTS" I R 3750 3600 50 
 $EndSheet
 $Sheet
 S 4850 1250 1100 550 
@@ -470,7 +470,7 @@ Wire Wire Line
 	7550 1850 6850 1850
 NoConn ~ 6850 1950
 Text Label 6950 3650 0    50   ~ 0
-A2
+A5
 $Comp
 L Connector:Conn_01x08_Male J6
 U 1 1 5CD77852
@@ -494,7 +494,7 @@ Wire Wire Line
 	7550 3850 6850 3850
 NoConn ~ 6850 3950
 Text Label 6950 2650 0    50   ~ 0
-A1
+A3
 $Comp
 L Connector:Conn_01x08_Male J4
 U 1 1 5CD8ED92
@@ -518,7 +518,7 @@ Wire Wire Line
 	7550 2850 6850 2850
 NoConn ~ 6850 2950
 Text Label 6950 1650 0    50   ~ 0
-A3
+A1
 $Comp
 L Connector:Conn_01x08_Male J8
 U 1 1 5CDA24B3
@@ -894,7 +894,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 4850 10500 5050
 Text Label 2250 3600 0    50   ~ 0
-A5
+A2
 Wire Wire Line
 	2050 3600 2250 3600
 Text GLabel 10500 4850 1    50   Input ~ 0
