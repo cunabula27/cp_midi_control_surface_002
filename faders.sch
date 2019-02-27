@@ -266,13 +266,11 @@ Wire Wire Line
 Wire Wire Line
 	5050 2800 5050 3200
 Wire Wire Line
-	5050 3200 4250 3200
-Wire Wire Line
-	5550 3300 4350 3300
+	5550 3300 4750 3300
 Wire Wire Line
 	6050 2800 6050 3400
 Wire Wire Line
-	6050 3400 4450 3400
+	6050 3400 4650 3400
 Wire Wire Line
 	6550 2800 6550 3500
 Wire Wire Line
@@ -280,28 +278,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 2800 7050 3600
 Wire Wire Line
-	7050 3600 4650 3600
-Wire Wire Line
 	7550 2800 7550 3700
-Wire Wire Line
-	7550 3700 4750 3700
-Wire Wire Line
-	4050 2800 4050 4000
-Connection ~ 4050 2800
-Wire Wire Line
-	4150 3100 4150 4000
-Wire Wire Line
-	4250 3200 4250 4000
-Wire Wire Line
-	4350 3300 4350 4000
-Wire Wire Line
-	4450 3400 4450 4000
-Wire Wire Line
-	4550 3500 4550 4000
-Wire Wire Line
-	4650 3600 4650 4000
-Wire Wire Line
-	4750 3700 4750 4000
 Wire Wire Line
 	8200 2800 8200 3800
 Connection ~ 8200 2800
@@ -417,8 +394,6 @@ Text GLabel 2000 2350 0    50   Input ~ 0
 S2
 Text GLabel 2000 2450 0    50   Input ~ 0
 S3
-Wire Wire Line
-	4850 3800 4850 4000
 NoConn ~ 4950 4000
 NoConn ~ 4950 4600
 Wire Wire Line
@@ -466,11 +441,44 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 2350 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 3800 8200 3800
-Wire Wire Line
 	8000 3000 7350 3000
 Connection ~ 7350 3000
 Connection ~ 7350 2600
 Wire Wire Line
 	8000 2600 7350 2600
+Wire Wire Line
+	4050 3200 4050 4000
+Wire Wire Line
+	4050 3200 5050 3200
+Wire Wire Line
+	4150 3100 4150 4000
+Wire Wire Line
+	4050 2800 4050 3100
+Wire Wire Line
+	4050 3100 3900 3100
+Wire Wire Line
+	3900 3100 3900 3700
+Wire Wire Line
+	3900 3700 4250 3700
+Wire Wire Line
+	4250 3700 4250 4000
+Connection ~ 4050 2800
+Wire Wire Line
+	4850 3800 8200 3800
+Wire Wire Line
+	4850 3800 4850 4000
+Wire Wire Line
+	4350 3700 4350 4000
+Wire Wire Line
+	4350 3700 7550 3700
+Wire Wire Line
+	4450 3600 4450 4000
+Wire Wire Line
+	4450 3600 7050 3600
+Wire Wire Line
+	4550 3500 4550 4000
+Wire Wire Line
+	4650 3400 4650 4000
+Wire Wire Line
+	4750 3300 4750 4000
 $EndSCHEMATC
