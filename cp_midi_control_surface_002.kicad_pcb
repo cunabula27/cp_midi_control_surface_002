@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 123)
+    (drawings 127)
     (tracks 1759)
     (zones 0)
     (modules 201)
@@ -68,7 +68,7 @@
     (solder_mask_min_width 0.25)
     (aux_axis_origin 10 410)
     (grid_origin 270 135)
-    (visible_elements 7FFFEFFF)
+    (visible_elements 7FFFE7FF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -9106,9 +9106,13 @@
     (fp_line (start 0 -3) (end 0 3) (layer F.Fab) (width 0.1524))
   )
 
-  (gr_line (start 0 121.5) (end 500 121.5) (layer Cmts.User) (width 0.1))
-  (gr_line (start 0 337.5) (end 500 337.5) (layer Cmts.User) (width 0.1))
-  (gr_line (start 0 229.5) (end 500 229.5) (layer Cmts.User) (width 0.1))
+  (gr_line (start 0 123) (end 500 123) (layer Cmts.User) (width 0.1))
+  (gr_line (start 0 336) (end 500 336) (layer Cmts.User) (width 0.1))
+  (gr_line (start 0 231) (end 500 231) (layer Cmts.User) (width 0.1))
+  (gr_line (start 0 228) (end 500 228) (layer Cmts.User) (width 0.1))
+  (gr_line (start 0 121.5) (end 500 121.5) (layer Cmts.User) (width 0.5))
+  (gr_line (start 0 337.5) (end 500 337.5) (layer Cmts.User) (width 0.5))
+  (gr_line (start 0 229.5) (end 500 229.5) (layer Cmts.User) (width 0.5))
   (gr_line (start 0 216) (end 500 216) (layer Cmts.User) (width 0.1))
   (gr_line (start 0 243) (end 500 243) (layer Cmts.User) (width 0.1))
   (gr_line (start 468.75 200.75) (end 462.25 200.75) (layer Eco2.User) (width 0.1))
