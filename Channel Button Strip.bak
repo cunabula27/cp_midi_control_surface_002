@@ -232,24 +232,24 @@ $EndComp
 $Comp
 L Connector:Conn_01x04_Male J9
 U 1 1 5C755D1C
-P 2650 1550
-F 0 "J9" H 2750 1800 50  0000 C CNN
-F 1 "~" H 2756 1737 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2650 1550 50  0001 C CNN
-F 3 "~" H 2650 1550 50  0001 C CNN
-	1    2650 1550
-	1    0    0    -1  
+P 2650 1650
+F 0 "J9" H 2750 1900 50  0000 C CNN
+F 1 "~" H 2756 1837 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2650 1650 50  0001 C CNN
+F 3 "~" H 2650 1650 50  0001 C CNN
+	1    2650 1650
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J11
 U 1 1 5C756AEE
-P 2650 3550
-F 0 "J11" H 2750 3800 50  0000 C CNN
-F 1 "~" H 2756 3737 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2650 3550 50  0001 C CNN
-F 3 "~" H 2650 3550 50  0001 C CNN
-	1    2650 3550
-	1    0    0    -1  
+P 2650 3650
+F 0 "J11" H 2750 3900 50  0000 C CNN
+F 1 "~" H 2756 3837 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2650 3650 50  0001 C CNN
+F 3 "~" H 2650 3650 50  0001 C CNN
+	1    2650 3650
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3250 3950 3150 3950
@@ -298,24 +298,24 @@ NoConn ~ 3250 3050
 $Comp
 L Connector:Conn_01x04_Female J12
 U 1 1 5C8AD7FA
-P 2550 3550
-F 0 "J12" H 2400 3800 50  0000 L CNN
-F 1 "~" H 2577 3435 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2550 3550 50  0001 C CNN
-F 3 "~" H 2550 3550 50  0001 C CNN
-	1    2550 3550
-	1    0    0    -1  
+P 2550 3650
+F 0 "J12" H 2400 3900 50  0000 L CNN
+F 1 "~" H 2577 3535 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2550 3650 50  0001 C CNN
+F 3 "~" H 2550 3650 50  0001 C CNN
+	1    2550 3650
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Female J10
 U 1 1 5C8ADE36
-P 2550 1550
-F 0 "J10" H 2400 1800 50  0000 L CNN
-F 1 "~" H 2577 1435 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2550 1550 50  0001 C CNN
-F 3 "~" H 2550 1550 50  0001 C CNN
-	1    2550 1550
-	1    0    0    -1  
+P 2550 1650
+F 0 "J10" H 2400 1900 50  0000 L CNN
+F 1 "~" H 2577 1535 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2550 1650 50  0001 C CNN
+F 3 "~" H 2550 1650 50  0001 C CNN
+	1    2550 1650
+	1    0    0    1   
 $EndComp
 Text HLabel 2150 1450 0    50   Input ~ 0
 B_CHAN_1
