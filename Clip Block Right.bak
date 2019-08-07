@@ -196,19 +196,6 @@ F 3 "" H 5100 5400 50  0001 C CNN
 	1    5100 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:CD74HC4067M U?
-U 1 1 5C60BBCB
-P 2700 2250
-AR Path="/5C4B73B3/5C60BBCB" Ref="U?"  Part="1" 
-AR Path="/5C4B9DB9/5C60BBCB" Ref="U2"  Part="1" 
-F 0 "U2" H 2400 3200 50  0000 C CNN
-F 1 "CD74HC4067M" H 2700 3337 50  0001 C CNN
-F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 3600 1250 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 2350 3100 50  0001 C CNN
-	1    2700 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 2850 2200 3450
 Connection ~ 2700 3450
@@ -244,16 +231,16 @@ $EndComp
 Wire Wire Line
 	2700 950  2700 1150
 $Comp
-L Connector:Conn_01x08_Female J?
+L Connector:Conn_01x06_Female J?
 U 1 1 5CE4BEBC
-P 1550 2450
+P 1550 2350
 AR Path="/5C3B66BD/5CE4BEBC" Ref="J?"  Part="1" 
 AR Path="/5C4B9DB9/5CE4BEBC" Ref="J3"  Part="1" 
-F 0 "J3" H 1500 2900 50  0000 C CNN
-F 1 "~" H 1444 2844 50  0000 C CNN
-F 2 "cunabulapress-footprints:Connector_TE_Connectivity_Micro-MaTch_8_Position_Female" H 1550 2450 50  0001 C CNN
-F 3 "~" H 1550 2450 50  0001 C CNN
-	1    1550 2450
+F 0 "J3" H 1500 2800 50  0000 C CNN
+F 1 "~" H 1444 2744 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1550 2350 50  0001 C CNN
+F 3 "~" H 1550 2350 50  0001 C CNN
+	1    1550 2350
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 1750 2850
@@ -264,11 +251,6 @@ Wire Wire Line
 	2700 1150 2700 1250
 Wire Wire Line
 	2000 1150 2000 2650
-Wire Wire Line
-	2100 2750 2100 3450
-Wire Wire Line
-	2100 3450 2200 3450
-Connection ~ 2200 3450
 $Comp
 L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
 U 1 1 5C60BBA1
@@ -313,10 +295,6 @@ NoConn ~ 4900 4150
 NoConn ~ 4900 4550
 Wire Wire Line
 	1900 2450 1800 2350
-Wire Wire Line
-	1800 2350 1750 2350
-Wire Wire Line
-	1750 2450 1800 2450
 Wire Wire Line
 	1800 2450 1900 2350
 $Comp
@@ -651,21 +629,36 @@ Connection ~ 6400 5250
 Wire Wire Line
 	6400 5250 7300 5250
 Wire Wire Line
-	1750 2550 2100 2550
-Wire Wire Line
-	1750 2650 2000 2650
-Wire Wire Line
-	1750 2750 2100 2750
-Wire Wire Line
 	1900 2450 2200 2450
 Wire Wire Line
 	1900 2350 2200 2350
 Wire Wire Line
-	2200 2250 1750 2250
-Wire Wire Line
-	1750 2150 2200 2150
-Wire Wire Line
 	2100 1750 2200 1750
 Wire Wire Line
 	2000 1150 2700 1150
+Wire Wire Line
+	1750 2650 2000 2650
+Wire Wire Line
+	1750 2550 2100 2550
+Wire Wire Line
+	1750 2450 1800 2450
+Wire Wire Line
+	1750 2350 1800 2350
+Wire Wire Line
+	1750 2150 2200 2150
+$Comp
+L 74xx:CD74HC4067M U?
+U 1 1 5C60BBCB
+P 2700 2250
+AR Path="/5C4B73B3/5C60BBCB" Ref="U?"  Part="1" 
+AR Path="/5C4B9DB9/5C60BBCB" Ref="U2"  Part="1" 
+F 0 "U2" H 2400 3200 50  0000 C CNN
+F 1 "CD74HC4067M" H 2700 3337 50  0001 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 3600 1250 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 2350 3100 50  0001 C CNN
+	1    2700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2250 2200 2250
 $EndSCHEMATC
