@@ -186,50 +186,6 @@ NoConn ~ 3650 4550
 NoConn ~ 3250 5050
 NoConn ~ 3650 5050
 $Comp
-L Connector:Conn_01x01_Male J19
-U 1 1 5CC033AD
-P 2650 6200
-F 0 "J19" H 2750 6350 50  0000 C CNN
-F 1 "~" H 2756 6287 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2650 6200 50  0001 C CNN
-F 3 "~" H 2650 6200 50  0001 C CNN
-	1    2650 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J17
-U 1 1 5CC03491
-P 2650 5950
-F 0 "J17" H 2750 6100 50  0000 C CNN
-F 1 "~" H 2756 6037 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2650 5950 50  0001 C CNN
-F 3 "~" H 2650 5950 50  0001 C CNN
-	1    2650 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J15
-U 1 1 5CC04AC7
-P 2650 5700
-F 0 "J15" H 2750 5850 50  0000 C CNN
-F 1 "~" H 2756 5787 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2650 5700 50  0001 C CNN
-F 3 "~" H 2650 5700 50  0001 C CNN
-	1    2650 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J13
-U 1 1 5CC04ACD
-P 2650 5450
-F 0 "J13" H 2750 5600 50  0000 C CNN
-F 1 "~" H 2756 5537 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2650 5450 50  0001 C CNN
-F 3 "~" H 2650 5450 50  0001 C CNN
-	1    2650 5450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x04_Male J9
 U 1 1 5C755D1C
 P 2650 1650
@@ -349,101 +305,11 @@ Wire Wire Line
 	2150 1650 2350 1650
 Wire Wire Line
 	2150 1750 2350 1750
-$Comp
-L Connector:Conn_01x01_Female J14
-U 1 1 5C8B555D
-P 2550 5450
-F 0 "J14" H 2400 5600 50  0000 L CNN
-F 1 "~" H 2577 5385 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 2550 5450 50  0001 C CNN
-F 3 "~" H 2550 5450 50  0001 C CNN
-	1    2550 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J16
-U 1 1 5C8B55E0
-P 2550 5700
-F 0 "J16" H 2400 5850 50  0000 L CNN
-F 1 "~" H 2577 5635 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 2550 5700 50  0001 C CNN
-F 3 "~" H 2550 5700 50  0001 C CNN
-	1    2550 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J18
-U 1 1 5C8B5634
-P 2550 5950
-F 0 "J18" H 2400 6100 50  0000 L CNN
-F 1 "~" H 2577 5885 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 2550 5950 50  0001 C CNN
-F 3 "~" H 2550 5950 50  0001 C CNN
-	1    2550 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J20
-U 1 1 5C8B56A5
-P 2550 6200
-F 0 "J20" H 2400 6350 50  0000 L CNN
-F 1 "~" H 2577 6135 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 2550 6200 50  0001 C CNN
-F 3 "~" H 2550 6200 50  0001 C CNN
-	1    2550 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 4950 3800 5450
 Connection ~ 3800 4950
-Wire Wire Line
-	2850 5450 3800 5450
-Connection ~ 3800 5450
-Wire Wire Line
-	3800 5450 3800 5700
-Wire Wire Line
-	2850 5700 3800 5700
-Connection ~ 3800 5700
-Wire Wire Line
-	3800 5700 3800 5950
-Wire Wire Line
-	2850 5950 3800 5950
-Connection ~ 3800 5950
-Wire Wire Line
-	3800 5950 3800 6200
-Wire Wire Line
-	2850 6200 3800 6200
-Connection ~ 3800 6200
-Wire Wire Line
-	3800 6200 3800 6450
-Wire Wire Line
-	2350 5450 2150 5450
-Wire Wire Line
-	2150 5450 2150 5700
-Wire Wire Line
-	2150 6450 3800 6450
-Connection ~ 3800 6450
-Wire Wire Line
-	3800 6450 3800 6800
-Wire Wire Line
-	2350 5700 2150 5700
-Connection ~ 2150 5700
-Wire Wire Line
-	2150 5700 2150 5950
-Wire Wire Line
-	2350 5950 2150 5950
-Connection ~ 2150 5950
-Wire Wire Line
-	2150 5950 2150 6200
-Wire Wire Line
-	2350 6200 2150 6200
-Connection ~ 2150 6200
-Wire Wire Line
-	2150 6200 2150 6450
 Text Notes 2250 3200 0    50   ~ 0
 2.54mm Header Pin\nas Board Separator
 Text Notes 2250 1200 0    50   ~ 0
 2.54mm Header Pin\nas Board Separator
-Text Notes 2250 5200 0    50   ~ 0
-2.54mm Header Pin\nas Board Separator
+Wire Wire Line
+	3800 4950 3800 6800
 $EndSCHEMATC

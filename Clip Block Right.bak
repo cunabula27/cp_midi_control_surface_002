@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 7 8
 Title ""
 Date ""
-Rev ""
+Rev "v3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -230,20 +230,6 @@ F 3 "" H 2700 950 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	2700 950  2700 1150
-$Comp
-L Connector:Conn_01x06_Female J?
-U 1 1 5CE4BEBC
-P 1550 2350
-AR Path="/5C3B66BD/5CE4BEBC" Ref="J?"  Part="1" 
-AR Path="/5C4B9DB9/5CE4BEBC" Ref="J3"  Part="1" 
-F 0 "J3" H 1500 2800 50  0000 C CNN
-F 1 "~" H 1444 2744 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1550 2350 50  0001 C CNN
-F 3 "~" H 1550 2350 50  0001 C CNN
-	1    1550 2350
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 1750 2850
 Wire Wire Line
 	2100 2550 2100 1750
 Connection ~ 2700 1150
@@ -293,10 +279,6 @@ NoConn ~ 7300 3250
 NoConn ~ 7300 4550
 NoConn ~ 4900 4150
 NoConn ~ 4900 4550
-Wire Wire Line
-	1900 2450 1800 2350
-Wire Wire Line
-	1800 2450 1900 2350
 $Comp
 L Device:R_Network08 RN?
 U 1 1 5C84C7D7
@@ -324,17 +306,6 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6000 5800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 NoConn ~ 5300 5350
-$Comp
-L power:GND #PWR0101
-U 1 1 5C8F63ED
-P 2700 6300
-F 0 "#PWR0101" H 2700 6050 50  0001 C CNN
-F 1 "GND" H 2705 6127 50  0000 C CNN
-F 2 "" H 2700 6300 50  0001 C CNN
-F 3 "" H 2700 6300 50  0001 C CNN
-	1    2700 6300
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4900 5350
 Wire Wire Line
 	4900 2550 4700 2550
@@ -518,8 +489,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 2550 7900 2550
 Wire Wire Line
-	2700 6100 2700 6300
-Wire Wire Line
 	3200 6000 3200 6100
 Wire Wire Line
 	2700 3450 2700 6100
@@ -631,21 +600,11 @@ Wire Wire Line
 Wire Wire Line
 	1900 2450 2200 2450
 Wire Wire Line
-	1900 2350 2200 2350
-Wire Wire Line
 	2100 1750 2200 1750
 Wire Wire Line
 	2000 1150 2700 1150
 Wire Wire Line
-	1750 2650 2000 2650
-Wire Wire Line
-	1750 2550 2100 2550
-Wire Wire Line
-	1750 2450 1800 2450
-Wire Wire Line
-	1750 2350 1800 2350
-Wire Wire Line
-	1750 2150 2200 2150
+	1850 2150 2200 2150
 $Comp
 L 74xx:CD74HC4067M U?
 U 1 1 5C60BBCB
@@ -659,6 +618,274 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 2350 3100 50  0001 C CNN
 	1    2700 2250
 	1    0    0    -1  
 $EndComp
+$Comp
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
+U 1 1 5D610099
+P 2150 4050
+AR Path="/5C4B73B3/5D610099" Ref="SW?"  Part="1" 
+AR Path="/5C4BA289/5D610099" Ref="SW?"  Part="1" 
+AR Path="/5D610099" Ref="SW?"  Part="1" 
+AR Path="/5C4B9DB9/5D610099" Ref="SW_5"  Part="1" 
+F 0 "SW_5" H 2150 3850 50  0000 C CNN
+F 1 "B3F-5050" H 2150 4224 50  0001 C CNN
+F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2150 4200 50  0001 C CNN
+F 3 "" H 2150 4200 50  0001 C CNN
+	1    2150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
+U 1 1 5D6100A0
+P 2150 4550
+AR Path="/5C4B73B3/5D6100A0" Ref="SW?"  Part="1" 
+AR Path="/5C4BA289/5D6100A0" Ref="SW?"  Part="1" 
+AR Path="/5D6100A0" Ref="SW?"  Part="1" 
+AR Path="/5C4B9DB9/5D6100A0" Ref="SW_6"  Part="1" 
+F 0 "SW_6" H 2150 4350 50  0000 C CNN
+F 1 "B3F-5050" H 2150 4724 50  0001 C CNN
+F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2150 4700 50  0001 C CNN
+F 3 "" H 2150 4700 50  0001 C CNN
+	1    2150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
+U 1 1 5D6100A7
+P 2150 5050
+AR Path="/5C4B73B3/5D6100A7" Ref="SW?"  Part="1" 
+AR Path="/5C4BA289/5D6100A7" Ref="SW?"  Part="1" 
+AR Path="/5D6100A7" Ref="SW?"  Part="1" 
+AR Path="/5C4B9DB9/5D6100A7" Ref="SW_7"  Part="1" 
+F 0 "SW_7" H 2150 4850 50  0000 C CNN
+F 1 "B3F-5050" H 2150 5224 50  0001 C CNN
+F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2150 5200 50  0001 C CNN
+F 3 "" H 2150 5200 50  0001 C CNN
+	1    2150 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW?
+U 1 1 5D6100AE
+P 2150 5550
+AR Path="/5C4B73B3/5D6100AE" Ref="SW?"  Part="1" 
+AR Path="/5C4BA289/5D6100AE" Ref="SW?"  Part="1" 
+AR Path="/5D6100AE" Ref="SW?"  Part="1" 
+AR Path="/5C4B9DB9/5D6100AE" Ref="SW_8"  Part="1" 
+F 0 "SW_8" H 2150 5350 50  0000 C CNN
+F 1 "B3F-5050" H 2150 5724 50  0001 C CNN
+F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2150 5700 50  0001 C CNN
+F 3 "" H 2150 5700 50  0001 C CNN
+	1    2150 5550
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	1750 2250 2200 2250
+	2350 5550 2500 5550
+Wire Wire Line
+	2350 5050 2500 5050
+Connection ~ 2500 5050
+Wire Wire Line
+	2500 5050 2500 5550
+Wire Wire Line
+	2350 4550 2500 4550
+Connection ~ 2500 4550
+Wire Wire Line
+	2500 4550 2500 5050
+Wire Wire Line
+	2350 4050 2500 4050
+Wire Wire Line
+	2500 4050 2500 4550
+NoConn ~ 2350 4150
+NoConn ~ 1950 4150
+NoConn ~ 1950 4650
+NoConn ~ 2350 4650
+NoConn ~ 1950 5150
+NoConn ~ 2350 5150
+NoConn ~ 1950 5650
+NoConn ~ 2350 5650
+Wire Wire Line
+	1950 4550 1850 4550
+Wire Wire Line
+	1850 4550 1850 4150
+Wire Wire Line
+	1950 5050 1750 5050
+Wire Wire Line
+	1750 5050 1750 4250
+Wire Wire Line
+	1950 5550 1650 5550
+Wire Wire Line
+	1650 5550 1650 4350
+Wire Wire Line
+	1750 4250 1550 4250
+Connection ~ 2500 5550
+Wire Wire Line
+	2500 5550 2500 6100
+Wire Wire Line
+	2700 6100 2500 6100
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5D61E5D0
+P 1250 2350
+F 0 "J2" H 1300 2767 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1300 2676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1250 2350 50  0001 C CNN
+F 3 "~" H 1250 2350 50  0001 C CNN
+	1    1250 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2150 1850 1650
+Wire Wire Line
+	1850 1650 750  1650
+Wire Wire Line
+	750  1650 750  2150
+Wire Wire Line
+	750  2150 1050 2150
+Wire Wire Line
+	1800 2250 1800 2150
+Wire Wire Line
+	1800 2150 1550 2150
+Wire Wire Line
+	1800 2250 2200 2250
+Wire Wire Line
+	1750 2350 1750 2250
+Wire Wire Line
+	1750 2250 1550 2250
+Wire Wire Line
+	1750 2350 2200 2350
+Wire Wire Line
+	1900 2450 1900 1400
+Wire Wire Line
+	1900 1400 650  1400
+Wire Wire Line
+	650  2250 1050 2250
+Wire Wire Line
+	650  1400 650  2250
+Wire Wire Line
+	1700 2550 1700 2350
+Wire Wire Line
+	1700 2350 1550 2350
+Wire Wire Line
+	1700 2550 2100 2550
+Wire Wire Line
+	850  2650 850  2350
+Wire Wire Line
+	850  2350 1050 2350
+Wire Wire Line
+	850  2650 2000 2650
+Wire Wire Line
+	1650 4050 1650 2450
+Wire Wire Line
+	1650 2450 1550 2450
+Wire Wire Line
+	1650 4050 1950 4050
+Wire Wire Line
+	700  4150 700  2450
+Wire Wire Line
+	700  2450 1050 2450
+Wire Wire Line
+	700  4150 1850 4150
+Wire Wire Line
+	900  4350 900  2550
+Wire Wire Line
+	900  2550 1050 2550
+Wire Wire Line
+	900  4350 1650 4350
+Wire Wire Line
+	1550 2550 1550 4250
+$Comp
+L power:GND #PWR?
+U 1 1 5D8DA33C
+P 2700 7400
+AR Path="/5C4B73B3/5D8DA33C" Ref="#PWR?"  Part="1" 
+AR Path="/5C4B9DB9/5D8DA33C" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 2700 7150 50  0001 C CNN
+F 1 "GND" H 2705 7227 50  0000 C CNN
+F 2 "" H 2700 7400 50  0001 C CNN
+F 3 "" H 2700 7400 50  0001 C CNN
+	1    2700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JX?
+U 1 1 5D8DA342
+P 950 6950
+AR Path="/5C4B73B3/5D8DA342" Ref="JX?"  Part="1" 
+AR Path="/5C4B9DB9/5D8DA342" Ref="JX04"  Part="1" 
+F 0 "JX04" H 1000 7175 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1000 7176 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 950 6950 50  0001 C CNN
+F 3 "~" H 950 6950 50  0001 C CNN
+	1    950  6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JX?
+U 1 1 5D8DA349
+P 2150 6950
+AR Path="/5C4B73B3/5D8DA349" Ref="JX?"  Part="1" 
+AR Path="/5C4B9DB9/5D8DA349" Ref="JX06"  Part="1" 
+F 0 "JX06" H 2200 7175 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 2200 7176 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2150 6950 50  0001 C CNN
+F 3 "~" H 2150 6950 50  0001 C CNN
+	1    2150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 7200 2700 7400
+Wire Wire Line
+	2700 6100 2700 7200
+Connection ~ 2700 7200
+Wire Wire Line
+	2450 6850 2450 6950
+Wire Wire Line
+	2450 7200 2700 7200
+Connection ~ 2450 6950
+Wire Wire Line
+	2450 6950 2450 7050
+Connection ~ 2450 7050
+Wire Wire Line
+	2450 7050 2450 7200
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JX?
+U 1 1 5D8DA359
+P 1550 6950
+AR Path="/5C4B73B3/5D8DA359" Ref="JX?"  Part="1" 
+AR Path="/5C4B9DB9/5D8DA359" Ref="JX05"  Part="1" 
+F 0 "JX05" H 1600 7175 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1600 7176 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1550 6950 50  0001 C CNN
+F 3 "~" H 1550 6950 50  0001 C CNN
+	1    1550 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6850 1900 6950
+Wire Wire Line
+	1900 7200 2450 7200
+Connection ~ 2450 7200
+Wire Wire Line
+	1950 7050 1900 7050
+Connection ~ 1900 7050
+Wire Wire Line
+	1900 7050 1900 7200
+Wire Wire Line
+	1950 6950 1900 6950
+Connection ~ 1900 6950
+Wire Wire Line
+	1900 6950 1900 7050
+Wire Wire Line
+	1950 6850 1900 6850
+NoConn ~ 1850 6850
+NoConn ~ 1850 6950
+NoConn ~ 1850 7050
+NoConn ~ 1350 7050
+NoConn ~ 1350 6950
+NoConn ~ 1350 6850
+NoConn ~ 1250 6850
+NoConn ~ 1250 6950
+NoConn ~ 1250 7050
+NoConn ~ 750  6850
+NoConn ~ 750  6950
+NoConn ~ 750  7050
 $EndSCHEMATC

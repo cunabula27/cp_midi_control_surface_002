@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 8
 Title "cp_midi_controller_002"
 Date "2019-01-13"
-Rev "v1"
+Rev "v3"
 Comp "Cunabula Press"
 Comment1 ""
 Comment2 ""
@@ -348,20 +348,14 @@ Connection ~ 4850 2600
 Wire Wire Line
 	4350 2600 3850 2600
 Connection ~ 4350 2600
-Wire Wire Line
-	3850 3000 3400 3000
-Wire Wire Line
-	3400 3000 3400 5300
 Connection ~ 3850 3000
 Wire Wire Line
 	4850 5250 4850 5300
 Wire Wire Line
-	4850 5300 3400 5300
+	4850 5300 3850 5300
 Connection ~ 3400 5300
 Wire Wire Line
 	3400 5300 3400 5550
-Wire Wire Line
-	3850 2600 3400 2600
 Connection ~ 3850 2600
 Wire Wire Line
 	4050 1550 4050 2800
@@ -389,16 +383,9 @@ Wire Wire Line
 	2200 3450 2700 3450
 Connection ~ 2700 3450
 Wire Wire Line
-	2700 3450 2700 5300
+	2700 3450 2700 4700
 Wire Wire Line
 	3400 5300 2700 5300
-NoConn ~ 3200 2450
-NoConn ~ 3200 2550
-NoConn ~ 3200 2650
-NoConn ~ 3200 2750
-NoConn ~ 3200 2850
-NoConn ~ 3200 2950
-NoConn ~ 3200 3050
 Text HLabel 2000 1750 0    50   Input ~ 0
 FADERS
 Wire Wire Line
@@ -437,9 +424,6 @@ Wire Wire Line
 	2700 1250 2700 1150
 Wire Wire Line
 	2700 1150 3400 1150
-Connection ~ 3400 1150
-Wire Wire Line
-	3400 1150 3400 2600
 Wire Wire Line
 	3400 1150 3400 950 
 Wire Wire Line
@@ -448,8 +432,6 @@ Wire Wire Line
 	3200 2050 6550 2050
 Wire Wire Line
 	3200 2150 7050 2150
-Wire Wire Line
-	8200 2350 3200 2350
 Wire Wire Line
 	3200 2250 7550 2250
 $Comp
@@ -473,4 +455,87 @@ Connection ~ 7350 3000
 Connection ~ 7350 2600
 Wire Wire Line
 	8000 2600 7350 2600
+Wire Wire Line
+	3850 2600 3850 1150
+Wire Wire Line
+	3850 1150 3400 1150
+Connection ~ 3400 1150
+Wire Wire Line
+	3850 3000 3850 5300
+Connection ~ 3850 5300
+Wire Wire Line
+	3850 5300 3400 5300
+$Comp
+L Connector_Generic:Conn_01x09 J_EXT_1
+U 1 1 5D9D211A
+P 950 4300
+F 0 "J_EXT_1" H 870 4825 50  0000 C CNN
+F 1 "Conn_01x10" H 870 4826 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 950 4300 50  0001 C CNN
+F 3 "~" H 950 4300 50  0001 C CNN
+	1    950  4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1150 1250 1150
+Wire Wire Line
+	1250 1150 1250 3900
+Wire Wire Line
+	1250 3900 1150 3900
+Connection ~ 2700 1150
+Wire Wire Line
+	1150 4000 3250 4000
+Wire Wire Line
+	1150 4100 3300 4100
+Wire Wire Line
+	3350 4200 1150 4200
+Wire Wire Line
+	3400 4300 1150 4300
+Wire Wire Line
+	1150 4400 3450 4400
+Wire Wire Line
+	3500 4500 1150 4500
+Wire Wire Line
+	3550 4600 1150 4600
+Wire Wire Line
+	1150 4700 2700 4700
+Connection ~ 2700 4700
+Wire Wire Line
+	2700 4700 2700 5300
+Wire Wire Line
+	3200 3050 3550 3050
+Wire Wire Line
+	3600 2350 3600 3050
+Wire Wire Line
+	3600 3050 3550 3050
+Wire Wire Line
+	3600 2350 8200 2350
+Wire Wire Line
+	3550 2950 3550 4600
+Wire Wire Line
+	3200 2350 3250 2350
+Wire Wire Line
+	3250 2350 3250 4000
+Wire Wire Line
+	3200 2450 3300 2450
+Wire Wire Line
+	3300 2450 3300 4100
+Wire Wire Line
+	3200 2550 3350 2550
+Wire Wire Line
+	3350 2550 3350 4200
+Wire Wire Line
+	3200 2650 3400 2650
+Wire Wire Line
+	3400 2650 3400 4300
+Wire Wire Line
+	3200 2750 3450 2750
+Wire Wire Line
+	3450 2750 3450 4400
+Wire Wire Line
+	3200 2850 3500 2850
+Wire Wire Line
+	3500 2850 3500 4500
+Wire Wire Line
+	3550 2950 3200 2950
 $EndSCHEMATC

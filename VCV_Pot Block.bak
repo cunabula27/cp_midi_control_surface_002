@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 8
 Title "cp_midi_controller_002"
 Date "2019-01-13"
-Rev "v1"
+Rev "v3"
 Comp "Cunabula Press"
 Comment1 ""
 Comment2 ""
@@ -189,17 +189,6 @@ F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5
 F 3 "~" H 5050 6200 50  0001 C CNN
 	1    5050 6200
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 5CB2CF9B
-P 2700 6550
-F 0 "#PWR012" H 2700 6300 50  0001 C CNN
-F 1 "GND" H 2705 6377 50  0000 C CNN
-F 2 "" H 2700 6550 50  0001 C CNN
-F 3 "" H 2700 6550 50  0001 C CNN
-	1    2700 6550
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4900 1700 4800 1700
@@ -483,19 +472,18 @@ Connection ~ 2700 3450
 Wire Wire Line
 	2700 3450 2700 6350
 $Comp
-L Connector:Conn_01x08_Male J5
+L Connector:Conn_01x06_Male J5
 U 1 1 5CCF4899
-P 1550 2450
-F 0 "J5" H 1600 2900 50  0000 C CNN
-F 1 "~" H 1444 2844 50  0000 C CNN
-F 2 "cunabulapress-footprints:Connector_TE_Connectivity_Micro-MaTch_8_Position_Female" H 1550 2450 50  0001 C CNN
-F 3 "~" H 1550 2450 50  0001 C CNN
-	1    1550 2450
+P 1550 2350
+F 0 "J5" H 1600 2800 50  0000 C CNN
+F 1 "~" H 1444 2744 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1550 2350 50  0001 C CNN
+F 3 "~" H 1550 2350 50  0001 C CNN
+	1    1550 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2100 1750 2100 2550
-NoConn ~ 1750 2850
 Wire Wire Line
 	1800 2350 1900 2450
 Wire Wire Line
@@ -517,11 +505,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 2650 2000 2650
 Wire Wire Line
-	1750 2750 2200 2750
-Connection ~ 2200 2850
-Wire Wire Line
-	2200 2750 2200 2850
-Wire Wire Line
 	2200 2850 2200 3450
 Wire Wire Line
 	4800 950  4800 1150
@@ -537,7 +520,101 @@ Connection ~ 2700 1150
 Connection ~ 4800 1150
 Wire Wire Line
 	4800 1150 4800 1700
+$Comp
+L power:GND #PWR?
+U 1 1 5D8F0D62
+P 2700 7450
+AR Path="/5C4B73B3/5D8F0D62" Ref="#PWR?"  Part="1" 
+AR Path="/5C3B66BD/5D8F0D62" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 2700 7200 50  0001 C CNN
+F 1 "GND" H 2705 7277 50  0000 C CNN
+F 2 "" H 2700 7450 50  0001 C CNN
+F 3 "" H 2700 7450 50  0001 C CNN
+	1    2700 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JX?
+U 1 1 5D8F0D68
+P 950 7000
+AR Path="/5C4B73B3/5D8F0D68" Ref="JX?"  Part="1" 
+AR Path="/5C3B66BD/5D8F0D68" Ref="JX07"  Part="1" 
+F 0 "JX07" H 1000 7225 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1000 7226 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 950 7000 50  0001 C CNN
+F 3 "~" H 950 7000 50  0001 C CNN
+	1    950  7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JX?
+U 1 1 5D8F0D6F
+P 2150 7000
+AR Path="/5C4B73B3/5D8F0D6F" Ref="JX?"  Part="1" 
+AR Path="/5C3B66BD/5D8F0D6F" Ref="JX09"  Part="1" 
+F 0 "JX09" H 2200 7225 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 2200 7226 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2150 7000 50  0001 C CNN
+F 3 "~" H 2150 7000 50  0001 C CNN
+	1    2150 7000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2700 6350 2700 6550
+	2700 7250 2700 7450
+Wire Wire Line
+	2450 6900 2450 7000
+Wire Wire Line
+	2450 7250 2700 7250
+Connection ~ 2450 7000
+Wire Wire Line
+	2450 7000 2450 7100
+Connection ~ 2450 7100
+Wire Wire Line
+	2450 7100 2450 7250
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JX?
+U 1 1 5D8F0D7F
+P 1550 7000
+AR Path="/5C4B73B3/5D8F0D7F" Ref="JX?"  Part="1" 
+AR Path="/5C3B66BD/5D8F0D7F" Ref="JX08"  Part="1" 
+F 0 "JX08" H 1600 7225 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1600 7226 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1550 7000 50  0001 C CNN
+F 3 "~" H 1550 7000 50  0001 C CNN
+	1    1550 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6900 1900 7000
+Wire Wire Line
+	1900 7250 2450 7250
+Connection ~ 2450 7250
+Wire Wire Line
+	1950 7100 1900 7100
+Connection ~ 1900 7100
+Wire Wire Line
+	1900 7100 1900 7250
+Wire Wire Line
+	1950 7000 1900 7000
+Connection ~ 1900 7000
+Wire Wire Line
+	1900 7000 1900 7100
+Wire Wire Line
+	1950 6900 1900 6900
+NoConn ~ 1850 6900
+NoConn ~ 1850 7000
+NoConn ~ 1850 7100
+NoConn ~ 1350 7100
+NoConn ~ 1350 7000
+NoConn ~ 1350 6900
+NoConn ~ 1250 6900
+NoConn ~ 1250 7000
+NoConn ~ 1250 7100
+NoConn ~ 750  6900
+NoConn ~ 750  7000
+NoConn ~ 750  7100
+Wire Wire Line
+	2700 6350 2700 7250
 Connection ~ 2700 6350
+Connection ~ 2700 7250
 $EndSCHEMATC
