@@ -247,16 +247,14 @@ $EndComp
 $Comp
 L Device:R_Network08 RN3
 U 1 1 5C58845F
-P 5550 4650
-F 0 "RN3" V 4933 4650 50  0000 C CNN
-F 1 "680Ω (Bussed)" V 5024 4650 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 6025 4650 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5550 4650 50  0001 C CNN
-	1    5550 4650
-	0    1    1    0   
+P 5550 4550
+F 0 "RN3" V 4933 4550 50  0000 C CNN
+F 1 "680Ω (Bussed)" V 5024 4550 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 6025 4550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5550 4550 50  0001 C CNN
+	1    5550 4550
+	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5750 4250 6000 4250
 Wire Wire Line
 	5750 1450 6000 1450
 Wire Wire Line
@@ -343,11 +341,6 @@ Wire Wire Line
 	4150 3900 4950 3900
 Wire Wire Line
 	4950 3900 4950 2150
-Wire Wire Line
-	6000 1450 6000 4250
-Connection ~ 6000 4250
-Wire Wire Line
-	6000 4250 6000 5600
 Wire Wire Line
 	4150 4600 4350 4600
 Wire Wire Line
@@ -440,4 +433,11 @@ Wire Wire Line
 	4350 4350 5350 4350
 Wire Wire Line
 	4150 4250 5350 4250
+Wire Wire Line
+	5750 4950 6000 4950
+Connection ~ 6000 4950
+Wire Wire Line
+	6000 4950 6000 5600
+Wire Wire Line
+	6000 1450 6000 4950
 $EndSCHEMATC
