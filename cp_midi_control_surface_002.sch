@@ -369,7 +369,7 @@ NoConn ~ 10450 1950
 NoConn ~ 10450 1850
 Wire Wire Line
 	8650 5050 8650 5550
-Text Label 6450 4650 0    50   ~ 0
+Text Label 6450 5450 0    50   ~ 0
 A0
 $Comp
 L Connector:Conn_01x06_Male JA2
@@ -409,44 +409,40 @@ F 3 "" H 7150 1000 50  0000 C CNN
 	1    7150 1000
 	-1   0    0    -1  
 $EndComp
-Text Label 6450 3650 0    50   ~ 0
+Text Label 6450 4050 0    50   ~ 0
 A5
 $Comp
-L Connector:Conn_01x06_Male JA6
+L Connector:Conn_01x10_Male JA6
 U 1 1 5CD77852
-P 6150 3450
-F 0 "JA6" H 6150 3900 50  0000 L CNN
-F 1 "~" H 6177 3335 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6150 3450 50  0001 C CNN
-F 3 "~" H 6150 3450 50  0001 C CNN
-	1    6150 3450
+P 6150 4050
+F 0 "JA6" H 6150 4700 50  0000 L CNN
+F 1 "~" H 6177 3935 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6150 4050 50  0001 C CNN
+F 3 "~" H 6150 4050 50  0001 C CNN
+	1    6150 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 3550 6350 3550
+	6600 3950 6350 3950
 Wire Wire Line
-	6600 3450 6350 3450
+	6600 3850 6350 3850
 Wire Wire Line
-	6600 3350 6350 3350
+	6600 3750 6350 3750
 Wire Wire Line
-	6600 3250 6350 3250
+	6600 3650 6350 3650
 Text Label 6450 2650 0    50   ~ 0
 A3
 $Comp
-L Connector:Conn_01x06_Male JA4
+L Connector:Conn_01x10_Male JA4
 U 1 1 5CD8ED92
-P 6150 2450
-F 0 "JA4" H 6150 2900 50  0000 L CNN
-F 1 "~" H 6177 2335 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6150 2450 50  0001 C CNN
-F 3 "~" H 6150 2450 50  0001 C CNN
-	1    6150 2450
+P 6150 2650
+F 0 "JA4" H 6150 3300 50  0000 L CNN
+F 1 "~" H 6177 2535 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6150 2650 50  0001 C CNN
+F 3 "~" H 6150 2650 50  0001 C CNN
+	1    6150 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 2550 6350 2550
-Wire Wire Line
-	6600 2450 6350 2450
 Wire Wire Line
 	6600 2350 6350 2350
 Wire Wire Line
@@ -456,49 +452,38 @@ A1
 $Comp
 L Connector:Conn_01x06_Male JA8
 U 1 1 5CDA24B3
-P 6150 4450
-F 0 "JA8" H 6150 4900 50  0000 L CNN
-F 1 "~" H 6177 4335 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6150 4450 50  0001 C CNN
-F 3 "~" H 6150 4450 50  0001 C CNN
-	1    6150 4450
+P 6150 5250
+F 0 "JA8" H 6150 5700 50  0000 L CNN
+F 1 "~" H 6177 5135 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6150 5250 50  0001 C CNN
+F 3 "~" H 6150 5250 50  0001 C CNN
+	1    6150 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 4550 6350 4550
+	6600 5350 6350 5350
 Wire Wire Line
-	6600 4450 6350 4450
+	6600 5250 6350 5250
 Wire Wire Line
-	6600 4350 6350 4350
+	6600 5150 6350 5150
 Wire Wire Line
-	6600 4250 6350 4250
+	6600 5050 6350 5050
 Wire Wire Line
-	6450 4650 6350 4650
+	6450 5450 6350 5450
 Wire Wire Line
-	6450 3650 6350 3650
+	6450 4050 6350 4050
 Wire Wire Line
 	6450 2650 6350 2650
 Wire Wire Line
 	6450 1650 6350 1650
 Wire Wire Line
 	7150 1750 7150 1000
-Connection ~ 7150 1750
 Wire Wire Line
 	7150 1750 6350 1750
-Connection ~ 7150 3750
 Wire Wire Line
 	7150 2750 6350 2750
 Wire Wire Line
-	7150 3750 7150 4750
-Wire Wire Line
-	7150 3750 6350 3750
-Wire Wire Line
-	7150 4750 6350 4750
-Wire Wire Line
-	7150 1750 7150 2750
-Connection ~ 7150 2750
-Wire Wire Line
-	7150 2750 7150 3750
+	7150 4150 6350 4150
 Text GLabel 6600 1250 2    50   Input ~ 0
 S0
 Text GLabel 6600 1350 2    50   Input ~ 0
@@ -507,21 +492,21 @@ Text GLabel 6600 1550 2    50   Input ~ 0
 S2
 Text GLabel 6600 1450 2    50   Input ~ 0
 S3
-Text GLabel 6600 3250 2    50   Input ~ 0
+Text GLabel 6600 3650 2    50   Input ~ 0
 S0
-Text GLabel 6600 3350 2    50   Input ~ 0
+Text GLabel 6600 3750 2    50   Input ~ 0
 S1
-Text GLabel 6600 3550 2    50   Input ~ 0
+Text GLabel 6600 3950 2    50   Input ~ 0
 S2
-Text GLabel 6600 3450 2    50   Input ~ 0
+Text GLabel 6600 3850 2    50   Input ~ 0
 S3
-Text GLabel 6600 4250 2    50   Input ~ 0
+Text GLabel 6600 5050 2    50   Input ~ 0
 S0
-Text GLabel 6600 4350 2    50   Input ~ 0
+Text GLabel 6600 5150 2    50   Input ~ 0
 S1
-Text GLabel 6600 4550 2    50   Input ~ 0
+Text GLabel 6600 5350 2    50   Input ~ 0
 S2
-Text GLabel 6600 4450 2    50   Input ~ 0
+Text GLabel 6600 5250 2    50   Input ~ 0
 S3
 Wire Wire Line
 	10400 5750 10400 5550
@@ -984,4 +969,19 @@ Wire Wire Line
 	1150 6700 1200 6700
 Wire Wire Line
 	1150 6700 1150 6850
+Wire Wire Line
+	6600 2450 6350 2450
+Wire Wire Line
+	6600 2550 6350 2550
+Connection ~ 7150 2750
+Connection ~ 7150 4150
+Wire Wire Line
+	6350 5550 7150 5550
+Wire Wire Line
+	7150 4150 7150 5550
+Wire Wire Line
+	7150 2750 7150 4150
+Wire Wire Line
+	7150 1750 7150 2750
+Connection ~ 7150 1750
 $EndSCHEMATC
