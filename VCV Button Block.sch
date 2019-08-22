@@ -464,8 +464,6 @@ Connection ~ 4500 3400
 Wire Wire Line
 	3200 6050 3200 6150
 Wire Wire Line
-	3200 6150 2700 6150
-Wire Wire Line
 	7100 2600 7300 2600
 Wire Wire Line
 	7100 1550 7100 2600
@@ -541,7 +539,6 @@ Wire Wire Line
 	5600 6050 5600 6150
 Wire Wire Line
 	5600 6150 3200 6150
-Connection ~ 3200 6150
 Wire Wire Line
 	6400 2250 3200 2250
 Wire Wire Line
@@ -610,8 +607,6 @@ Wire Wire Line
 	1750 2550 2100 2550
 Wire Wire Line
 	1900 2450 2200 2450
-Wire Wire Line
-	1750 2250 2200 2250
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J?
 U 1 1 5D6E6331
@@ -619,34 +614,12 @@ P 1300 2350
 AR Path="/5C4B73B3/5D6E6331" Ref="J?"  Part="1" 
 AR Path="/5C4BAA18/5D6E6331" Ref="J7"  Part="1" 
 F 0 "J7" H 1350 2767 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 1350 2676 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1350 2676 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1300 2350 50  0001 C CNN
 F 3 "~" H 1300 2350 50  0001 C CNN
 	1    1300 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 2150 2200 2150
-Wire Wire Line
-	1750 2250 1750 1750
-Wire Wire Line
-	1750 1750 900  1750
-Wire Wire Line
-	900  1750 900  2150
-Wire Wire Line
-	900  2150 1100 2150
-Wire Wire Line
-	1700 2350 1700 2250
-Wire Wire Line
-	1700 2250 1600 2250
-Wire Wire Line
-	1700 2350 2200 2350
-Wire Wire Line
-	1900 2450 1900 1600
-Wire Wire Line
-	1900 1600 650  1600
-Wire Wire Line
-	650  2250 1100 2250
 Wire Wire Line
 	1750 2550 1750 2400
 Wire Wire Line
@@ -661,14 +634,10 @@ Wire Wire Line
 	950  2350 1100 2350
 Wire Wire Line
 	950  2650 2000 2650
-Wire Wire Line
-	1650 2450 1600 2450
 NoConn ~ 1100 2450
 NoConn ~ 1100 2550
 NoConn ~ 1600 2550
 NoConn ~ 1600 2450
-Wire Wire Line
-	650  1600 650  2250
 $Comp
 L power:GND #PWR?
 U 1 1 5D912B99
@@ -764,5 +733,39 @@ NoConn ~ 750  6850
 NoConn ~ 750  6950
 NoConn ~ 750  7050
 Wire Wire Line
-	2700 3450 2700 7200
+	2700 3450 2700 6150
+Wire Wire Line
+	2200 2150 2200 1900
+Wire Wire Line
+	2200 1900 900  1900
+Wire Wire Line
+	900  1900 900  2150
+Wire Wire Line
+	900  2150 1100 2150
+Wire Wire Line
+	1600 2150 2150 2150
+Wire Wire Line
+	2150 2150 2150 2250
+Wire Wire Line
+	2150 2250 2200 2250
+Wire Wire Line
+	2200 2350 1950 2350
+Wire Wire Line
+	1950 2350 1950 2250
+Wire Wire Line
+	1950 2250 1600 2250
+Wire Wire Line
+	1100 2250 1000 2250
+Wire Wire Line
+	1000 2250 1000 2000
+Wire Wire Line
+	1000 2000 1900 2000
+Wire Wire Line
+	1900 2000 1900 2450
+Wire Wire Line
+	3200 6150 2700 6150
+Connection ~ 3200 6150
+Connection ~ 2700 6150
+Wire Wire Line
+	2700 6150 2700 7200
 $EndSCHEMATC

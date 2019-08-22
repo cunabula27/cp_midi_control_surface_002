@@ -335,8 +335,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 2450 2200 2450
 Wire Wire Line
-	1750 2250 2200 2250
-Wire Wire Line
 	2000 1150 2700 1150
 Wire Wire Line
 	2000 1150 2000 2650
@@ -709,16 +707,6 @@ F 3 "~" H 1300 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 2150 2200 2150
-Wire Wire Line
-	1750 2250 1750 1750
-Wire Wire Line
-	1750 1750 900  1750
-Wire Wire Line
-	900  1750 900  2150
-Wire Wire Line
-	900  2150 1100 2150
-Wire Wire Line
 	1700 2350 1700 2250
 Wire Wire Line
 	1700 2250 1600 2250
@@ -846,4 +834,18 @@ Wire Wire Line
 NoConn ~ 1900 3800
 NoConn ~ 1900 4300
 NoConn ~ 1900 4800
+Wire Wire Line
+	2200 2150 2200 1900
+Wire Wire Line
+	2200 1900 900  1900
+Wire Wire Line
+	900  1900 900  2150
+Wire Wire Line
+	900  2150 1100 2150
+Wire Wire Line
+	1600 2150 1850 2150
+Wire Wire Line
+	1850 2150 1850 2250
+Wire Wire Line
+	1850 2250 2200 2250
 $EndSCHEMATC
