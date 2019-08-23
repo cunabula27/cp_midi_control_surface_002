@@ -386,9 +386,9 @@ Text GLabel 6600 2250 2    50   Input ~ 0
 S0
 Text GLabel 6600 2350 2    50   Input ~ 0
 S1
-Text GLabel 6600 2550 2    50   Input ~ 0
-S2
 Text GLabel 6600 2450 2    50   Input ~ 0
+S2
+Text GLabel 6600 2550 2    50   Input ~ 0
 S3
 Wire Wire Line
 	6600 1550 6350 1550
@@ -488,25 +488,25 @@ Text GLabel 6600 1250 2    50   Input ~ 0
 S0
 Text GLabel 6600 1350 2    50   Input ~ 0
 S1
-Text GLabel 6600 1550 2    50   Input ~ 0
-S2
 Text GLabel 6600 1450 2    50   Input ~ 0
+S2
+Text GLabel 6600 1550 2    50   Input ~ 0
 S3
 Text GLabel 6600 3650 2    50   Input ~ 0
 S0
 Text GLabel 6600 3750 2    50   Input ~ 0
 S1
-Text GLabel 6600 3950 2    50   Input ~ 0
-S2
 Text GLabel 6600 3850 2    50   Input ~ 0
+S2
+Text GLabel 6600 3950 2    50   Input ~ 0
 S3
 Text GLabel 6600 5050 2    50   Input ~ 0
 S0
 Text GLabel 6600 5150 2    50   Input ~ 0
 S1
-Text GLabel 6600 5350 2    50   Input ~ 0
-S2
 Text GLabel 6600 5250 2    50   Input ~ 0
+S2
+Text GLabel 6600 5350 2    50   Input ~ 0
 S3
 Wire Wire Line
 	10400 5750 10400 5550
