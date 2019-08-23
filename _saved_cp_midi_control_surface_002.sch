@@ -118,7 +118,7 @@ U 1 1 56D72F1C
 P 9250 3250
 F 0 "P2" H 9250 3650 50  0000 C CNN
 F 1 "Analogue" V 9350 3250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9250 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9250 3250 50  0001 C CNN
 F 3 "" H 9250 3250 50  0000 C CNN
 	1    9250 3250
 	1    0    0    -1  
@@ -354,7 +354,7 @@ F0 "VCV Button Block" 50
 F1 "VCV Button Block.sch" 0
 $EndSheet
 Text Label 3950 3600 0    50   ~ 0
-A4
+A5
 Wire Wire Line
 	3750 3600 3950 3600
 NoConn ~ 10450 3750
@@ -410,7 +410,7 @@ F 3 "" H 7150 1000 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 6450 4050 0    50   ~ 0
-A5
+A2
 $Comp
 L Connector:Conn_01x10_Male JA6
 U 1 1 5CD77852
@@ -513,7 +513,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 5750 10500 5550
 Text Label 2250 3600 0    50   ~ 0
-A2
+A4
 Wire Wire Line
 	2050 3600 2250 3600
 Text GLabel 10500 5750 3    50   Input ~ 0
