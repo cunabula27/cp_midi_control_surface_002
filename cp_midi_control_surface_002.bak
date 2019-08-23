@@ -520,9 +520,9 @@ Text GLabel 10500 5750 3    50   Input ~ 0
 S0
 Text GLabel 10400 5750 3    50   Input ~ 0
 S1
-Text GLabel 10200 5750 3    50   Input ~ 0
-S2
 Text GLabel 10300 5750 3    50   Input ~ 0
+S2
+Text GLabel 10200 5750 3    50   Input ~ 0
 S3
 NoConn ~ 9050 3550
 NoConn ~ 9050 3650

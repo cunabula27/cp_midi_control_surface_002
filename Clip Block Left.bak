@@ -279,10 +279,6 @@ F 3 "" H 2700 950 50  0000 C CNN
 	1    2700 950 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2100 2550 2100 1750
-Wire Wire Line
-	2100 1750 2200 1750
 Connection ~ 2700 1150
 NoConn ~ 4900 2450
 NoConn ~ 4900 2850
@@ -330,14 +326,6 @@ NoConn ~ 7700 2850
 NoConn ~ 7700 3250
 Wire Wire Line
 	2200 3450 2700 3450
-Wire Wire Line
-	1750 2550 2100 2550
-Wire Wire Line
-	1900 2450 2200 2450
-Wire Wire Line
-	2000 1150 2700 1150
-Wire Wire Line
-	2000 1150 2000 2650
 Wire Wire Line
 	2700 1150 2700 1250
 Wire Wire Line
@@ -696,44 +684,16 @@ Wire Wire Line
 Wire Wire Line
 	2450 5300 2450 6100
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J1
+L Connector:Conn_01x10_Male J1
 U 1 1 5D5B6BD9
-P 1300 2350
-F 0 "J1" H 1350 2767 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 1350 2676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1300 2350 50  0001 C CNN
-F 3 "~" H 1300 2350 50  0001 C CNN
-	1    1300 2350
+P 750 2550
+F 0 "J1" H 750 3100 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 800 2876 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 750 2550 50  0001 C CNN
+F 3 "~" H 750 2550 50  0001 C CNN
+	1    750  2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 2350 1700 2250
-Wire Wire Line
-	1700 2250 1600 2250
-Wire Wire Line
-	1700 2350 2200 2350
-Wire Wire Line
-	1900 2450 1900 1600
-Wire Wire Line
-	1900 1600 650  1600
-Wire Wire Line
-	650  1600 650  2250
-Wire Wire Line
-	650  2250 1100 2250
-Wire Wire Line
-	1750 2550 1750 2400
-Wire Wire Line
-	1750 2400 1650 2400
-Wire Wire Line
-	1650 2400 1650 2350
-Wire Wire Line
-	1650 2350 1600 2350
-Wire Wire Line
-	950  2650 950  2350
-Wire Wire Line
-	950  2350 1100 2350
-Wire Wire Line
-	950  2650 2000 2650
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even JX01
 U 1 1 5D73B5EC
@@ -812,40 +772,58 @@ NoConn ~ 750  6850
 NoConn ~ 750  6950
 NoConn ~ 750  7050
 Wire Wire Line
-	1900 3900 1700 3900
+	1900 4400 1800 4400
 Wire Wire Line
-	1700 3900 1700 2450
+	1900 4900 1700 4900
 Wire Wire Line
-	1600 2450 1700 2450
-Wire Wire Line
-	1900 4400 1600 4400
-Wire Wire Line
-	1600 4400 1600 2550
-Wire Wire Line
-	1900 4900 1100 4900
-Wire Wire Line
-	1100 4900 1100 2550
-Wire Wire Line
-	1900 5300 850  5300
-Wire Wire Line
-	850  5300 850  2450
-Wire Wire Line
-	850  2450 1100 2450
+	1900 5300 1500 5300
 NoConn ~ 1900 3800
 NoConn ~ 1900 4300
 NoConn ~ 1900 4800
 Wire Wire Line
-	2200 2150 2200 1900
+	2200 2150 950  2150
 Wire Wire Line
-	2200 1900 900  1900
+	950  2250 2200 2250
 Wire Wire Line
-	900  1900 900  2150
+	950  2550 1700 2550
 Wire Wire Line
-	900  2150 1100 2150
+	1700 2550 1700 1750
 Wire Wire Line
-	1600 2150 1850 2150
+	1700 1750 2200 1750
 Wire Wire Line
-	1850 2150 1850 2250
+	950  2650 1500 2650
 Wire Wire Line
-	1850 2250 2200 2250
+	1500 2650 1500 1150
+Wire Wire Line
+	1500 1150 2700 1150
+Wire Wire Line
+	1900 2450 950  2450
+Wire Wire Line
+	2200 2350 2100 2350
+Wire Wire Line
+	2200 2450 2100 2450
+Wire Wire Line
+	1900 2350 2100 2450
+Wire Wire Line
+	1900 2450 2100 2350
+Wire Wire Line
+	950  2350 1900 2350
+Wire Wire Line
+	950  2750 1500 2750
+Wire Wire Line
+	1500 2750 1500 5300
+Wire Wire Line
+	950  2850 1600 2850
+Wire Wire Line
+	1600 2850 1600 3900
+Wire Wire Line
+	1600 3900 1900 3900
+Wire Wire Line
+	950  2950 1700 2950
+Wire Wire Line
+	1700 2950 1700 4900
+Wire Wire Line
+	950  3050 1800 3050
+Wire Wire Line
+	1800 3050 1800 4400
 $EndSCHEMATC

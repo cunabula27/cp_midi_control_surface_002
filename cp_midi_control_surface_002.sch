@@ -118,7 +118,7 @@ U 1 1 56D72F1C
 P 9250 3250
 F 0 "P2" H 9250 3650 50  0000 C CNN
 F 1 "Analogue" V 9350 3250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9250 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9250 3250 50  0001 C CNN
 F 3 "" H 9250 3250 50  0000 C CNN
 	1    9250 3250
 	1    0    0    -1  
@@ -520,9 +520,9 @@ Text GLabel 10500 5750 3    50   Input ~ 0
 S0
 Text GLabel 10400 5750 3    50   Input ~ 0
 S1
-Text GLabel 10200 5750 3    50   Input ~ 0
-S2
 Text GLabel 10300 5750 3    50   Input ~ 0
+S2
+Text GLabel 10200 5750 3    50   Input ~ 0
 S3
 NoConn ~ 9050 3550
 NoConn ~ 9050 3650
@@ -620,8 +620,6 @@ Text Notes 550  6000 0    50   ~ 0
 Main Board
 Text Notes 6650 600  0    50   ~ 0
 Connections on main board
-NoConn ~ 10000 5550
-NoConn ~ 10100 5550
 Wire Wire Line
 	8900 5550 8650 5550
 Connection ~ 8650 5550
@@ -632,22 +630,6 @@ Wire Wire Line
 Wire Wire Line
 	10850 4950 10850 5550
 Connection ~ 10850 4950
-NoConn ~ 9000 5050
-NoConn ~ 9100 5050
-NoConn ~ 9200 5050
-NoConn ~ 9300 5050
-NoConn ~ 9400 5050
-NoConn ~ 9500 5050
-NoConn ~ 9600 5050
-NoConn ~ 9700 5050
-NoConn ~ 9800 5050
-NoConn ~ 9900 5050
-NoConn ~ 10000 5050
-NoConn ~ 10100 5050
-NoConn ~ 10200 5050
-NoConn ~ 10300 5050
-NoConn ~ 10400 5050
-NoConn ~ 10500 5050
 $Comp
 L power:GND #PWR?
 U 1 1 5D91B765
@@ -984,4 +966,40 @@ Wire Wire Line
 Wire Wire Line
 	7150 1750 7150 2750
 Connection ~ 7150 1750
+Wire Wire Line
+	10000 5550 10000 5750
+Wire Wire Line
+	10100 5550 10100 5750
+Wire Wire Line
+	10300 4850 10300 5050
+Wire Wire Line
+	10200 4850 10200 5050
+Wire Wire Line
+	9900 4850 9900 5050
+Wire Wire Line
+	9800 4850 9800 5050
+Wire Wire Line
+	9700 4850 9700 5050
+Wire Wire Line
+	9600 4850 9600 5050
+Wire Wire Line
+	9500 4850 9500 5050
+Wire Wire Line
+	9400 4850 9400 5050
+Wire Wire Line
+	9300 4850 9300 5050
+Wire Wire Line
+	9200 4850 9200 5050
+Wire Wire Line
+	9100 4850 9100 5050
+Wire Wire Line
+	9000 4850 9000 5050
+Wire Wire Line
+	10400 5050 10400 4850
+Wire Wire Line
+	10500 5050 10500 4850
+Wire Wire Line
+	10000 4850 10000 5050
+Wire Wire Line
+	10100 4850 10100 5050
 $EndSCHEMATC
