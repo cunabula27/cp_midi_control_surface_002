@@ -118,7 +118,7 @@ U 1 1 56D72F1C
 P 9250 3250
 F 0 "P2" H 9250 3650 50  0000 C CNN
 F 1 "Analogue" V 9350 3250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9250 3250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9250 3250 50  0001 C CNN
 F 3 "" H 9250 3250 50  0000 C CNN
 	1    9250 3250
 	1    0    0    -1  
