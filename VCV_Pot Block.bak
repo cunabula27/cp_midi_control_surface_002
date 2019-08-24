@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 4 9
 Title "cp_midi_controller_002"
 Date "2019-01-13"
 Rev "v3"
@@ -526,8 +526,8 @@ L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D8F0D68
 P 950 7000
 AR Path="/5C4B73B3/5D8F0D68" Ref="JX?"  Part="1" 
-AR Path="/5C3B66BD/5D8F0D68" Ref="JX07"  Part="1" 
-F 0 "JX07" H 1000 7225 50  0000 C CNN
+AR Path="/5C3B66BD/5D8F0D68" Ref="JX7"  Part="1" 
+F 0 "JX7" H 1000 7225 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 1000 7226 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 950 7000 50  0001 C CNN
 F 3 "~" H 950 7000 50  0001 C CNN
@@ -539,8 +539,8 @@ L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D8F0D6F
 P 2150 7000
 AR Path="/5C4B73B3/5D8F0D6F" Ref="JX?"  Part="1" 
-AR Path="/5C3B66BD/5D8F0D6F" Ref="JX09"  Part="1" 
-F 0 "JX09" H 2200 7225 50  0000 C CNN
+AR Path="/5C3B66BD/5D8F0D6F" Ref="JX9"  Part="1" 
+F 0 "JX9" H 2200 7225 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 2200 7226 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2150 7000 50  0001 C CNN
 F 3 "~" H 2150 7000 50  0001 C CNN
@@ -564,8 +564,8 @@ L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D8F0D7F
 P 1550 7000
 AR Path="/5C4B73B3/5D8F0D7F" Ref="JX?"  Part="1" 
-AR Path="/5C3B66BD/5D8F0D7F" Ref="JX08"  Part="1" 
-F 0 "JX08" H 1600 7225 50  0000 C CNN
+AR Path="/5C3B66BD/5D8F0D7F" Ref="JX8"  Part="1" 
+F 0 "JX8" H 1600 7225 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 1600 7226 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1550 7000 50  0001 C CNN
 F 3 "~" H 1550 7000 50  0001 C CNN

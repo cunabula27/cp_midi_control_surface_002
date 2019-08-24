@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "cp_midi_controller_002"
 Date "2019-01-13"
 Rev "v3"
@@ -357,7 +357,7 @@ U 5C4BAA18
 F0 "VCV Button Block" 50
 F1 "VCV Button Block.sch" 0
 $EndSheet
-Text Label 3950 3600 0    50   ~ 0
+Text Label 2250 3600 0    50   ~ 0
 A5
 Wire Wire Line
 	3750 3600 3950 3600
@@ -496,7 +496,7 @@ Wire Wire Line
 	10400 5750 10400 5550
 Wire Wire Line
 	10500 5750 10500 5550
-Text Label 2250 3600 0    50   ~ 0
+Text Label 3950 3600 0    50   ~ 0
 A4
 Wire Wire Line
 	2050 3600 2250 3600
@@ -774,41 +774,35 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D998042
-P 3900 6600
+P 5700 6600
 AR Path="/5C4B73B3/5D998042" Ref="JX?"  Part="1" 
 AR Path="/5D998042" Ref="JX18"  Part="1" 
-F 0 "JX18" H 3950 6825 50  0000 C CNN
+F 0 "JX18" H 5750 6825 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5750 6826 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5700 6600 50  0001 C CNN
+F 3 "~" H 5700 6600 50  0001 C CNN
+	1    5700 6600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6000 6500
+NoConn ~ 6000 6600
+NoConn ~ 6000 6700
+NoConn ~ 5500 6500
+NoConn ~ 5500 6600
+NoConn ~ 5500 6700
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JX?
+U 1 1 5D99F050
+P 3900 6600
+AR Path="/5C4B73B3/5D99F050" Ref="JX?"  Part="1" 
+AR Path="/5D99F050" Ref="JX19"  Part="1" 
+F 0 "JX19" H 3950 6825 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 3950 6826 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3900 6600 50  0001 C CNN
 F 3 "~" H 3900 6600 50  0001 C CNN
 	1    3900 6600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4200 6500
-NoConn ~ 4200 6600
-NoConn ~ 4200 6700
-NoConn ~ 3700 6500
-NoConn ~ 3700 6600
-NoConn ~ 3700 6700
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even JX?
-U 1 1 5D99F050
-P 4500 6600
-AR Path="/5C4B73B3/5D99F050" Ref="JX?"  Part="1" 
-AR Path="/5D99F050" Ref="JX19"  Part="1" 
-F 0 "JX19" H 4550 6825 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 4550 6826 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4500 6600 50  0001 C CNN
-F 3 "~" H 4500 6600 50  0001 C CNN
-	1    4500 6600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4800 6500
-NoConn ~ 4800 6600
-NoConn ~ 4800 6700
-NoConn ~ 4300 6500
-NoConn ~ 4300 6600
-NoConn ~ 4300 6700
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D9A6075
@@ -822,12 +816,6 @@ F 3 "~" H 3300 6600 50  0001 C CNN
 	1    3300 6600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3600 6500
-NoConn ~ 3600 6600
-NoConn ~ 3600 6700
-NoConn ~ 3100 6500
-NoConn ~ 3100 6600
-NoConn ~ 3100 6700
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D9B404F
@@ -850,41 +838,35 @@ NoConn ~ 4900 6700
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D9BB262
-P 3900 7050
+P 5700 7050
 AR Path="/5C4B73B3/5D9BB262" Ref="JX?"  Part="1" 
 AR Path="/5D9BB262" Ref="JX22"  Part="1" 
-F 0 "JX22" H 3950 7275 50  0000 C CNN
+F 0 "JX22" H 5750 7275 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5750 7276 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5700 7050 50  0001 C CNN
+F 3 "~" H 5700 7050 50  0001 C CNN
+	1    5700 7050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6000 6950
+NoConn ~ 6000 7050
+NoConn ~ 6000 7150
+NoConn ~ 5500 6950
+NoConn ~ 5500 7050
+NoConn ~ 5500 7150
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JX?
+U 1 1 5D9BB26F
+P 3900 7050
+AR Path="/5C4B73B3/5D9BB26F" Ref="JX?"  Part="1" 
+AR Path="/5D9BB26F" Ref="JX23"  Part="1" 
+F 0 "JX23" H 3950 7275 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 3950 7276 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3900 7050 50  0001 C CNN
 F 3 "~" H 3900 7050 50  0001 C CNN
 	1    3900 7050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4200 6950
-NoConn ~ 4200 7050
-NoConn ~ 4200 7150
-NoConn ~ 3700 6950
-NoConn ~ 3700 7050
-NoConn ~ 3700 7150
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even JX?
-U 1 1 5D9BB26F
-P 4500 7050
-AR Path="/5C4B73B3/5D9BB26F" Ref="JX?"  Part="1" 
-AR Path="/5D9BB26F" Ref="JX23"  Part="1" 
-F 0 "JX23" H 4550 7275 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 4550 7276 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4500 7050 50  0001 C CNN
-F 3 "~" H 4500 7050 50  0001 C CNN
-	1    4500 7050
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4800 6950
-NoConn ~ 4800 7050
-NoConn ~ 4800 7150
-NoConn ~ 4300 6950
-NoConn ~ 4300 7050
-NoConn ~ 4300 7150
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D9BB27C
@@ -898,12 +880,6 @@ F 3 "~" H 3300 7050 50  0001 C CNN
 	1    3300 7050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3600 6950
-NoConn ~ 3600 7050
-NoConn ~ 3600 7150
-NoConn ~ 3100 6950
-NoConn ~ 3100 7050
-NoConn ~ 3100 7150
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D9BB289
@@ -1135,4 +1111,97 @@ Wire Wire Line
 	2050 4250 2250 4250
 Wire Wire Line
 	2050 4350 2250 4350
+$Sheet
+S 1000 1250 1100 1800
+U 5D622E10
+F0 "Rail" 50
+F1 "Rail.sch" 50
+$EndSheet
+Wire Wire Line
+	2950 6850 3100 6850
+Wire Wire Line
+	3100 6850 3100 6700
+Connection ~ 2950 6850
+Connection ~ 3100 6600
+Wire Wire Line
+	3100 6600 3100 6500
+Connection ~ 3100 6700
+Wire Wire Line
+	3100 6700 3100 6600
+Wire Wire Line
+	3100 6850 3100 6950
+Connection ~ 3100 6850
+Connection ~ 3100 6950
+Wire Wire Line
+	3100 6950 3100 7050
+Connection ~ 3100 7050
+Wire Wire Line
+	3650 6500 3650 6600
+Wire Wire Line
+	3650 7300 3100 7300
+Wire Wire Line
+	3100 7050 3100 7150
+Connection ~ 3100 7150
+Wire Wire Line
+	3100 7150 3100 7300
+Wire Wire Line
+	3600 6500 3650 6500
+Connection ~ 3650 6500
+Wire Wire Line
+	3650 6500 3700 6500
+Wire Wire Line
+	3600 6600 3650 6600
+Wire Wire Line
+	3600 6700 3650 6700
+Wire Wire Line
+	3600 6950 3650 6950
+Connection ~ 3650 6950
+Wire Wire Line
+	3650 6950 3650 7050
+Wire Wire Line
+	3700 6950 3650 6950
+Wire Wire Line
+	3600 7050 3650 7050
+Connection ~ 3650 7050
+Wire Wire Line
+	3650 7050 3650 7150
+Wire Wire Line
+	3700 7050 3650 7050
+Wire Wire Line
+	3600 7150 3650 7150
+Connection ~ 3650 7150
+Wire Wire Line
+	3650 7150 3650 7300
+Wire Wire Line
+	3650 7150 3700 7150
+Connection ~ 3650 6700
+Wire Wire Line
+	3650 6700 3650 6950
+Wire Wire Line
+	3650 6700 3700 6700
+Connection ~ 3650 6600
+Wire Wire Line
+	3650 6600 3650 6700
+Wire Wire Line
+	3650 6600 3700 6600
+Wire Wire Line
+	4200 6500 4200 6600
+Wire Wire Line
+	4200 7300 3650 7300
+Connection ~ 4200 6600
+Wire Wire Line
+	4200 6600 4200 6700
+Connection ~ 4200 6700
+Wire Wire Line
+	4200 6700 4200 6950
+Connection ~ 4200 6950
+Wire Wire Line
+	4200 6950 4200 7050
+Connection ~ 4200 7050
+Wire Wire Line
+	4200 7050 4200 7150
+Connection ~ 4200 7150
+Wire Wire Line
+	4200 7150 4200 7300
+Connection ~ 3650 7300
 $EndSCHEMATC

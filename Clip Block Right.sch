@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 7 9
 Title ""
 Date ""
 Rev "v3"
@@ -706,8 +706,8 @@ L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D8DA342
 P 950 6950
 AR Path="/5C4B73B3/5D8DA342" Ref="JX?"  Part="1" 
-AR Path="/5C4B9DB9/5D8DA342" Ref="JX04"  Part="1" 
-F 0 "JX04" H 1000 7175 50  0000 C CNN
+AR Path="/5C4B9DB9/5D8DA342" Ref="JX4"  Part="1" 
+F 0 "JX4" H 1000 7175 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 1000 7176 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 950 6950 50  0001 C CNN
 F 3 "~" H 950 6950 50  0001 C CNN
@@ -719,8 +719,8 @@ L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D8DA349
 P 2150 6950
 AR Path="/5C4B73B3/5D8DA349" Ref="JX?"  Part="1" 
-AR Path="/5C4B9DB9/5D8DA349" Ref="JX06"  Part="1" 
-F 0 "JX06" H 2200 7175 50  0000 C CNN
+AR Path="/5C4B9DB9/5D8DA349" Ref="JX6"  Part="1" 
+F 0 "JX6" H 2200 7175 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 2200 7176 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2150 6950 50  0001 C CNN
 F 3 "~" H 2150 6950 50  0001 C CNN
@@ -747,8 +747,8 @@ L Connector_Generic:Conn_02x03_Odd_Even JX?
 U 1 1 5D8DA359
 P 1550 6950
 AR Path="/5C4B73B3/5D8DA359" Ref="JX?"  Part="1" 
-AR Path="/5C4B9DB9/5D8DA359" Ref="JX05"  Part="1" 
-F 0 "JX05" H 1600 7175 50  0000 C CNN
+AR Path="/5C4B9DB9/5D8DA359" Ref="JX5"  Part="1" 
+F 0 "JX5" H 1600 7175 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 1600 7176 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1550 6950 50  0001 C CNN
 F 3 "~" H 1550 6950 50  0001 C CNN
@@ -778,12 +778,6 @@ NoConn ~ 1850 7050
 NoConn ~ 1350 7050
 NoConn ~ 1350 6950
 NoConn ~ 1350 6850
-NoConn ~ 1250 6850
-NoConn ~ 1250 6950
-NoConn ~ 1250 7050
-NoConn ~ 750  6850
-NoConn ~ 750  6950
-NoConn ~ 750  7050
 NoConn ~ 1900 3800
 NoConn ~ 1900 4300
 NoConn ~ 1900 4800
@@ -848,4 +842,26 @@ Wire Wire Line
 	950  2350 2200 2350
 Wire Wire Line
 	950  2450 2200 2450
+Wire Wire Line
+	1250 6850 1250 6950
+Connection ~ 1250 6950
+Wire Wire Line
+	1250 6950 1250 7050
+Connection ~ 1250 7050
+Wire Wire Line
+	1250 7050 1250 7200
+Connection ~ 1900 7200
+Wire Wire Line
+	750  6850 750  6950
+Wire Wire Line
+	750  7200 1250 7200
+Connection ~ 750  6950
+Wire Wire Line
+	750  6950 750  7050
+Connection ~ 750  7050
+Wire Wire Line
+	750  7050 750  7200
+Connection ~ 1250 7200
+Wire Wire Line
+	1250 7200 1900 7200
 $EndSCHEMATC

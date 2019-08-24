@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 9
 Title ""
 Date ""
 Rev "v3"
@@ -670,12 +670,6 @@ NoConn ~ 1850 7050
 NoConn ~ 1350 7050
 NoConn ~ 1350 6950
 NoConn ~ 1350 6850
-NoConn ~ 1250 6850
-NoConn ~ 1250 6950
-NoConn ~ 1250 7050
-NoConn ~ 750  6850
-NoConn ~ 750  6950
-NoConn ~ 750  7050
 Wire Wire Line
 	2700 3450 2700 6150
 Wire Wire Line
@@ -730,4 +724,26 @@ Wire Wire Line
 	950  2350 2200 2350
 Wire Wire Line
 	950  2450 2200 2450
+Wire Wire Line
+	1250 6850 1250 6950
+Wire Wire Line
+	1250 7200 1900 7200
+Connection ~ 1250 6950
+Wire Wire Line
+	1250 6950 1250 7050
+Connection ~ 1250 7050
+Wire Wire Line
+	1250 7050 1250 7200
+Connection ~ 1900 7200
+Wire Wire Line
+	750  6850 750  6950
+Wire Wire Line
+	750  7200 1250 7200
+Connection ~ 750  6950
+Wire Wire Line
+	750  6950 750  7050
+Connection ~ 750  7050
+Wire Wire Line
+	750  7050 750  7200
+Connection ~ 1250 7200
 $EndSCHEMATC
