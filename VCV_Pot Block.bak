@@ -485,21 +485,9 @@ $EndComp
 Wire Wire Line
 	2100 1750 2100 2550
 Wire Wire Line
-	1800 2350 1900 2450
-Wire Wire Line
-	1900 2350 1800 2450
-Wire Wire Line
-	1800 2350 1750 2350
-Wire Wire Line
-	1750 2450 1800 2450
-Wire Wire Line
 	1750 2150 2200 2150
 Wire Wire Line
 	1750 2250 2200 2250
-Wire Wire Line
-	1900 2350 2200 2350
-Wire Wire Line
-	1900 2450 2200 2450
 Wire Wire Line
 	2100 2550 1750 2550
 Wire Wire Line
@@ -617,4 +605,8 @@ Wire Wire Line
 	2700 6350 2700 7250
 Connection ~ 2700 6350
 Connection ~ 2700 7250
+Wire Wire Line
+	1750 2350 2200 2350
+Wire Wire Line
+	1750 2450 2200 2450
 $EndSCHEMATC
