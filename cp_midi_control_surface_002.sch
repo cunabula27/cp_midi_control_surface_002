@@ -223,11 +223,18 @@ Wire Wire Line
 Wire Wire Line
 	2700 4600 2950 4600
 $Sheet
-S 950  3500 1100 550 
+S 950  3500 1100 950 
 U 5C542024
 F0 "faders" 50
 F1 "faders.sch" 0
 F2 "FADERS" I R 2050 3600 50 
+F3 "U5_8" I R 2050 3750 50 
+F4 "U5_9" I R 2050 3850 50 
+F5 "U5_10" I R 2050 3950 50 
+F6 "U5_11" I R 2050 4050 50 
+F7 "U5_12" I R 2050 4150 50 
+F8 "U5_13" I R 2050 4250 50 
+F9 "U5_14" I R 2050 4350 50 
 $EndSheet
 Text Label 8850 2950 2    50   ~ 0
 A0
@@ -350,7 +357,7 @@ U 5C4BAA18
 F0 "VCV Button Block" 50
 F1 "VCV Button Block.sch" 0
 $EndSheet
-Text Label 3950 3600 0    50   ~ 0
+Text Label 2250 3600 0    50   ~ 0
 A5
 Wire Wire Line
 	3750 3600 3950 3600
@@ -489,7 +496,7 @@ Wire Wire Line
 	10400 5750 10400 5550
 Wire Wire Line
 	10500 5750 10500 5550
-Text Label 2250 3600 0    50   ~ 0
+Text Label 3950 3600 0    50   ~ 0
 A4
 Wire Wire Line
 	2050 3600 2250 3600
@@ -1035,8 +1042,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 2050 8000 2050
 Connection ~ 8000 2050
-Wire Wire Line
-	8000 2050 8000 4500
 Text Label 7200 3550 0    50   ~ 0
 26
 Text Label 6700 3550 2    50   ~ 0
@@ -1073,4 +1078,61 @@ Text Label 7200 3150 0    50   ~ 0
 36
 Text Label 7200 3250 0    50   ~ 0
 34
+Wire Wire Line
+	7200 2350 8000 2350
+Wire Wire Line
+	8000 2050 8000 2350
+Connection ~ 8000 2350
+Wire Wire Line
+	8000 2350 8000 4500
+Text Label 6700 2350 2    50   ~ 0
+U5_14
+Text Label 6700 2450 2    50   ~ 0
+U5_13
+Text Label 7200 2450 0    50   ~ 0
+U5_12
+Text Label 6700 2550 2    50   ~ 0
+U5_11
+Text Label 7200 2550 0    50   ~ 0
+U5_10
+Text Label 6700 2650 2    50   ~ 0
+U5_9
+Text Label 7200 2650 0    50   ~ 0
+U5_8
+Wire Wire Line
+	7200 1850 7350 1850
+Wire Wire Line
+	7200 1950 7350 1950
+Wire Wire Line
+	6550 1850 6700 1850
+Wire Wire Line
+	6550 1950 6700 1950
+Text Label 2250 4350 0    50   ~ 0
+U5_14
+Text Label 2250 4250 0    50   ~ 0
+U5_13
+Text Label 2250 4050 0    50   ~ 0
+U5_11
+Text Label 2250 3850 0    50   ~ 0
+U5_9
+Text Label 2250 4150 0    50   ~ 0
+U5_12
+Text Label 2250 3950 0    50   ~ 0
+U5_10
+Text Label 2250 3750 0    50   ~ 0
+U5_8
+Wire Wire Line
+	2050 3750 2250 3750
+Wire Wire Line
+	2050 3850 2250 3850
+Wire Wire Line
+	2050 3950 2250 3950
+Wire Wire Line
+	2050 4050 2250 4050
+Wire Wire Line
+	2050 4150 2250 4150
+Wire Wire Line
+	2050 4250 2250 4250
+Wire Wire Line
+	2050 4350 2250 4350
 $EndSCHEMATC
