@@ -984,27 +984,27 @@ Text Label 10400 4850 1    50   ~ 0
 Text Label 10500 4850 1    50   ~ 0
 22
 Text Label 7300 4600 0    50   ~ 0
-52
+46
 Wire Wire Line
 	7300 4600 7200 4600
 Text Label 7300 4700 0    50   ~ 0
-53
+52
 Wire Wire Line
 	7300 4700 7200 4700
 Text Label 7300 4800 0    50   ~ 0
-50
+48
 Wire Wire Line
 	7300 4800 7200 4800
 Text Label 7300 4900 0    50   ~ 0
-51
+50
 Wire Wire Line
 	7300 4900 7200 4900
 Text Label 6700 2150 2    50   ~ 0
-48
+53
 Text Label 7200 2150 0    50   ~ 0
-49
+51
 Text Label 6700 2250 2    50   ~ 0
-46
+49
 Text Label 7200 2250 0    50   ~ 0
 47
 Wire Wire Line
