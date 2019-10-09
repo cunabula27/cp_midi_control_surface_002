@@ -7,4 +7,3 @@ Once again didn't start on GitHub so no easy way for me to roll the work back #l
 
 I'm learning, just very slowly.
 
-Current working branch is Modular-Redesign-001
