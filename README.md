@@ -6,3 +6,5 @@ Well, it's really version 2.1 - I pretty much finished version 2 but made a few 
 Once again didn't start on GitHub so no easy way for me to roll the work back #lesigh
 
 I'm learning, just very slowly.
+
+Current working branch is Modular-Redesign-001

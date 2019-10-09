@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 6 9
 Title ""
 Date ""
-Rev ""
+Rev "v3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -236,12 +236,12 @@ $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 5C608AD2
-P 2700 6300
-F 0 "#PWR017" H 2700 6050 50  0001 C CNN
-F 1 "GND" H 2705 6127 50  0000 C CNN
-F 2 "" H 2700 6300 50  0001 C CNN
-F 3 "" H 2700 6300 50  0001 C CNN
-	1    2700 6300
+P 2700 7400
+F 0 "#PWR017" H 2700 7150 50  0001 C CNN
+F 1 "GND" H 2705 7227 50  0000 C CNN
+F 2 "" H 2700 7400 50  0001 C CNN
+F 3 "" H 2700 7400 50  0001 C CNN
+	1    2700 7400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -279,30 +279,7 @@ F 3 "" H 2700 950 50  0000 C CNN
 	1    2700 950 
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x08_Male J?
-U 1 1 5CE37EC9
-P 1550 2450
-AR Path="/5C3B66BD/5CE37EC9" Ref="J?"  Part="1" 
-AR Path="/5C4B73B3/5CE37EC9" Ref="J1"  Part="1" 
-F 0 "J1" H 1600 2900 50  0000 C CNN
-F 1 "~" H 1444 2844 50  0000 C CNN
-F 2 "cunabulapress-footprints:Connector_TE_Connectivity_Micro-MaTch_8_Position_Female" H 1550 2450 50  0001 C CNN
-F 3 "~" H 1550 2450 50  0001 C CNN
-	1    1550 2450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1750 2850
-Wire Wire Line
-	2100 2550 2100 1750
-Wire Wire Line
-	2100 1750 2200 1750
 Connection ~ 2700 1150
-Wire Wire Line
-	2100 2750 2100 3450
-Wire Wire Line
-	2100 3450 2200 3450
-Connection ~ 2200 3450
 NoConn ~ 4900 2450
 NoConn ~ 4900 2850
 NoConn ~ 4900 3250
@@ -316,14 +293,6 @@ NoConn ~ 7300 3250
 NoConn ~ 7300 2850
 NoConn ~ 7300 2450
 NoConn ~ 7700 2450
-Wire Wire Line
-	1800 2350 1900 2450
-Wire Wire Line
-	1750 2350 1800 2350
-Wire Wire Line
-	1900 2350 1800 2450
-Wire Wire Line
-	1800 2450 1750 2450
 $Comp
 L Device:R_Network08 RN?
 U 1 1 5C83D14D
@@ -356,31 +325,11 @@ Connection ~ 2700 3450
 NoConn ~ 7700 2850
 NoConn ~ 7700 3250
 Wire Wire Line
-	1750 2650 2000 2650
-Wire Wire Line
 	2200 3450 2700 3450
-Wire Wire Line
-	1750 2750 2100 2750
-Wire Wire Line
-	1750 2550 2100 2550
-Wire Wire Line
-	1900 2450 2200 2450
-Wire Wire Line
-	1900 2350 2200 2350
-Wire Wire Line
-	1750 2250 2200 2250
-Wire Wire Line
-	1750 2150 2200 2150
-Wire Wire Line
-	2000 1150 2700 1150
-Wire Wire Line
-	2000 1150 2000 2650
 Wire Wire Line
 	2700 1150 2700 1250
 Wire Wire Line
 	2700 950  2700 1150
-Wire Wire Line
-	2700 6100 2700 6300
 Wire Wire Line
 	3200 3050 4000 3050
 Wire Wire Line
@@ -650,4 +599,239 @@ Wire Wire Line
 Connection ~ 6400 5250
 Wire Wire Line
 	5500 1150 7900 1150
+$Comp
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW_1
+U 1 1 5D5A9C0C
+P 2100 3800
+AR Path="/5C4B73B3/5D5A9C0C" Ref="SW_1"  Part="1" 
+AR Path="/5C4BA289/5D5A9C0C" Ref="SW?"  Part="1" 
+AR Path="/5D5A9C0C" Ref="SW?"  Part="1" 
+F 0 "SW_1" H 2100 3600 50  0000 C CNN
+F 1 "B3F-5050" H 2100 3974 50  0001 C CNN
+F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2100 3950 50  0001 C CNN
+F 3 "" H 2100 3950 50  0001 C CNN
+	1    2100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW_2
+U 1 1 5D5A9C13
+P 2100 4300
+AR Path="/5C4B73B3/5D5A9C13" Ref="SW_2"  Part="1" 
+AR Path="/5C4BA289/5D5A9C13" Ref="SW?"  Part="1" 
+AR Path="/5D5A9C13" Ref="SW?"  Part="1" 
+F 0 "SW_2" H 2100 4100 50  0000 C CNN
+F 1 "B3F-5050" H 2100 4474 50  0001 C CNN
+F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2100 4450 50  0001 C CNN
+F 3 "" H 2100 4450 50  0001 C CNN
+	1    2100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW_3
+U 1 1 5D5A9C1A
+P 2100 4800
+AR Path="/5C4B73B3/5D5A9C1A" Ref="SW_3"  Part="1" 
+AR Path="/5C4BA289/5D5A9C1A" Ref="SW?"  Part="1" 
+AR Path="/5D5A9C1A" Ref="SW?"  Part="1" 
+F 0 "SW_3" H 2100 4600 50  0000 C CNN
+F 1 "B3F-5050" H 2100 4974 50  0001 C CNN
+F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2100 4950 50  0001 C CNN
+F 3 "" H 2100 4950 50  0001 C CNN
+	1    2100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cp_midi_control_surface_002-rescue:SW_SPST_4_PIN-sw_spst_0 SW_4
+U 1 1 5D5A9C21
+P 2100 5300
+AR Path="/5C4B73B3/5D5A9C21" Ref="SW_4"  Part="1" 
+AR Path="/5C4BA289/5D5A9C21" Ref="SW?"  Part="1" 
+AR Path="/5D5A9C21" Ref="SW?"  Part="1" 
+F 0 "SW_4" H 2100 5100 50  0000 C CNN
+F 1 "B3F-5050" H 2100 5474 50  0001 C CNN
+F 2 "cunabulapress-footprints:Omron_B3F-5050" H 2100 5450 50  0001 C CNN
+F 3 "" H 2100 5450 50  0001 C CNN
+	1    2100 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3800 2450 3800
+Wire Wire Line
+	2450 3800 2450 4300
+Wire Wire Line
+	2300 5300 2450 5300
+Connection ~ 2450 5300
+Wire Wire Line
+	2300 4800 2450 4800
+Connection ~ 2450 4800
+Wire Wire Line
+	2450 4800 2450 5300
+Wire Wire Line
+	2300 4300 2450 4300
+Connection ~ 2450 4300
+Wire Wire Line
+	2450 4300 2450 4800
+NoConn ~ 2300 3900
+NoConn ~ 2300 4400
+NoConn ~ 2300 4900
+NoConn ~ 2300 5400
+NoConn ~ 1900 5400
+Text Notes 900  5550 0    50   ~ 0
+2.54mm Header Pin\nas Board Separator
+Wire Wire Line
+	2450 6100 2700 6100
+Wire Wire Line
+	2450 5300 2450 6100
+$Comp
+L Connector:Conn_01x10_Male J1
+U 1 1 5D5B6BD9
+P 750 2550
+F 0 "J1" H 750 3100 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 800 2876 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 750 2550 50  0001 C CNN
+F 3 "~" H 750 2550 50  0001 C CNN
+	1    750  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JX1
+U 1 1 5D73B5EC
+P 950 6950
+F 0 "JX1" H 1000 7175 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1000 7176 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 950 6950 50  0001 C CNN
+F 3 "~" H 950 6950 50  0001 C CNN
+	1    950  6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JX3
+U 1 1 5D745204
+P 2150 6950
+F 0 "JX3" H 2200 7175 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 2200 7176 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 2150 6950 50  0001 C CNN
+F 3 "~" H 2150 6950 50  0001 C CNN
+	1    2150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 7200 2700 7400
+Wire Wire Line
+	2700 6100 2700 7200
+Connection ~ 2700 7200
+Wire Wire Line
+	2450 6850 2450 6950
+Wire Wire Line
+	2450 7200 2700 7200
+Connection ~ 2450 6950
+Wire Wire Line
+	2450 6950 2450 7050
+Connection ~ 2450 7050
+Wire Wire Line
+	2450 7050 2450 7200
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even JX2
+U 1 1 5D73B760
+P 1550 6950
+F 0 "JX2" H 1600 7175 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1600 7176 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1550 6950 50  0001 C CNN
+F 3 "~" H 1550 6950 50  0001 C CNN
+	1    1550 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6850 1900 6950
+Wire Wire Line
+	1900 7200 2450 7200
+Connection ~ 2450 7200
+Wire Wire Line
+	1950 7050 1900 7050
+Connection ~ 1900 7050
+Wire Wire Line
+	1900 7050 1900 7200
+Wire Wire Line
+	1950 6950 1900 6950
+Connection ~ 1900 6950
+Wire Wire Line
+	1900 6950 1900 7050
+Wire Wire Line
+	1950 6850 1900 6850
+NoConn ~ 1850 6850
+NoConn ~ 1850 6950
+NoConn ~ 1850 7050
+NoConn ~ 1350 7050
+NoConn ~ 1350 6950
+NoConn ~ 1350 6850
+Wire Wire Line
+	1900 4400 1800 4400
+Wire Wire Line
+	1900 4900 1700 4900
+Wire Wire Line
+	1900 5300 1500 5300
+NoConn ~ 1900 3800
+NoConn ~ 1900 4300
+NoConn ~ 1900 4800
+Wire Wire Line
+	2200 2150 950  2150
+Wire Wire Line
+	950  2250 2200 2250
+Wire Wire Line
+	950  2550 1700 2550
+Wire Wire Line
+	1700 2550 1700 1750
+Wire Wire Line
+	1700 1750 2200 1750
+Wire Wire Line
+	950  2650 1500 2650
+Wire Wire Line
+	1500 2650 1500 1150
+Wire Wire Line
+	1500 1150 2700 1150
+Wire Wire Line
+	950  2750 1500 2750
+Wire Wire Line
+	1500 2750 1500 5300
+Wire Wire Line
+	950  2850 1600 2850
+Wire Wire Line
+	1600 2850 1600 3900
+Wire Wire Line
+	1600 3900 1900 3900
+Wire Wire Line
+	950  2950 1700 2950
+Wire Wire Line
+	1700 2950 1700 4900
+Wire Wire Line
+	950  3050 1800 3050
+Wire Wire Line
+	1800 3050 1800 4400
+Wire Wire Line
+	950  2350 2200 2350
+Wire Wire Line
+	950  2450 2200 2450
+Wire Wire Line
+	1250 6850 1250 6950
+Wire Wire Line
+	1250 7200 1900 7200
+Connection ~ 1250 6950
+Wire Wire Line
+	1250 6950 1250 7050
+Connection ~ 1250 7050
+Wire Wire Line
+	1250 7050 1250 7200
+Connection ~ 1900 7200
+Wire Wire Line
+	750  6850 750  6950
+Wire Wire Line
+	750  7200 1250 7200
+Connection ~ 750  6950
+Wire Wire Line
+	750  6950 750  7050
+Connection ~ 750  7050
+Wire Wire Line
+	750  7050 750  7200
+Connection ~ 1250 7200
 $EndSCHEMATC

@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 3 9
 Title "cp_midi_controller_002"
 Date "2019-01-13"
-Rev "v1"
+Rev "v3"
 Comp "Cunabula Press"
 Comment1 ""
 Comment2 ""
@@ -193,72 +193,70 @@ $EndComp
 $Comp
 L power:GND #PWR011
 U 1 1 5C396C33
-P 6500 5600
-F 0 "#PWR011" H 6500 5350 50  0001 C CNN
-F 1 "GND" H 6500 5450 50  0000 C CNN
-F 2 "" H 6500 5600 50  0000 C CNN
-F 3 "" H 6500 5600 50  0000 C CNN
-	1    6500 5600
+P 6000 5600
+F 0 "#PWR011" H 6000 5350 50  0001 C CNN
+F 1 "GND" H 6000 5450 50  0000 C CNN
+F 2 "" H 6000 5600 50  0000 C CNN
+F 3 "" H 6000 5600 50  0000 C CNN
+	1    6000 5600
 	1    0    0    -1  
 $EndComp
-Text HLabel 2200 1450 0    50   Input ~ 0
+Text HLabel 2700 1450 0    50   Input ~ 0
 LED_1
-Text HLabel 2200 1550 0    50   Input ~ 0
+Text HLabel 2700 1550 0    50   Input ~ 0
 LED_2
-Text HLabel 2200 1650 0    50   Input ~ 0
+Text HLabel 2700 1650 0    50   Input ~ 0
 LED_3
-Text HLabel 2200 1750 0    50   Input ~ 0
+Text HLabel 2700 1750 0    50   Input ~ 0
 LED_4
-Text HLabel 2200 1850 0    50   Input ~ 0
+Text HLabel 2700 1850 0    50   Input ~ 0
 LED_5
-Text HLabel 2200 1950 0    50   Input ~ 0
+Text HLabel 2700 1950 0    50   Input ~ 0
 LED_6
-Text HLabel 2200 2050 0    50   Input ~ 0
+Text HLabel 2700 2050 0    50   Input ~ 0
 LED_7
-Text HLabel 2200 2150 0    50   Input ~ 0
+Text HLabel 2700 2150 0    50   Input ~ 0
 LED_8
-Text HLabel 2150 4250 0    50   Input ~ 0
+Text HLabel 2650 4250 0    50   Input ~ 0
 LED_9
-Text HLabel 2150 4350 0    50   Input ~ 0
+Text HLabel 2650 4350 0    50   Input ~ 0
 LED_10
-Text HLabel 2150 4450 0    50   Input ~ 0
+Text HLabel 2650 4450 0    50   Input ~ 0
 LED_11
-Text HLabel 2150 4550 0    50   Input ~ 0
+Text HLabel 2650 4550 0    50   Input ~ 0
 LED_12
-Text HLabel 2150 4650 0    50   Input ~ 0
+Text HLabel 2650 4650 0    50   Input ~ 0
 LED_13
-Text HLabel 2150 4750 0    50   Input ~ 0
+Text HLabel 2650 4750 0    50   Input ~ 0
 LED_14
-Text HLabel 2150 4850 0    50   Input ~ 0
+Text HLabel 2650 4850 0    50   Input ~ 0
 LED_15
-Text HLabel 2150 4950 0    50   Input ~ 0
+Text HLabel 2650 4950 0    50   Input ~ 0
 LED_16
 $Comp
 L Device:R_Network08 RN2
 U 1 1 5C5883C5
-P 6050 1850
-F 0 "RN2" V 5433 1850 50  0000 C CNN
-F 1 "680Ω (Bussed)" V 5524 1850 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 6525 1850 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6050 1850 50  0001 C CNN
-	1    6050 1850
+P 5550 1850
+F 0 "RN2" V 4933 1850 50  0000 C CNN
+F 1 "680Ω (Bussed)" V 5024 1850 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 6025 1850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5550 1850 50  0001 C CNN
+	1    5550 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Network08 RN3
 U 1 1 5C58845F
-P 6050 4650
-F 0 "RN3" V 5433 4650 50  0000 C CNN
-F 1 "680Ω (Bussed)" V 5524 4650 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 6525 4650 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6050 4650 50  0001 C CNN
-	1    6050 4650
-	0    1    1    0   
+P 5550 4550
+F 0 "RN3" V 4933 4550 50  0000 C CNN
+F 1 "680Ω (Bussed)" V 5024 4550 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 6025 4550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5550 4550 50  0001 C CNN
+	1    5550 4550
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	6250 4250 6500 4250
-Wire Wire Line
-	6250 1450 6500 1450
+	5750 1450 6000 1450
 Wire Wire Line
 	3850 1800 3650 1800
 Wire Wire Line
@@ -301,39 +299,6 @@ Wire Wire Line
 	3050 2150 3050 3900
 Wire Wire Line
 	3050 6700 3850 6700
-$Comp
-L Connector:Conn_01x08_Male J21
-U 1 1 5CC2655D
-P 2650 1750
-F 0 "J21" H 2750 2200 50  0000 C CNN
-F 1 "~" H 2756 2137 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2650 1750 50  0001 C CNN
-F 3 "~" H 2650 1750 50  0001 C CNN
-	1    2650 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x08_Female J26
-U 1 1 5CC265C7
-P 5450 1750
-F 0 "J26" H 5350 2200 50  0000 C CNN
-F 1 "~" H 5556 2137 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 5450 1750 50  0001 C CNN
-F 3 "~" H 5450 1750 50  0001 C CNN
-	1    5450 1750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x08_Male J23
-U 1 1 5CC2661B
-P 2650 4550
-F 0 "J23" H 2750 5000 50  0000 C CNN
-F 1 "~" H 2756 4937 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2650 4550 50  0001 C CNN
-F 3 "~" H 2650 4550 50  0001 C CNN
-	1    2650 4550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 4650 3350 5650
 Wire Wire Line
@@ -342,120 +307,12 @@ Wire Wire Line
 	3550 4450 3550 4950
 Wire Wire Line
 	3650 4350 3650 4600
-$Comp
-L Connector:Conn_01x08_Male J25
-U 1 1 5C738546
-P 5350 1750
-F 0 "J25" H 5400 2200 50  0000 L CNN
-F 1 "~" H 5377 1635 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5350 1750 50  0001 C CNN
-F 3 "~" H 5350 1750 50  0001 C CNN
-	1    5350 1750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x08_Male J27
-U 1 1 5C740041
-P 5350 4550
-F 0 "J27" H 5350 5000 50  0000 L CNN
-F 1 "~" H 5377 4435 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5350 4550 50  0001 C CNN
-F 3 "~" H 5350 4550 50  0001 C CNN
-	1    5350 4550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x08_Female J24
-U 1 1 5C749966
-P 2550 4550
-F 0 "J24" H 2400 5000 50  0000 L CNN
-F 1 "~" H 2577 4435 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 2550 4550 50  0001 C CNN
-F 3 "~" H 2550 4550 50  0001 C CNN
-	1    2550 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x08_Female J22
-U 1 1 5C74FDB7
-P 2550 1750
-F 0 "J22" H 2400 2200 50  0000 L CNN
-F 1 "~" H 2577 1635 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 2550 1750 50  0001 C CNN
-F 3 "~" H 2550 1750 50  0001 C CNN
-	1    2550 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 4750 3250 6000
 Wire Wire Line
 	3150 4850 3150 6350
 Wire Wire Line
 	3050 4950 3050 6700
-Wire Wire Line
-	2350 4250 2150 4250
-Wire Wire Line
-	2150 4350 2350 4350
-Wire Wire Line
-	2150 4450 2350 4450
-Wire Wire Line
-	2150 4550 2350 4550
-Wire Wire Line
-	2150 4650 2350 4650
-Wire Wire Line
-	2150 4750 2350 4750
-Wire Wire Line
-	2150 4850 2350 4850
-Wire Wire Line
-	2150 4950 2350 4950
-Wire Wire Line
-	2200 1450 2350 1450
-Wire Wire Line
-	2200 1550 2350 1550
-Wire Wire Line
-	2200 1650 2350 1650
-Wire Wire Line
-	2200 1750 2350 1750
-Wire Wire Line
-	2200 1850 2350 1850
-Wire Wire Line
-	2200 1950 2350 1950
-Wire Wire Line
-	2200 2050 2350 2050
-Wire Wire Line
-	2200 2150 2350 2150
-Wire Wire Line
-	2850 4250 3850 4250
-Wire Wire Line
-	2850 4350 3650 4350
-Wire Wire Line
-	2850 4450 3550 4450
-Wire Wire Line
-	2850 4550 3450 4550
-Wire Wire Line
-	2850 4650 3350 4650
-Wire Wire Line
-	2850 4750 3250 4750
-Wire Wire Line
-	2850 4850 3150 4850
-Wire Wire Line
-	2850 4950 3050 4950
-Wire Wire Line
-	2850 1450 3850 1450
-Wire Wire Line
-	2850 1550 3650 1550
-Wire Wire Line
-	2850 1650 3550 1650
-Wire Wire Line
-	2850 1750 3450 1750
-Wire Wire Line
-	2850 1950 3250 1950
-Wire Wire Line
-	2850 2050 3150 2050
-Wire Wire Line
-	2850 2150 3050 2150
-Wire Wire Line
-	2850 1850 3350 1850
 Wire Wire Line
 	4150 1800 4350 1800
 Wire Wire Line
@@ -485,119 +342,102 @@ Wire Wire Line
 Wire Wire Line
 	4950 3900 4950 2150
 Wire Wire Line
-	4950 2150 5150 2150
-Wire Wire Line
-	4850 2050 5150 2050
-Wire Wire Line
-	4750 1950 5150 1950
-Wire Wire Line
-	4650 1850 5150 1850
-Wire Wire Line
-	4550 1750 5150 1750
-Wire Wire Line
-	4350 1550 5150 1550
-Wire Wire Line
-	4450 1650 5150 1650
-Wire Wire Line
-	4150 1450 5150 1450
-Wire Wire Line
-	5650 1450 5850 1450
-Wire Wire Line
-	5650 1550 5850 1550
-Wire Wire Line
-	5650 1650 5850 1650
-Wire Wire Line
-	5650 1750 5850 1750
-Wire Wire Line
-	5650 1850 5850 1850
-Wire Wire Line
-	5650 1950 5850 1950
-Wire Wire Line
-	5650 2050 5850 2050
-Wire Wire Line
-	5650 2150 5850 2150
-Wire Wire Line
-	6500 1450 6500 4250
-Connection ~ 6500 4250
-Wire Wire Line
-	6500 4250 6500 5600
-Wire Wire Line
-	5650 4250 5850 4250
-Wire Wire Line
-	5650 4350 5850 4350
-Wire Wire Line
-	5650 4450 5850 4450
-Wire Wire Line
-	5650 4550 5850 4550
-Wire Wire Line
-	5650 4650 5850 4650
-Wire Wire Line
-	5650 4750 5850 4750
-Wire Wire Line
-	5650 4850 5850 4850
-Wire Wire Line
-	5650 4950 5850 4950
-Wire Wire Line
-	4150 4250 5150 4250
-Wire Wire Line
 	4150 4600 4350 4600
 Wire Wire Line
 	4350 4600 4350 4350
-Wire Wire Line
-	4350 4350 5150 4350
-Wire Wire Line
-	5150 4450 4450 4450
 Wire Wire Line
 	4450 4450 4450 4950
 Wire Wire Line
 	4450 4950 4150 4950
 Wire Wire Line
-	5150 4550 4550 4550
-Wire Wire Line
 	4550 4550 4550 5300
 Wire Wire Line
 	4550 5300 4150 5300
-Wire Wire Line
-	5150 4650 4650 4650
 Wire Wire Line
 	4650 4650 4650 5650
 Wire Wire Line
 	4650 5650 4150 5650
 Wire Wire Line
-	5150 4750 4750 4750
-Wire Wire Line
 	4750 4750 4750 6000
 Wire Wire Line
 	4750 6000 4150 6000
-Wire Wire Line
-	5150 4850 4850 4850
 Wire Wire Line
 	4850 4850 4850 6350
 Wire Wire Line
 	4850 6350 4150 6350
 Wire Wire Line
-	5150 4950 4950 4950
-Wire Wire Line
 	4950 4950 4950 6700
 Wire Wire Line
 	4950 6700 4150 6700
-$Comp
-L Connector:Conn_01x08_Female J28
-U 1 1 5CC26677
-P 5450 4550
-F 0 "J28" H 5350 5000 50  0000 C CNN
-F 1 "~" H 5556 4937 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 5450 4550 50  0001 C CNN
-F 3 "~" H 5450 4550 50  0001 C CNN
-	1    5450 4550
-	-1   0    0    -1  
-$EndComp
-Text Notes 2400 1200 0    50   ~ 0
-Board Separator
-Text Notes 2400 4000 0    50   ~ 0
-Board Separator
-Text Notes 5200 4000 0    50   ~ 0
-Board Separator
-Text Notes 5200 1200 0    50   ~ 0
-Board Separator
+Wire Wire Line
+	2700 1450 3850 1450
+Wire Wire Line
+	2700 1550 3650 1550
+Wire Wire Line
+	2700 1650 3550 1650
+Wire Wire Line
+	2700 1750 3450 1750
+Wire Wire Line
+	2700 1850 3350 1850
+Wire Wire Line
+	2700 1950 3250 1950
+Wire Wire Line
+	2700 2050 3150 2050
+Wire Wire Line
+	2700 2150 3050 2150
+Wire Wire Line
+	2650 4250 3850 4250
+Wire Wire Line
+	2650 4350 3650 4350
+Wire Wire Line
+	2650 4450 3550 4450
+Wire Wire Line
+	2650 4550 3450 4550
+Wire Wire Line
+	2650 4650 3350 4650
+Wire Wire Line
+	2650 4750 3250 4750
+Wire Wire Line
+	2650 4850 3150 4850
+Wire Wire Line
+	2650 4950 3050 4950
+Wire Wire Line
+	4950 2150 5350 2150
+Wire Wire Line
+	4850 2050 5350 2050
+Wire Wire Line
+	4750 1950 5350 1950
+Wire Wire Line
+	4650 1850 5350 1850
+Wire Wire Line
+	4550 1750 5350 1750
+Wire Wire Line
+	4350 1550 5350 1550
+Wire Wire Line
+	4450 1650 5350 1650
+Wire Wire Line
+	4150 1450 5350 1450
+Wire Wire Line
+	4950 4950 5350 4950
+Wire Wire Line
+	4850 4850 5350 4850
+Wire Wire Line
+	4750 4750 5350 4750
+Wire Wire Line
+	4650 4650 5350 4650
+Wire Wire Line
+	4550 4550 5350 4550
+Wire Wire Line
+	4450 4450 5350 4450
+Wire Wire Line
+	4350 4350 5350 4350
+Wire Wire Line
+	4150 4250 5350 4250
+Wire Wire Line
+	5750 4950 6000 4950
+Connection ~ 6000 4950
+Wire Wire Line
+	6000 4950 6000 5600
+Wire Wire Line
+	6000 1450 6000 4950
 $EndSCHEMATC
