@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:cp_midi_control_surface_002-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -329,8 +329,8 @@ Wire Wire Line
 $Sheet
 S 4850 3250 1100 550 
 U 5C3B66BD
-F0 "16 Potentiometer Block" 50
-F1 "16_pot_block.sch" 0
+F0 "VCV Pot Block" 50
+F1 "VCV_Pot Block.sch" 0
 $EndSheet
 $Sheet
 S 2650 3500 1100 550 
@@ -354,8 +354,8 @@ $EndSheet
 $Sheet
 S 4850 4250 1100 550 
 U 5C4BAA18
-F0 "16 Button Block" 50
-F1 "16_button_block.sch" 0
+F0 "VCV Button Block" 50
+F1 "VCV Button Block.sch" 0
 $EndSheet
 Text Label 2250 3600 0    50   ~ 0
 A5
