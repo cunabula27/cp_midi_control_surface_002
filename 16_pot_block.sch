@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:cp_midi_control_surface_002-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -18,177 +18,177 @@ $Comp
 L Device:R_POT PT_1
 U 1 1 5C26C20B
 P 5050 1700
-F 0 "PT_1" V 5050 1400 50  0000 R CNN
+F 0 "PT_1" V 5050 2200 50  0000 R CNN
 F 1 "10k" H 4980 1655 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 1700 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 1700 50  0001 C CNN
 F 3 "~" H 5050 1700 50  0001 C CNN
 	1    5050 1700
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_2
 U 1 1 5C26C26F
 P 5050 2000
-F 0 "PT_2" V 5050 1700 50  0000 R CNN
+F 0 "PT_2" V 5050 2500 50  0000 R CNN
 F 1 "10k" H 4980 1955 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 2000 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 2000 50  0001 C CNN
 F 3 "~" H 5050 2000 50  0001 C CNN
 	1    5050 2000
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_3
 U 1 1 5C26C8F7
 P 5050 2300
-F 0 "PT_3" V 5050 2000 50  0000 R CNN
+F 0 "PT_3" V 5050 2800 50  0000 R CNN
 F 1 "10k" H 4980 2255 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 2300 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 2300 50  0001 C CNN
 F 3 "~" H 5050 2300 50  0001 C CNN
 	1    5050 2300
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_4
 U 1 1 5C26CB54
 P 5050 2600
-F 0 "PT_4" V 5050 2300 50  0000 R CNN
+F 0 "PT_4" V 5050 3100 50  0000 R CNN
 F 1 "10k" H 4980 2555 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 2600 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 2600 50  0001 C CNN
 F 3 "~" H 5050 2600 50  0001 C CNN
 	1    5050 2600
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_5
 U 1 1 5C26CB7C
 P 5050 2900
-F 0 "PT_5" V 5050 2600 50  0000 R CNN
+F 0 "PT_5" V 5050 3400 50  0000 R CNN
 F 1 "10k" V 5050 2900 50  0001 C CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 2900 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 2900 50  0001 C CNN
 F 3 "~" H 5050 2900 50  0001 C CNN
 	1    5050 2900
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_6
 U 1 1 5C26CBA6
 P 5050 3200
-F 0 "PT_6" V 5050 2900 50  0000 R CNN
+F 0 "PT_6" V 5050 3700 50  0000 R CNN
 F 1 "10k" H 4980 3155 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 3200 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 3200 50  0001 C CNN
 F 3 "~" H 5050 3200 50  0001 C CNN
 	1    5050 3200
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_7
 U 1 1 5C26CBD2
 P 5050 3500
-F 0 "PT_7" V 5050 3200 50  0000 R CNN
+F 0 "PT_7" V 5050 4000 50  0000 R CNN
 F 1 "10k" H 4980 3455 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 3500 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 3500 50  0001 C CNN
 F 3 "~" H 5050 3500 50  0001 C CNN
 	1    5050 3500
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_8
 U 1 1 5C26CDC5
 P 5050 3800
-F 0 "PT_8" V 5050 3500 50  0000 R CNN
+F 0 "PT_8" V 5050 4300 50  0000 R CNN
 F 1 "10k" H 4980 3755 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 3800 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 3800 50  0001 C CNN
 F 3 "~" H 5050 3800 50  0001 C CNN
 	1    5050 3800
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_9
 U 1 1 5C26D143
 P 5050 4100
-F 0 "PT_9" V 5050 3800 50  0000 R CNN
+F 0 "PT_9" V 5050 4600 50  0000 R CNN
 F 1 "10k" H 4980 4055 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 4100 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 4100 50  0001 C CNN
 F 3 "~" H 5050 4100 50  0001 C CNN
 	1    5050 4100
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_10
 U 1 1 5C26D193
 P 5050 4400
-F 0 "PT_10" V 5050 4100 50  0000 R CNN
+F 0 "PT_10" V 5050 4950 50  0000 R CNN
 F 1 "10k" H 4980 4355 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 4400 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 4400 50  0001 C CNN
 F 3 "~" H 5050 4400 50  0001 C CNN
 	1    5050 4400
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_11
 U 1 1 5C26D1C9
 P 5050 4700
-F 0 "PT_11" V 5050 4400 50  0000 R CNN
+F 0 "PT_11" V 5050 5250 50  0000 R CNN
 F 1 "10k" H 4980 4655 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 4700 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 4700 50  0001 C CNN
 F 3 "~" H 5050 4700 50  0001 C CNN
 	1    5050 4700
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_12
 U 1 1 5C26D201
 P 5050 5000
-F 0 "PT_12" V 5050 4700 50  0000 R CNN
+F 0 "PT_12" V 5050 5550 50  0000 R CNN
 F 1 "10k" H 4980 4955 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 5000 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 5000 50  0001 C CNN
 F 3 "~" H 5050 5000 50  0001 C CNN
 	1    5050 5000
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_13
 U 1 1 5C26D23B
 P 5050 5300
-F 0 "PT_13" V 5050 5000 50  0000 R CNN
+F 0 "PT_13" V 5050 5850 50  0000 R CNN
 F 1 "10k" H 4980 5255 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 5300 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 5300 50  0001 C CNN
 F 3 "~" H 5050 5300 50  0001 C CNN
 	1    5050 5300
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_14
 U 1 1 5C26D27D
 P 5050 5600
-F 0 "PT_14" V 5050 5300 50  0000 R CNN
+F 0 "PT_14" V 5050 6150 50  0000 R CNN
 F 1 "10k" H 4980 5555 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 5600 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 5600 50  0001 C CNN
 F 3 "~" H 5050 5600 50  0001 C CNN
 	1    5050 5600
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_15
 U 1 1 5C26D38D
 P 5050 5900
-F 0 "PT_15" V 5050 5600 50  0000 R CNN
+F 0 "PT_15" V 5050 6450 50  0000 R CNN
 F 1 "10k" H 4980 5855 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 5900 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 5900 50  0001 C CNN
 F 3 "~" H 5050 5900 50  0001 C CNN
 	1    5050 5900
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R_POT PT_16
 U 1 1 5C26D3C9
 P 5050 6200
-F 0 "PT_16" V 5050 5900 50  0000 R CNN
+F 0 "PT_16" V 5050 6750 50  0000 R CNN
 F 1 "10k" H 4980 6155 50  0001 R CNN
-F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09K_Single_Vertical_Edit" H 5050 6200 50  0001 C CNN
+F 2 "cunabulapress-footprints:Potentiometer_Alps_RK09D1130X" H 5050 6200 50  0001 C CNN
 F 3 "~" H 5050 6200 50  0001 C CNN
 	1    5050 6200
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	4900 1700 4800 1700

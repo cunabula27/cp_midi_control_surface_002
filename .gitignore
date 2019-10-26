@@ -9,7 +9,7 @@
 *~
 _autosave-*
 *.tmp
-# *-rescue.lib (learn to link personal libraries and then uncomment out)
+*-rescue.lib
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
